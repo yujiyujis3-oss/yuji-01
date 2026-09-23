@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI仙人 7コマ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root { --page: #e9e4d8; --ink: #1c1c1c; }
+  html, body { margin: 0; height: 100%; background: var(--page); }
+  /* スマホ1画面にまるごと収まるように、縦横どちらにも合わせて縮小 */
+  #manga { display: block; width: 100vw; height: 100vh; height: 100dvh; }
+  text { font-family: "Zen Maru Gothic", "IPAGothic", "WenQuanYi Zen Hei", sans-serif; font-weight: 700; fill: var(--ink); }
+  .pop { font-family: "Mochiy Pop One", "IPAGothic", sans-serif; font-weight: 400; }
+</style>
+</head>
+<body>
+<!-- 900x1950 ≒ スマホ画面比 (1080x2340) -->
+<svg id="manga" viewBox="0 0 900 1950" role="img" aria-label="AI仙人の7コマ漫画「転記がめんどくさい編」">
+  <defs>
+    <!-- AI仙人：グレーのパーカー＋ベネチアンマスク（原点＝顔の中心） -->
+    <g id="sennin">
+      <path d="M-105,230 C-105,150 -70,112 0,112 C70,112 105,150 105,230 Z" fill="#b8bbc0" stroke="#1c1c1c" stroke-width="4"/>
+      <path d="M-40,160 L-40,230 M40,160 L40,230" stroke="#8e9197" stroke-width="3"/>
+      <rect x="-38" y="175" width="76" height="40" rx="8" fill="#a9acb2" stroke="#1c1c1c" stroke-width="3"/>
+      <path d="M-78,40 C-82,-50 -40,-88 0,-88 C40,-88 82,-50 78,40 C74,95 40,122 0,122 C-40,122 -74,95 -78,40 Z" fill="#c9ccd1" stroke="#1c1c1c" stroke-width="4"/>
+      <ellipse cx="0" cy="18" rx="50" ry="60" fill="#f2d3b8" stroke="#1c1c1c" stroke-width="3"/>
+      <path d="M-50,8 C-54,-40 -24,-52 0,-52 C26,-52 54,-40 50,8 C40,-8 30,-14 22,-4 C18,-16 6,-20 -2,-8 C-10,-20 -24,-16 -28,-2 C-36,-12 -44,-6 -50,8 Z" fill="#232323"/>
+      <path d="M-60,70 C-66,-40 -30,-66 0,-66 C30,-66 66,-40 60,70" fill="none" stroke="#9ea1a7" stroke-width="5"/>
+      <path d="M-58,10 C-50,-6 -30,-8 -14,2 C-6,6 6,6 14,2 C30,-8 50,-6 58,10 C54,36 36,44 20,38 C10,34 6,30 0,30 C-6,30 -10,34 -20,38 C-36,44 -54,36 -58,10 Z" fill="#6fcac2" stroke="#b88a1e" stroke-width="4"/>
+      <path d="M-50,12 C-40,4 -26,6 -18,14 M50,12 C40,4 26,6 18,14" fill="none" stroke="#e0b949" stroke-width="3"/>
+      <circle cx="-56" cy="8" r="4" fill="#e0b949"/>
+      <circle cx="56" cy="8" r="4" fill="#e0b949"/>
+      <path d="M-18,118 L-22,170 M18,118 L22,170" stroke="#eeeeee" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g id="eyes-normal">
+      <ellipse cx="-28" cy="20" rx="11" ry="8" fill="#1c1c1c"/><ellipse cx="28" cy="20" rx="11" ry="8" fill="#1c1c1c"/>
+      <circle cx="-25" cy="17" r="3" fill="#fff"/><circle cx="31" cy="17" r="3" fill="#fff"/>
+    </g>
+    <g id="eyes-flat">
+      <ellipse cx="-28" cy="22" rx="11" ry="6" fill="#1c1c1c"/><ellipse cx="28" cy="22" rx="11" ry="6" fill="#1c1c1c"/>
+      <path d="M-40,17 L-16,17 M16,17 L40,17" stroke="#6fcac2" stroke-width="6"/>
+    </g>
+    <g id="eyes-sparkle">
+      <ellipse cx="-28" cy="20" rx="12" ry="9" fill="#1c1c1c"/><ellipse cx="28" cy="20" rx="12" ry="9" fill="#1c1c1c"/>
+      <path d="M-28,12 l3,6 6,2 -6,2 -3,6 -3,-6 -6,-2 6,-2z M28,12 l3,6 6,2 -6,2 -3,6 -3,-6 -6,-2 6,-2z" fill="#fff"/>
+    </g>
+    <g id="eyes-dot">
+      <ellipse cx="-28" cy="20" rx="10" ry="8" fill="#1c1c1c"/><ellipse cx="28" cy="20" rx="10" ry="8" fill="#1c1c1c"/>
+      <circle cx="-28" cy="20" r="2.5" fill="#fff"/><circle cx="28" cy="20" r="2.5" fill="#fff"/>
+    </g>
+    <g id="blush">
+      <ellipse cx="-38" cy="56" rx="9" ry="5" fill="#f09a8a" opacity=".75"/>
+      <ellipse cx="38" cy="56" rx="9" ry="5" fill="#f09a8a" opacity=".75"/>
+    </g>
+
+    <!-- 部屋（モニターだらけ）860x345 -->
+    <g id="room">
+      <rect width="860" height="345" fill="#f4efe4"/>
+      <rect width="100" height="345" fill="#ece6d8"/>
+      <line x1="100" y1="0" x2="100" y2="345" stroke="#d8d0bf" stroke-width="3"/>
+      <g stroke="#1c1c1c" stroke-width="3" fill="#2a2f3a">
+        <rect x="130" y="24" width="150" height="86" rx="4"/>
+        <rect x="300" y="24" width="150" height="86" rx="4"/>
+        <rect x="470" y="24" width="150" height="86" rx="4"/>
+        <rect x="640" y="30" width="140" height="80" rx="4"/>
+        <rect x="150" y="126" width="130" height="70" rx="4"/>
+        <rect x="660" y="126" width="130" height="70" rx="4"/>
+      </g>
+      <rect x="0" y="275" width="860" height="70" fill="#d9b98a" stroke="#1c1c1c" stroke-width="3"/>
+      <line x1="0" y1="289" x2="860" y2="289" stroke="#b8976a" stroke-width="2"/>
+    </g>
+
+    <!-- ピクセル牛 -->
+    <g id="cow">
+      <rect x="0" y="0" width="56" height="36" fill="#c98b5a"/>
+      <rect x="8" y="10" width="8" height="8" fill="#1c1c1c"/><rect x="40" y="10" width="8" height="8" fill="#1c1c1c"/>
+      <rect x="16" y="24" width="24" height="8" fill="#f2b8a0"/>
+      <rect x="-8" y="0" width="8" height="8" fill="#fff"/><rect x="56" y="0" width="8" height="8" fill="#fff"/>
+      <rect x="-24" y="36" width="36" height="30" fill="#e84ee0"/>
+      <rect x="-32" y="44" width="10" height="16" fill="#9b5cff"/>
+      <g fill="#ffe14d"><rect x="-60" y="60" width="6" height="6"/><rect x="-80" y="48" width="4" height="4"/><rect x="-50" y="80" width="4" height="4"/></g>
+    </g>
+
+    <!-- モニターの中の宇宙（150x86） -->
+    <g id="minispace">
+      <rect width="150" height="86" fill="#1d1a3a"/>
+      <g fill="#fff"><rect x="14" y="12" width="4" height="4"/><rect x="120" y="18" width="4" height="4"/><rect x="90" y="8" width="3" height="3"/></g>
+      <rect y="58" width="150" height="5" fill="#ff4d4d"/><rect y="63" width="150" height="5" fill="#ffe14d"/>
+      <rect y="68" width="150" height="5" fill="#4dd964"/><rect y="73" width="150" height="5" fill="#4da6ff"/>
+      <rect x="62" y="30" width="22" height="14" fill="#c98b5a"/><rect x="56" y="44" width="14" height="10" fill="#e84ee0"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="1950" fill="#e9e4d8"/>
+  <text x="450" y="58" text-anchor="middle" font-size="44" class="pop">AI仙人の宿題</text>
+  <text x="450" y="88" text-anchor="middle" font-size="20" opacity=".65">〜 転記がめんどくさい編 〜</text>
+
+  <!-- ① 横長 -->
+  <g transform="translate(20,100)">
+    <svg width="860" height="345">
+      <use href="#room"/>
+      <g stroke="#1c1c1c" stroke-width="2.5" fill="#fff">
+        <rect x="700" y="205" width="100" height="70"/>
+        <rect x="706" y="187" width="92" height="18"/>
+        <rect x="698" y="169" width="100" height="18"/>
+        <rect x="708" y="151" width="88" height="18"/>
+      </g>
+      <text x="750" y="248" text-anchor="middle" font-size="20">資料</text>
+      <g transform="translate(440,190) scale(.85) rotate(-4)">
+        <use href="#sennin"/><use href="#eyes-flat"/>
+        <path d="M-14,72 C-6,66 6,66 14,72" fill="none" stroke="#1c1c1c" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <g stroke="#1c1c1c" stroke-width="2.5" opacity=".5">
+        <line x1="350" y1="160" x2="350" y2="210"/><line x1="362" y1="152" x2="362" y2="218"/><line x1="374" y1="162" x2="374" y2="206"/>
+      </g>
+      <path d="M36,20 H308 Q320,20 320,32 V128 Q320,140 308,140 H280 L372,178 L250,140 H36 Q24,140 24,128 V32 Q24,20 36,20 Z" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="172" y="62" text-anchor="middle" font-size="26">資料を作って</text>
+      <text x="172" y="96" text-anchor="middle" font-size="26">転記していくのが</text>
+      <text x="172" y="128" text-anchor="middle" font-size="26">面倒くさい…</text>
+      <circle cx="28" cy="317" r="17" fill="#1c1c1c"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">1</text>
+    </svg>
+    <rect width="860" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <!-- ② -->
+  <g transform="translate(20,463)">
+    <svg width="421" height="345">
+      <use href="#room"/>
+      <g transform="translate(200,215) scale(.8)">
+        <use href="#sennin"/><use href="#eyes-normal"/>
+        <ellipse cx="0" cy="70" rx="9" ry="11" fill="#8a2f2f" stroke="#1c1c1c" stroke-width="3"/>
+      </g>
+      <!-- 電球 -->
+      <g transform="translate(335,90)">
+        <g stroke="#e0a91c" stroke-width="5" stroke-linecap="round">
+          <line x1="0" y1="-58" x2="0" y2="-44"/><line x1="-44" y1="-40" x2="-34" y2="-30"/><line x1="44" y1="-40" x2="34" y2="-30"/>
+          <line x1="-58" y1="0" x2="-44" y2="0"/><line x1="58" y1="0" x2="44" y2="0"/>
+        </g>
+        <circle r="30" fill="#ffe14d" stroke="#1c1c1c" stroke-width="3"/>
+        <rect x="-13" y="26" width="26" height="18" rx="3" fill="#b8bbc0" stroke="#1c1c1c" stroke-width="3"/>
+      </g>
+      <path d="M32,20 H218 Q230,20 230,32 V88 Q230,100 218,100 H182 L196,140 L150,100 H32 Q20,100 20,88 V32 Q20,20 32,20 Z" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="125" y="72" text-anchor="middle" font-size="32" class="pop">はっ！</text>
+      <circle cx="28" cy="317" r="17" fill="#1c1c1c"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">2</text>
+    </svg>
+    <rect width="421" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <!-- ③ -->
+  <g transform="translate(459,463)">
+    <svg width="421" height="345">
+      <rect width="421" height="345" fill="#f4efe4"/>
+      <g stroke="#1c1c1c" stroke-width="2" opacity=".16">
+        <line x1="210" y1="170" x2="0" y2="0"/><line x1="210" y1="170" x2="421" y2="0"/><line x1="210" y1="170" x2="0" y2="345"/>
+        <line x1="210" y1="170" x2="421" y2="345"/><line x1="210" y1="170" x2="0" y2="170"/><line x1="210" y1="170" x2="421" y2="170"/>
+        <line x1="210" y1="170" x2="110" y2="0"/><line x1="210" y1="170" x2="320" y2="0"/>
+      </g>
+      <rect x="0" y="275" width="421" height="70" fill="#d9b98a" stroke="#1c1c1c" stroke-width="3"/>
+      <!-- 大きいモニター -->
+      <rect x="222" y="40" width="186" height="152" rx="6" fill="#2a2f3a" stroke="#1c1c1c" stroke-width="3"/>
+      <rect x="234" y="52" width="162" height="128" fill="#fdfaf2"/>
+      <text x="315" y="92" text-anchor="middle" font-size="22" style="fill:#c15f3c">Opus 5.5</text>
+      <rect x="244" y="112" width="142" height="40" rx="6" fill="#fff" stroke="#c9c2b2" stroke-width="2"/>
+      <text x="315" y="139" text-anchor="middle" font-size="15">資料まとめといて▍</text>
+      <rect x="300" y="192" width="30" height="40" fill="#555"/>
+      <rect x="236" y="286" width="170" height="30" rx="4" fill="#d0d2d6" stroke="#1c1c1c" stroke-width="3"/>
+      <g transform="translate(120,230) scale(.75)">
+        <use href="#sennin"/><use href="#eyes-sparkle"/>
+        <path d="M-20,66 Q0,92 20,66 Z" fill="#8a2f2f" stroke="#1c1c1c" stroke-width="3"/>
+      </g>
+      <text x="210" y="270" font-size="20" class="pop" transform="rotate(-10 210 270)">カタカタ</text>
+      <path d="M26,14 H200 Q212,14 212,26 V104 Q212,116 200,116 H130 L118,156 L92,116 H26 Q14,116 14,104 V26 Q14,14 26,14 Z" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="113" y="52" text-anchor="middle" font-size="22">そこで</text>
+      <text x="113" y="92" text-anchor="middle" font-size="24" class="pop" style="fill:#c15f3c">Opus 5.5じゃ！</text>
+      <circle cx="28" cy="317" r="17" fill="#1c1c1c"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">3</text>
+    </svg>
+    <rect width="421" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <!-- ④ 横長：宇宙アニメ -->
+  <g transform="translate(20,826)">
+    <svg width="860" height="345">
+      <rect width="860" height="345" fill="#1d1a3a"/>
+      <g fill="#fff">
+        <rect x="40" y="40" width="6" height="6"/><rect x="120" y="96" width="4" height="4"/><rect x="230" y="30" width="6" height="6"/>
+        <rect x="560" y="50" width="4" height="4"/><rect x="820" y="160" width="6" height="6"/><rect x="80" y="190" width="4" height="4"/>
+        <rect x="330" y="200" width="4" height="4"/><rect x="600" y="190" width="6" height="6"/><rect x="760" y="210" width="4" height="4"/>
+        <rect x="470" y="110" width="4" height="4"/><rect x="820" y="30" width="4" height="4"/>
+      </g>
+      <g opacity=".5">
+        <rect x="100" y="130" width="160" height="30" fill="#6b2f5a"/><rect x="130" y="120" width="100" height="10" fill="#6b2f5a"/>
+      </g>
+      <circle cx="720" cy="100" r="46" fill="#3f78d8"/>
+      <rect x="674" y="82" width="92" height="11" fill="#5d9cf0"/><rect x="674" y="108" width="92" height="9" fill="#2d5ab0"/>
+      <ellipse cx="720" cy="104" rx="78" ry="13" fill="none" stroke="#f0c53a" stroke-width="7"/>
+      <g>
+        <rect y="248" width="860" height="8" fill="#ff4d4d"/><rect y="256" width="860" height="8" fill="#ff9f3a"/>
+        <rect y="264" width="860" height="8" fill="#ffe14d"/><rect y="272" width="860" height="8" fill="#4dd964"/>
+        <rect y="280" width="860" height="8" fill="#4da6ff"/><rect y="288" width="860" height="8" fill="#9b5cff"/>
+      </g>
+      <g transform="translate(400,120) scale(1.4)"><use href="#cow"/></g>
+      <text x="200" y="110" font-size="28" class="pop" style="fill:#fff" transform="rotate(-8 200 110)">ピコピコ♪</text>
+      <rect x="300" y="18" width="260" height="50" rx="25" fill="#ffe14d" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="430" y="53" text-anchor="middle" font-size="26" class="pop">5分で完成！</text>
+      <circle cx="28" cy="317" r="17" fill="#fff"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop">4</text>
+    </svg>
+    <rect width="860" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <!-- ⑤ -->
+  <g transform="translate(20,1189)">
+    <svg width="421" height="345">
+      <use href="#room"/>
+      <rect width="421" height="345" fill="#1d1a3a" opacity=".12"/>
+      <g transform="translate(210,215) scale(.8)">
+        <use href="#sennin"/><use href="#eyes-dot"/>
+        <ellipse cx="0" cy="70" rx="6" ry="8" fill="#1c1c1c"/>
+      </g>
+      <path d="M292,150 C284,166 280,174 292,180 C304,174 300,166 292,150 Z" fill="#9fd6f5" stroke="#1c1c1c" stroke-width="2.5"/>
+      <path d="M32,20 H218 Q230,20 230,32 V88 Q230,100 218,100 H180 L186,140 L148,100 H32 Q20,100 20,88 V32 Q20,20 32,20 Z" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="125" y="70" text-anchor="middle" font-size="28">資料は…？</text>
+      <circle cx="28" cy="317" r="17" fill="#1c1c1c"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">5</text>
+    </svg>
+    <rect width="421" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <!-- ⑥ -->
+  <g transform="translate(459,1189)">
+    <svg width="421" height="345">
+      <rect width="421" height="345" fill="#fde3e8"/>
+      <g fill="#fff" opacity=".7">
+        <circle cx="40" cy="200" r="6"/><circle cx="380" cy="250" r="8"/><circle cx="330" cy="30" r="5"/><circle cx="60" cy="290" r="5"/><circle cx="390" cy="160" r="5"/>
+      </g>
+      <g transform="translate(330,70) scale(.8)"><use href="#cow"/></g>
+      <g transform="translate(210,215) scale(.8)">
+        <use href="#sennin"/><use href="#eyes-sparkle"/><use href="#blush"/>
+        <path d="M-18,64 Q0,82 18,64" fill="none" stroke="#1c1c1c" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <g fill="#ff6b8a" stroke="#1c1c1c" stroke-width="2">
+        <path d="M70,190 c-10,-14 -30,-4 -20,12 l20,20 20,-20 c10,-16 -10,-26 -20,-12z"/>
+        <path d="M350,170 c-8,-11 -24,-3 -16,10 l16,16 16,-16 c8,-13 -8,-21 -16,-10z"/>
+      </g>
+      <path d="M32,16 H238 Q250,16 250,28 V98 Q250,110 238,110 H200 L204,150 L166,110 H32 Q20,110 20,98 V28 Q20,16 32,16 Z" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="135" y="54" text-anchor="middle" font-size="24">…でも</text>
+      <text x="135" y="94" text-anchor="middle" font-size="28" class="pop">かわいいのう</text>
+      <circle cx="28" cy="317" r="17" fill="#1c1c1c"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">6</text>
+    </svg>
+    <rect width="421" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <!-- ⑦ 横長：オチ -->
+  <g transform="translate(20,1552)">
+    <svg width="860" height="345">
+      <use href="#room"/>
+      <use href="#minispace" transform="translate(133,27) scale(.96,.93)"/>
+      <use href="#minispace" transform="translate(303,27) scale(.96,.93)"/>
+      <use href="#minispace" transform="translate(473,27) scale(.96,.93)"/>
+      <use href="#minispace" transform="translate(643,33) scale(.89,.86)"/>
+      <use href="#minispace" transform="translate(153,129) scale(.83,.74)"/>
+      <use href="#minispace" transform="translate(663,129) scale(.83,.74)"/>
+      <g stroke="#1c1c1c" stroke-width="2.5" fill="#fff" opacity=".8">
+        <rect x="700" y="215" width="100" height="60"/><rect x="706" y="200" width="92" height="15"/>
+      </g>
+      <text x="750" y="252" text-anchor="middle" font-size="18" opacity=".8">資料（未）</text>
+      <g transform="translate(440,190) scale(.85)">
+        <use href="#sennin"/><use href="#eyes-normal"/><use href="#blush"/>
+        <path d="M-22,62 Q0,84 22,62" fill="none" stroke="#1c1c1c" stroke-width="4" stroke-linecap="round"/>
+        <path d="M-80,168 C-30,150 30,150 80,168" stroke="#a9acb2" stroke-width="30" fill="none" stroke-linecap="round"/>
+      </g>
+      <path d="M36,20 H318 Q330,20 330,32 V138 Q330,150 318,150 H300 L378,178 L260,150 H36 Q24,150 24,138 V32 Q24,20 36,20 Z" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+      <text x="177" y="62" text-anchor="middle" font-size="26">うむ、良い出来じゃ</text>
+      <text x="177" y="98" text-anchor="middle" font-size="26">転記は…</text>
+      <text x="177" y="134" text-anchor="middle" font-size="26" style="fill:#c15f3c">明日の宿題じゃ</text>
+      <rect x="590" y="286" width="256" height="44" fill="#1c1c1c"/>
+      <rect x="590" y="286" width="9" height="44" fill="#e0342c"/>
+      <text x="722" y="316" text-anchor="middle" font-size="22" class="pop" style="fill:#fff">AI仙人からの宿題</text>
+      <circle cx="28" cy="317" r="17" fill="#1c1c1c"/><text x="28" y="324" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">7</text>
+    </svg>
+    <rect width="860" height="345" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+  </g>
+
+  <text x="450" y="1932" text-anchor="middle" font-size="22" opacity=".6">おわり</text>
+</svg>
+</body>
+</html>
