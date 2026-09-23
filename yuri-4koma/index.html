@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ユリの朝コーデ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --page: #fdf1f5; --ink: #5a4660; }
+  html, body { margin: 0; height: 100%; background: var(--page); }
+  /* スマホ1画面にまるごと収まるように縮小 */
+  #manga { display: block; width: 100vw; height: 100vh; height: 100dvh; }
+  text { font-family: "Zen Maru Gothic", "IPAGothic", sans-serif; font-weight: 700; fill: var(--ink); }
+  .pop { font-family: "Mochiy Pop One", "IPAGothic", sans-serif; font-weight: 400; }
+  .serif { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
+  .label { font-family: Georgia, serif; font-weight: 400; font-size: 11px; letter-spacing: 2px; fill: #9c9384; }
+  .outline { paint-order: stroke; stroke: #fff; stroke-width: 9px; stroke-linejoin: round; }
+</style>
+</head>
+<body>
+<!-- 900x1950 ≒ スマホ画面比 (1080x2340) -->
+<svg id="manga" viewBox="0 0 900 1950" role="img" aria-label="ユリの4コマ漫画「今日なに着る？編」">
+  <defs>
+    <clipPath id="clip"><rect width="860" height="435" rx="18"/></clipPath>
+
+    <linearGradient id="iris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a2a1e"/><stop offset=".5" stop-color="#8a5234"/><stop offset="1" stop-color="#f4bd7c"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffbe8"/><stop offset="1" stop-color="#ffe7b0"/>
+    </linearGradient>
+    <radialGradient id="pinkburst" cx=".5" cy=".45" r=".7">
+      <stop offset="0" stop-color="#fff5f9"/><stop offset=".6" stop-color="#ffd9e8"/><stop offset="1" stop-color="#f6c2dc"/>
+    </radialGradient>
+    <radialGradient id="boardbg" cx=".5" cy=".4" r=".8">
+      <stop offset="0" stop-color="#eeedf0"/><stop offset="1" stop-color="#d7d5da"/>
+    </radialGradient>
+    <linearGradient id="gloom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e9fe0" stop-opacity=".45"/><stop offset=".6" stop-color="#8e9fe0" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- ===== ユリ（原点＝顔の中心） ===== -->
+    <!-- 後ろ髪 -->
+    <g id="hair-back">
+      <ellipse cx="0" cy="-16" rx="76" ry="70" fill="#f7e4a6" stroke="#c49a4e" stroke-width="3"/>
+      <path d="M-72,-20 C-88,40 -84,120 -94,192 Q-82,184 -74,198 Q-64,186 -54,196 Q-50,150 -46,90 L46,90 Q50,150 54,196 Q64,186 74,198 Q82,184 94,192 C84,120 88,40 72,-20 Z" fill="#f7e4a6" stroke="#c49a4e" stroke-width="3"/>
+      <g fill="none" stroke="#e6c47a" stroke-width="3" stroke-linecap="round">
+        <path d="M-72,50 Q-74,120 -84,184"/><path d="M-58,96 Q-58,150 -64,190"/>
+        <path d="M72,50 Q74,120 84,184"/><path d="M58,96 Q58,150 64,190"/>
+      </g>
+    </g>
+    <!-- 顔と前髪 -->
+    <g id="face">
+      <ellipse cx="0" cy="10" rx="60" ry="55" fill="#ffeadf" stroke="#d99a86" stroke-width="2.5"/>
+    </g>
+    <g id="hair-front">
+      <path d="M-66,6 C-74,-62 -34,-86 0,-86 C34,-86 74,-62 66,6 Q60,-14 50,-2 Q46,-26 30,-8 Q22,-32 6,-10 Q-6,-32 -18,-8 Q-30,-28 -40,-4 Q-50,-22 -58,-2 Q-62,-6 -66,6 Z" fill="#f7e4a6" stroke="#c49a4e" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-62,-8 Q-76,50 -64,100 Q-58,90 -52,98 Q-56,40 -48,0 Z" fill="#f7e4a6" stroke="#c49a4e" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M62,-8 Q76,50 64,100 Q58,90 52,98 Q56,40 48,0 Z" fill="#f7e4a6" stroke="#c49a4e" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-4,-84 Q0,-112 24,-104 Q8,-100 6,-84 Z" fill="#f7e4a6" stroke="#c49a4e" stroke-width="2.5"/>
+      <path d="M-46,-56 Q-22,-72 0,-72 Q22,-72 46,-56" fill="none" stroke="#fffbe6" stroke-width="7" stroke-linecap="round" stroke-dasharray="22 10"/>
+      <!-- リボン -->
+      <g transform="translate(52,-54) rotate(20)">
+        <path d="M0,0 L-18,-12 L-18,12 Z M0,0 L18,-12 L18,12 Z" fill="#ff9ab8" stroke="#d9668c" stroke-width="2" stroke-linejoin="round"/>
+        <circle r="5" fill="#ff7aa2" stroke="#d9668c" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="cheeks">
+      <ellipse cx="-40" cy="36" rx="12" ry="7" fill="#ffa3b5" opacity=".6"/>
+      <ellipse cx="40" cy="36" rx="12" ry="7" fill="#ffa3b5" opacity=".6"/>
+      <path d="M-46,36 l4,-6 M-40,36 l4,-6 M34,36 l4,-6 M40,36 l4,-6" stroke="#ff8aa3" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+
+    <!-- 目パーツ（中心原点・左目基準） -->
+    <g id="eye-open">
+      <ellipse rx="14" ry="17" fill="#fff"/>
+      <ellipse cy="2" rx="12.5" ry="15.5" fill="url(#iris)"/>
+      <ellipse cy="3" rx="6" ry="7.5" fill="#2a1812"/>
+      <circle cx="-4" cy="-6" r="5" fill="#fff"/><circle cx="5" cy="8" r="2.2" fill="#fff"/>
+      <path d="M-17,-9 Q-2,-22 16,-11" stroke="#3a2018" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+      <path d="M-16,-10 L-23,-15" stroke="#3a2018" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="eye-sparkle">
+      <ellipse rx="14" ry="17" fill="#fff"/>
+      <ellipse cy="2" rx="12.5" ry="15.5" fill="url(#iris)"/>
+      <ellipse cy="3" rx="6" ry="7.5" fill="#2a1812"/>
+      <path d="M-3,-15 L0,-6 L9,-3 L0,0 L-3,9 L-6,0 L-15,-3 L-6,-6 Z" fill="#fff"/>
+      <circle cx="6" cy="9" r="2.4" fill="#fff"/>
+      <path d="M-17,-9 Q-2,-22 16,-11" stroke="#3a2018" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+      <path d="M-16,-10 L-23,-15" stroke="#3a2018" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="eye-sleepy">
+      <path d="M-15,2 Q0,9 15,2" stroke="#3a2018" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+      <path d="M-14,4 L-19,8 M14,4 L18,8" stroke="#3a2018" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <g id="eye-happy">
+      <path d="M-14,6 Q0,-12 14,6" stroke="#3a2018" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="eye-tear">
+      <use href="#eye-open"/>
+      <ellipse cy="8" rx="12" ry="7" fill="#a8dcff" opacity=".55"/>
+      <path d="M10,16 Q3,28 10,33 Q17,28 10,16 Z" fill="#bfe6ff" stroke="#6aaee0" stroke-width="1.8"/>
+    </g>
+
+    <!-- 口 -->
+    <path id="mouth-smile" d="M-7,44 Q0,50 7,44" stroke="#b0503f" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g id="mouth-yawn">
+      <ellipse cy="48" rx="8" ry="10" fill="#c84a5a" stroke="#8a2f35" stroke-width="2"/>
+      <ellipse cy="53" rx="5" ry="3.5" fill="#ff8fa0"/>
+    </g>
+    <g id="mouth-open">
+      <path d="M-11,42 Q0,44 11,42 Q10,57 0,58 Q-10,57 -11,42 Z" fill="#c84a5a" stroke="#8a2f35" stroke-width="2" stroke-linejoin="round"/>
+      <ellipse cy="53" rx="5.5" ry="3" fill="#ff8fa0"/>
+    </g>
+    <path id="mouth-wavy" d="M-11,48 q2.75,-5 5.5,0 t5.5,0 t5.5,0 t5.5,0" stroke="#b0503f" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- ===== 服 ===== -->
+    <!-- 制服コーデ（セーラー襟ベスト・デニムスカート・ルーズソックス） -->
+    <g id="uniform">
+      <rect x="-24" y="186" width="15" height="50" rx="6" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+      <rect x="9" y="186" width="15" height="50" rx="6" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+      <g id="sock">
+        <path d="M-33,222 Q-37,236 -33,248 Q-37,260 -31,270 L-5,270 Q-1,260 -5,248 Q-1,236 -5,222 Q-19,216 -33,222 Z" fill="#fff" stroke="#b9b6c6" stroke-width="2"/>
+        <path d="M-33,236 Q-19,241 -5,236 M-34,251 Q-19,256 -4,251" stroke="#d6d3e0" stroke-width="2" fill="none"/>
+        <path d="M-38,268 Q-40,284 -22,284 L-4,284 Q2,278 -4,268 Z" fill="#26232a" stroke="#0e0d10" stroke-width="2"/>
+        <path d="M-32,272 Q-22,270 -12,272" stroke="#fff" stroke-width="2" opacity=".6" fill="none"/>
+      </g>
+      <use href="#sock" transform="scale(-1,1)"/>
+      <path d="M-44,140 L44,140 L62,194 Q0,203 -62,194 Z" fill="#5a78a8" stroke="#2f4670" stroke-width="2.5" stroke-linejoin="round"/>
+      <g stroke="#3f5a88" stroke-width="2"><path d="M-30,142 L-42,198 M-15,142 L-21,200 M0,142 L0,201 M15,142 L21,200 M30,142 L42,198"/></g>
+      <path d="M-58,189 Q0,198 58,189" stroke="#d3def0" stroke-width="1.8" stroke-dasharray="4 4" fill="none"/>
+      <path d="M-36,60 Q-44,62 -46,76 L-44,144 L44,144 L46,76 Q44,62 36,60 Z" fill="#fff" stroke="#b9b6c6" stroke-width="2"/>
+      <path d="M-40,74 Q-42,110 -45,148 L45,148 Q42,110 40,74 L22,74 L0,112 L-22,74 Z" fill="#f6eedb" stroke="#cdbd97" stroke-width="2" stroke-linejoin="round"/>
+      <g fill="none" stroke="#e3d3b0" stroke-width="3" stroke-linecap="round">
+        <path d="M-32,84 q5,6 0,12 t0,12 t0,12 t0,12"/><path d="M-17,108 q5,6 0,12 t0,12"/>
+        <path d="M32,84 q-5,6 0,12 t0,12 t0,12 t0,12"/><path d="M17,108 q-5,6 0,12 t0,12"/>
+      </g>
+      <rect x="-45" y="138" width="90" height="11" rx="3" fill="#efe3c6" stroke="#cdbd97" stroke-width="1.5"/>
+      <path d="M-48,60 Q-55,82 -44,98 L0,118 L44,98 Q55,82 48,60 L24,60 L0,104 L-24,60 Z" fill="#2f416b" stroke="#1d2a47" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-44,65 Q-50,82 -41,94 L0,112 L41,94 Q50,82 44,65" stroke="#fff" stroke-width="2.5" fill="none"/>
+      <path d="M-6,102 L6,102 L5,112 L-5,112 Z" fill="#3c5590" stroke="#1d2a47" stroke-width="1.5"/>
+      <path d="M-5,112 L5,112 L10,142 L0,151 L-10,142 Z" fill="#3c5590" stroke="#1d2a47" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+    <!-- パジャマ -->
+    <g id="pajama">
+      <path d="M-40,140 L40,140 L42,262 L6,262 L0,176 L-6,262 L-42,262 Z" fill="#ffd6e2" stroke="#e59ab2" stroke-width="2" stroke-linejoin="round"/>
+      <g fill="#fff" opacity=".85"><circle cx="-26" cy="180" r="4"/><circle cx="-18" cy="228" r="4"/><circle cx="26" cy="200" r="4"/><circle cx="20" cy="246" r="4"/></g>
+      <g id="slipper"><ellipse cx="-24" cy="272" rx="21" ry="10" fill="#fff" stroke="#e0c2cc" stroke-width="2"/><circle cx="-24" cy="264" r="7" fill="#ffb3c8"/></g>
+      <use href="#slipper" transform="scale(-1,1)"/>
+      <path d="M-38,60 Q-50,64 -50,80 L-48,150 L48,150 L50,80 Q50,64 38,60 Z" fill="#ffd6e2" stroke="#e59ab2" stroke-width="2" stroke-linejoin="round"/>
+      <g fill="#fff" opacity=".85"><circle cx="-30" cy="96" r="4"/><circle cx="-22" cy="130" r="4"/><circle cx="30" cy="84" r="4"/><circle cx="26" cy="122" r="4"/></g>
+      <path d="M0,70 L0,148" stroke="#e59ab2" stroke-width="2"/>
+      <g fill="#fff" stroke="#e59ab2" stroke-width="1.5"><circle cy="92" r="4"/><circle cy="112" r="4"/><circle cy="132" r="4"/></g>
+      <path d="M-26,58 Q-28,78 -2,74 L0,60 Z M26,58 Q28,78 2,74 L0,60 Z" fill="#fff" stroke="#e59ab2" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+
+    <!-- 腕（袖の色は --sleeve で切替） -->
+    <g id="arm-down-l">
+      <path d="M-42,70 Q-58,100 -56,136" stroke="var(--sleeve-line)" stroke-width="21" fill="none" stroke-linecap="round"/>
+      <path d="M-42,70 Q-58,100 -56,136" stroke="var(--sleeve)" stroke-width="16" fill="none" stroke-linecap="round"/>
+      <circle cx="-56" cy="142" r="9" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+    </g>
+    <g id="arms-down"><use href="#arm-down-l"/><use href="#arm-down-l" transform="scale(-1,1)"/></g>
+    <g id="arms-clasp">
+      <path d="M-42,70 Q-50,108 -12,112" stroke="var(--sleeve-line)" stroke-width="21" fill="none" stroke-linecap="round"/>
+      <path d="M-42,70 Q-50,108 -12,112" stroke="var(--sleeve)" stroke-width="16" fill="none" stroke-linecap="round"/>
+      <path d="M42,70 Q50,108 12,112" stroke="var(--sleeve-line)" stroke-width="21" fill="none" stroke-linecap="round"/>
+      <path d="M42,70 Q50,108 12,112" stroke="var(--sleeve)" stroke-width="16" fill="none" stroke-linecap="round"/>
+      <circle cx="-6" cy="110" r="10" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+      <circle cx="6" cy="110" r="10" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+    </g>
+    <g id="arm-up-r">
+      <path d="M42,70 Q76,66 76,26" stroke="var(--sleeve-line)" stroke-width="21" fill="none" stroke-linecap="round"/>
+      <path d="M42,70 Q76,66 76,26" stroke="var(--sleeve)" stroke-width="16" fill="none" stroke-linecap="round"/>
+      <circle cx="76" cy="18" r="9.5" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+    </g>
+    <g id="peace">
+      <path d="M72,12 L66,-8 M81,12 L87,-8" stroke="#d99a86" stroke-width="9" stroke-linecap="round"/>
+      <path d="M72,12 L66,-8 M81,12 L87,-8" stroke="#ffeadf" stroke-width="5.5" stroke-linecap="round"/>
+      <circle cx="76" cy="18" r="9.5" fill="#ffeadf" stroke="#d99a86" stroke-width="2"/>
+    </g>
+
+    <!-- タオル -->
+    <g id="towel">
+      <path d="M-82,-30 Q-82,-104 0,-108 Q82,-104 82,-30 Q86,14 72,44 L58,44 Q64,2 56,-30 Q40,-62 0,-64 Q-40,-62 -56,-30 Q-64,2 -58,44 L-72,44 Q-86,14 -82,-30 Z" fill="#fff4f7" stroke="#e7b6c4" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M-70,30 Q-74,0 -70,-20 M70,30 Q74,0 70,-20" stroke="#ffc3d3" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M-40,-86 Q0,-98 40,-86" stroke="#ffe3eb" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- キラキラ -->
+    <path id="sparkle" d="M0,-14 Q2,-2 14,0 Q2,2 0,14 Q-2,2 -14,0 Q-2,-2 0,-14 Z"/>
+    <path id="heart" d="M0,6 C-4,0 -14,-2 -14,-10 C-14,-17 -5,-19 0,-12 C5,-19 14,-17 14,-10 C14,-2 4,0 0,6 Z"/>
+  </defs>
+
+  <rect width="900" height="1950" fill="#fdf1f5"/>
+  <g fill="#ffd3e2">
+    <use href="#heart" transform="translate(150,52) scale(1.2)"/>
+    <use href="#heart" transform="translate(750,52) scale(1.2)"/>
+  </g>
+  <text x="450" y="62" text-anchor="middle" font-size="46" class="pop" style="fill:#e8608c">ユリの朝コーデ</text>
+  <text x="450" y="90" text-anchor="middle" font-size="20" opacity=".7">〜 今日なに着る？編 〜</text>
+
+  <!-- ① 朝の洗面所 -->
+  <g transform="translate(20,100)">
+    <g clip-path="url(#clip)">
+      <rect width="860" height="435" fill="#f3f7fb"/>
+      <rect y="250" width="860" height="185" fill="#edf2f7"/>
+      <g stroke="#dce5ee" stroke-width="2">
+        <path d="M0,290 H860 M0,330 H860 M0,370 H860 M0,410 H860"/>
+      </g>
+      <!-- 窓と朝日 -->
+      <rect x="30" y="30" width="180" height="200" rx="10" fill="url(#sun)" stroke="#d6dde6" stroke-width="5"/>
+      <path d="M120,30 V230 M30,130 H210" stroke="#d6dde6" stroke-width="4"/>
+      <path d="M210,40 L520,435 L760,435 L210,200 Z" fill="#fff3c4" opacity=".35"/>
+      <!-- 鏡 -->
+      <path d="M270,230 V120 A100,100 0 0 1 470,120 V230 Z" fill="#e2f1fb" stroke="#cdd7e1" stroke-width="7"/>
+      <path d="M300,110 L340,70 M312,140 L372,80" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+      <!-- カウンター -->
+      <rect x="230" y="300" width="640" height="26" rx="6" fill="#fff" stroke="#d4dce4" stroke-width="3"/>
+      <rect x="240" y="326" width="620" height="120" fill="#fafcfd" stroke="#e1e7ed" stroke-width="2"/>
+      <ellipse cx="370" cy="303" rx="72" ry="10" fill="#e3eaf0"/>
+      <!-- 花 -->
+      <rect x="258" y="266" width="24" height="34" rx="6" fill="#eaf6f3" stroke="#bcd9d2" stroke-width="2"/>
+      <path d="M270,268 Q262,240 250,226 M270,268 Q272,236 272,218 M270,268 Q282,244 294,232" stroke="#8cc49a" stroke-width="2.5" fill="none"/>
+      <g fill="#fff" stroke="#e0d6c8" stroke-width="1.5">
+        <circle cx="250" cy="224" r="9"/><circle cx="272" cy="214" r="10"/><circle cx="294" cy="230" r="9"/>
+      </g>
+      <g fill="#ffd966"><circle cx="250" cy="224" r="3"/><circle cx="272" cy="214" r="3.5"/><circle cx="294" cy="230" r="3"/></g>
+      <!-- ボトル -->
+      <rect x="452" y="258" width="22" height="42" rx="6" fill="#fde1ea" stroke="#e7b6c4" stroke-width="2"/>
+      <rect x="458" y="248" width="10" height="12" fill="#fff" stroke="#e7b6c4" stroke-width="2"/>
+      <rect x="480" y="268" width="20" height="32" rx="5" fill="#e3effa" stroke="#b8cde0" stroke-width="2"/>
+      <!-- 泡 -->
+      <g fill="#fff" stroke="#b8d8ee" stroke-width="2">
+        <circle cx="545" cy="120" r="12"/><circle cx="520" cy="86" r="7"/><circle cx="560" cy="64" r="5"/><circle cx="790" cy="110" r="9"/><circle cx="812" cy="80" r="5"/>
+      </g>
+      <!-- ユリ（パジャマ＋タオル） -->
+      <g transform="translate(660,146) scale(.96)" style="--sleeve:#ffd6e2;--sleeve-line:#e59ab2">
+        <use href="#hair-back"/><use href="#pajama"/><use href="#arm-down-l"/>
+        <use href="#face"/>
+        <use href="#eye-sleepy" transform="translate(-26,18)"/><use href="#eye-sleepy" transform="translate(26,18) scale(-1,1)"/>
+        <use href="#cheeks"/><use href="#mouth-yawn"/>
+        <use href="#hair-front"/><use href="#towel"/>
+        <use href="#arm-up-r"/>
+        <g fill="#bfe6ff" stroke="#6aaee0" stroke-width="1.5">
+          <path d="M-86,60 Q-92,72 -86,76 Q-80,72 -86,60 Z"/><path d="M92,90 Q86,102 92,106 Q98,102 92,90 Z"/>
+        </g>
+      </g>
+      <text x="760" y="226" font-size="28" class="pop outline" style="fill:#a58fc4" transform="rotate(10 760 226)">ふぁぁ〜</text>
+      <!-- 吹き出し -->
+      <path d="M324,24 H528 Q556,24 556,52 V108 Q556,136 528,136 H520 L580,164 L480,136 H324 Q296,136 296,108 V52 Q296,24 324,24 Z" fill="#fff" stroke="#b58aa6" stroke-width="3" stroke-linejoin="round"/>
+      <text x="426" y="72" text-anchor="middle" font-size="26">おはよ…</text>
+      <text x="426" y="112" text-anchor="middle" font-size="26">今日なに着よう〜</text>
+      <circle cx="30" cy="405" r="17" fill="#ff8fb1"/><text x="30" y="412" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">1</text>
+    </g>
+    <rect width="860" height="435" rx="18" fill="none" stroke="#5a4660" stroke-width="5"/>
+  </g>
+
+  <!-- ② スタイルボード -->
+  <g transform="translate(20,553)">
+    <g clip-path="url(#clip)">
+      <rect width="860" height="435" fill="url(#boardbg)"/>
+      <!-- ボード -->
+      <rect x="40" y="24" width="400" height="388" rx="20" fill="#f8f4ec" stroke="#d8cfbd" stroke-width="2"/>
+      <path d="M226,50 L232,38 L240,48 L248,38 L254,50 Z" fill="none" stroke="#b9a988" stroke-width="2" stroke-linejoin="round"/>
+      <text x="240" y="98" text-anchor="middle" font-size="40" class="serif" style="fill:#a8977a;letter-spacing:12px">YURI</text>
+      <g stroke="#e3dccd" stroke-width="1.5"><path d="M60,210 H420 M60,306 H420 M240,118 V400"/></g>
+      <!-- VEST -->
+      <g transform="translate(150,160) scale(.62)">
+        <path d="M-40,-36 Q-42,0 -45,40 L45,40 Q42,0 40,-36 L22,-36 L0,2 L-22,-36 Z" fill="#f6eedb" stroke="#cdbd97" stroke-width="2.5"/>
+        <path d="M-48,-50 Q-55,-28 -44,-12 L0,8 L44,-12 Q55,-28 48,-50 L24,-50 L0,-6 L-24,-50 Z" fill="#2f416b"/>
+        <path d="M-44,-45 Q-50,-28 -41,-16 L0,2 L41,-16 Q50,-28 44,-45" stroke="#fff" stroke-width="2.5" fill="none"/>
+        <g fill="none" stroke="#e3d3b0" stroke-width="3"><path d="M-30,-20 q5,6 0,12 t0,12 t0,12 t0,12"/><path d="M30,-20 q-5,6 0,12 t0,12 t0,12 t0,12"/></g>
+      </g>
+      <text x="150" y="200" text-anchor="middle" class="label">VEST</text>
+      <!-- TIE -->
+      <g transform="translate(330,160)">
+        <path d="M-7,-34 L7,-34 L5,-24 L-5,-24 Z M-5,-24 L5,-24 L11,18 L0,28 L-11,18 Z" fill="#3c5590" stroke="#1d2a47" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M-3,-10 L3,-12 M-4,2 L4,0" stroke="#5f79b3" stroke-width="2"/>
+      </g>
+      <text x="330" y="200" text-anchor="middle" class="label">TIE</text>
+      <!-- SHIRT -->
+      <g transform="translate(150,256)">
+        <path d="M-26,-34 L-8,-38 L0,-30 L8,-38 L26,-34 L40,6 L28,10 L24,-6 L24,34 L-24,34 L-24,-6 L-28,10 L-40,6 Z" fill="#fff" stroke="#b9b6c6" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M0,-30 V34" stroke="#d6d3e0" stroke-width="1.5"/>
+        <g fill="#d6d3e0"><circle cy="-16" r="2"/><circle cy="0" r="2"/><circle cy="16" r="2"/></g>
+      </g>
+      <text x="150" y="298" text-anchor="middle" class="label">SHIRT</text>
+      <!-- SKIRT -->
+      <g transform="translate(330,256)">
+        <path d="M-26,-26 L26,-26 L40,26 Q0,32 -40,26 Z" fill="#5a78a8" stroke="#2f4670" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-14,-26 L-22,29 M0,-26 V30 M14,-26 L22,29" stroke="#3f5a88" stroke-width="1.8"/>
+        <rect x="-26" y="-30" width="52" height="7" fill="#4a6898" stroke="#2f4670" stroke-width="1.5"/>
+      </g>
+      <text x="330" y="298" text-anchor="middle" class="label">SKIRT</text>
+      <!-- SOCKS -->
+      <g transform="translate(150,350) scale(.9)">
+        <path d="M-30,-30 Q-34,-14 -30,0 Q-34,14 -28,24 L-6,24 Q-2,14 -6,0 Q-2,-14 -6,-30 Q-18,-36 -30,-30 Z" fill="#fff" stroke="#b9b6c6" stroke-width="2"/>
+        <path d="M6,-30 Q2,-14 6,0 Q2,14 8,24 L30,24 Q34,14 30,0 Q34,-14 30,-30 Q18,-36 6,-30 Z" fill="#fff" stroke="#b9b6c6" stroke-width="2"/>
+        <path d="M-31,-14 Q-18,-10 -5,-14 M-31,6 Q-18,10 -5,6 M5,-14 Q18,-10 31,-14 M5,6 Q18,10 31,6" stroke="#d6d3e0" stroke-width="2" fill="none"/>
+      </g>
+      <text x="150" y="392" text-anchor="middle" class="label">SOCKS</text>
+      <!-- LOAFERS -->
+      <g transform="translate(330,352)">
+        <path d="M-40,4 Q-42,-14 -24,-16 L-6,-12 Q0,-4 -2,10 L-38,12 Q-42,10 -40,4 Z" fill="#26232a" stroke="#0e0d10" stroke-width="2"/>
+        <path d="M2,4 Q0,-14 18,-16 L36,-12 Q42,-4 40,10 L4,12 Q0,10 2,4 Z" fill="#26232a" stroke="#0e0d10" stroke-width="2"/>
+        <path d="M-32,-8 Q-22,-12 -12,-8 M10,-8 Q20,-12 30,-8" stroke="#fff" stroke-width="2" opacity=".6" fill="none"/>
+      </g>
+      <text x="330" y="392" text-anchor="middle" class="label">LOAFERS</text>
+      <!-- ユリ（ワクワク） -->
+      <g transform="translate(680,150)" style="--sleeve:#ffd6e2;--sleeve-line:#e59ab2">
+        <use href="#hair-back"/><use href="#pajama"/>
+        <use href="#face"/>
+        <use href="#eye-sparkle" transform="translate(-26,16)"/><use href="#eye-sparkle" transform="translate(26,16) scale(-1,1)"/>
+        <use href="#cheeks"/><use href="#mouth-open"/>
+        <use href="#hair-front"/>
+        <use href="#arms-clasp"/>
+      </g>
+      <g fill="#ffd966" stroke="#e0a91c" stroke-width="1.5">
+        <use href="#sparkle" transform="translate(800,70) scale(1.4)"/>
+        <use href="#sparkle" transform="translate(830,200)"/>
+        <use href="#sparkle" transform="translate(570,240) scale(.9)"/>
+      </g>
+      <g fill="#ff9ab8"><use href="#heart" transform="translate(790,300)"/><use href="#heart" transform="translate(560,330) scale(.8)"/></g>
+      <!-- 吹き出し -->
+      <path d="M498,30 H578 Q600,30 600,52 V114 Q600,136 578,136 H570 L614,160 L548,136 H498 Q476,136 476,114 V52 Q476,30 498,30 Z" fill="#fff" stroke="#b58aa6" stroke-width="3" stroke-linejoin="round"/>
+      <text x="538" y="76" text-anchor="middle" font-size="26">今日は</text>
+      <text x="538" y="116" text-anchor="middle" font-size="26" class="pop" style="fill:#e8608c">これっ♡</text>
+      <circle cx="30" cy="405" r="17" fill="#ff8fb1"/><text x="30" y="412" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">2</text>
+    </g>
+    <rect width="860" height="435" rx="18" fill="none" stroke="#5a4660" stroke-width="5"/>
+  </g>
+
+  <!-- ③ じゃーん！ -->
+  <g transform="translate(20,1006)">
+    <g clip-path="url(#clip)">
+      <rect width="860" height="435" fill="url(#pinkburst)"/>
+      <g fill="#fff" opacity=".45">
+        <path d="M430,210 L0,0 L120,0 Z M430,210 L280,0 L400,0 Z M430,210 L560,0 L680,0 Z M430,210 L840,0 L860,90 Z M430,210 L860,300 L860,420 Z M430,210 L700,435 L580,435 Z M430,210 L300,435 L180,435 Z M430,210 L0,380 L0,260 Z M430,210 L0,130 L0,40 Z"/>
+      </g>
+      <g fill="#fff" stroke="#ffb3cc" stroke-width="1.5">
+        <use href="#sparkle" transform="translate(110,300) scale(1.3)"/>
+        <use href="#sparkle" transform="translate(310,60)"/>
+        <use href="#sparkle" transform="translate(620,90) scale(1.2)"/>
+        <use href="#sparkle" transform="translate(780,380)"/>
+        <use href="#sparkle" transform="translate(250,380) scale(.8)"/>
+      </g>
+      <g fill="#ff8fb1"><use href="#heart" transform="translate(560,50) scale(1.1)"/><use href="#heart" transform="translate(300,300) scale(.9)"/><use href="#heart" transform="translate(820,60)"/></g>
+      <!-- 髪なびき線 -->
+      <g stroke="#e6c47a" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8">
+        <path d="M320,190 Q300,230 312,280"/><path d="M304,170 Q280,220 292,270"/>
+        <path d="M540,190 Q560,230 548,280"/><path d="M556,170 Q580,220 568,270"/>
+      </g>
+      <!-- ユリ（制服コーデ） -->
+      <g transform="translate(430,140)" style="--sleeve:#fff;--sleeve-line:#b9b6c6">
+        <use href="#hair-back"/><use href="#uniform"/><use href="#arm-down-l"/>
+        <use href="#face"/>
+        <use href="#eye-sparkle" transform="translate(-26,16)"/><use href="#eye-happy" transform="translate(26,16)"/>
+        <use href="#cheeks"/><use href="#mouth-open"/>
+        <use href="#hair-front"/>
+        <use href="#arm-up-r"/><use href="#peace"/>
+      </g>
+      <text x="150" y="130" text-anchor="middle" font-size="54" class="pop outline" style="fill:#ff6f98" transform="rotate(-10 150 130)">じゃーん！</text>
+      <!-- 吹き出し -->
+      <path d="M670,236 H818 Q842,236 842,260 V316 Q842,340 818,340 H670 Q646,340 646,316 V300 L566,262 L646,276 V260 Q646,236 670,236 Z" fill="#fff" stroke="#b58aa6" stroke-width="3" stroke-linejoin="round"/>
+      <text x="744" y="280" text-anchor="middle" font-size="22">ぜんぶ合わせて</text>
+      <text x="744" y="320" text-anchor="middle" font-size="28" class="pop" style="fill:#e8608c">完璧コーデ♡</text>
+      <circle cx="30" cy="405" r="17" fill="#ff8fb1"/><text x="30" y="412" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">3</text>
+    </g>
+    <rect width="860" height="435" rx="18" fill="none" stroke="#5a4660" stroke-width="5"/>
+  </g>
+
+  <!-- ④ オチ -->
+  <g transform="translate(20,1459)">
+    <g clip-path="url(#clip)">
+      <rect width="860" height="435" fill="#f4eef8"/>
+      <rect y="360" width="860" height="75" fill="#eadfcf"/>
+      <path d="M0,360 H860" stroke="#d6c7b2" stroke-width="3"/>
+      <!-- カレンダー -->
+      <rect x="70" y="50" width="160" height="180" rx="10" fill="#fff" stroke="#d7cfe0" stroke-width="3"/>
+      <rect x="70" y="50" width="160" height="44" rx="10" fill="#ff6b7d"/>
+      <rect x="70" y="80" width="160" height="14" fill="#ff6b7d"/>
+      <text x="150" y="82" text-anchor="middle" font-size="24" class="serif" style="fill:#fff;letter-spacing:4px">SUN</text>
+      <text x="150" y="170" text-anchor="middle" font-size="72" class="pop" style="fill:#ff6b7d">27</text>
+      <text x="150" y="212" text-anchor="middle" font-size="22" style="fill:#ff6b7d">日曜日</text>
+      <circle cx="110" cy="48" r="6" fill="#bdb3c8"/><circle cx="190" cy="48" r="6" fill="#bdb3c8"/>
+      <!-- 時計 -->
+      <circle cx="760" cy="84" r="50" fill="#fff" stroke="#d7cfe0" stroke-width="5"/>
+      <path d="M760,84 V52 M760,84 L784,96" stroke="#5a4660" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="760" cy="84" r="4" fill="#5a4660"/>
+      <!-- どんより -->
+      <rect x="330" y="0" width="200" height="200" fill="url(#gloom)"/>
+      <g stroke="#8e9fe0" stroke-width="3" stroke-linecap="round" opacity=".8">
+        <path d="M370,20 V70 M395,10 V60 M420,24 V66 M445,10 V56 M470,20 V64 M495,12 V58"/>
+      </g>
+      <!-- ユリ（しょんぼり） -->
+      <g transform="translate(430,150)" style="--sleeve:#fff;--sleeve-line:#b9b6c6">
+        <use href="#hair-back"/><use href="#uniform"/><use href="#arms-down"/>
+        <use href="#face"/>
+        <use href="#eye-tear" transform="translate(-26,16)"/><use href="#eye-tear" transform="translate(26,16) scale(-1,1)"/>
+        <use href="#cheeks"/><use href="#mouth-wavy"/>
+        <use href="#hair-front"/>
+        <path d="M66,-40 Q56,-22 66,-14 Q76,-22 66,-40 Z" fill="#bfe6ff" stroke="#6aaee0" stroke-width="2"/>
+      </g>
+      <text x="190" y="320" font-size="40" class="pop outline" style="fill:#7d8fd8" transform="rotate(-12 190 320)">ガーン</text>
+      <!-- 吹き出し -->
+      <path d="M604,164 H818 Q842,164 842,188 V262 Q842,286 818,286 H604 Q580,286 580,262 V206 L540,176 L580,190 V188 Q580,164 604,164 Z" fill="#fff" stroke="#b58aa6" stroke-width="3" stroke-linejoin="round"/>
+      <text x="711" y="212" text-anchor="middle" font-size="26">…って今日</text>
+      <text x="711" y="258" text-anchor="middle" font-size="28" class="pop" style="fill:#e8608c">日曜日じゃん！</text>
+      <text x="836" y="410" text-anchor="end" font-size="19" style="fill:#9a86a3">（でも かわいいから良し♡）</text>
+      <circle cx="30" cy="405" r="17" fill="#ff8fb1"/><text x="30" y="412" text-anchor="middle" font-size="18" class="pop" style="fill:#fff">4</text>
+    </g>
+    <rect width="860" height="435" rx="18" fill="none" stroke="#5a4660" stroke-width="5"/>
+  </g>
+
+  <text x="450" y="1932" text-anchor="middle" font-size="22" style="fill:#c98aa6">おわり♡</text>
+</svg>
+</body>
+</html>
