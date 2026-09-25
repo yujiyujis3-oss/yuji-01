@@ -600,7 +600,7 @@ button { font: inherit; color: inherit; }
   height: 100%;
   object-fit: cover;
 }
-.work--large .work__media img { object-position: 50% 35%; }
+.work--large .work__media img { object-position: 50% 12%; }
 
 .work__overlay {
   position: absolute;
