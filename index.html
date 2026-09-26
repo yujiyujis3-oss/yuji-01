@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YUJI SHIMONO｜ホームページ制作・広告デザイン・自動化ツール制作</title>
+  <meta name="description" content="ホームページ・広告・自動化ツールを、ひとつにつなぐ。見せ方から日々の運用まで、事業に合わせて設計します。">
+  <meta name="theme-color" content="#101416">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/character-1254.webp" imagesrcset="images/character-720.webp 720w, images/character-1254.webp 1254w" imagesizes="(max-width: 767px) 100vw, 60vw">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" id="top">
+    <div class="site-header__inner">
+      <a class="logo" href="#top" aria-label="YUJI SHIMONO トップへ">YUJI SHIMONO</a>
+
+      <nav class="global-nav" aria-label="メインメニュー">
+        <ul class="global-nav__list">
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#works">制作イメージ</a></li>
+          <li><a href="#flow">制作の流れ</a></li>
+        </ul>
+        <a class="btn btn--light btn--sm" href="#contact">制作を相談する<span class="btn__icon" aria-hidden="true">↗</span></a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">メニューを開く</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="メニュー" hidden>
+    <div class="mobile-menu__head">
+      <span class="logo">YUJI SHIMONO</span>
+      <button class="mobile-menu__close" type="button">
+        <span aria-hidden="true">×</span>
+        <span class="visually-hidden">メニューを閉じる</span>
+      </button>
+    </div>
+    <nav aria-label="モバイルメニュー">
+      <ul class="mobile-menu__list">
+        <li><a href="#services"><span class="mono">01</span>サービス</a></li>
+        <li><a href="#works"><span class="mono">02</span>制作イメージ</a></li>
+        <li><a href="#flow"><span class="mono">03</span>制作の流れ</a></li>
+      </ul>
+      <a class="btn btn--light btn--block" href="#contact">制作を相談する<span class="btn__icon" aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__visual intro" style="--delay: 150ms">
+        <img
+          src="images/character-1254.webp"
+          srcset="images/character-720.webp 720w, images/character-1254.webp 1254w"
+          sizes="(max-width: 767px) 100vw, 60vw"
+          width="1254" height="1254"
+          alt="白い外殻と黒いレンズ、露出したケーブルを持つ機械生命体のキャラクター"
+          fetchpriority="high">
+      </div>
+
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <p class="hero__eyebrow label intro">WEB DESIGN <span aria-hidden="true">/</span> AD CREATIVE <span aria-hidden="true">/</span> AUTOMATION</p>
+          <h1 class="hero__title intro" id="hero-title" style="--delay: 80ms">
+            <span>伝わるデザイン。</span>
+            <span>進化するビジネス。</span>
+          </h1>
+          <span class="hero__rule intro" aria-hidden="true" style="--delay: 160ms"></span>
+          <p class="hero__lead intro" style="--delay: 200ms">
+            ホームページ・広告・自動化ツールを、ひとつにつなぐ。<br>
+            見せ方から日々の運用まで、事業に合わせて設計します。
+          </p>
+          <div class="hero__actions intro" style="--delay: 260ms">
+            <a class="btn btn--light" href="#contact">制作を相談する<span class="btn__icon" aria-hidden="true">↗</span></a>
+            <a class="btn btn--ghost" href="#services">サービスを見る<span class="btn__icon btn__icon--down" aria-hidden="true">↓</span></a>
+          </div>
+          <p class="hero__note label" aria-hidden="true">CREATIVE<br>AUTOMATION<br>A MORE HUMAN FUTURE</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service strip -->
+    <div class="strip" aria-label="サービス概要">
+      <ol class="strip__list container">
+        <li>
+          <span class="strip__num mono">01</span>
+          <span class="strip__en label">WEB DESIGN</span>
+          <span class="strip__ja">ブランドを伝える、体験をつくる。</span>
+        </li>
+        <li>
+          <span class="strip__num mono">02</span>
+          <span class="strip__en label">AD CREATIVE</span>
+          <span class="strip__ja">心を動かす、伝わるデザイン。</span>
+        </li>
+        <li>
+          <span class="strip__num mono">03</span>
+          <span class="strip__en label">AUTOMATION</span>
+          <span class="strip__ja">くり返す作業を、未来の時間に。</span>
+        </li>
+      </ol>
+    </div>
+
+    <!-- ============ Services ============ -->
+    <section class="services section section--light" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <p class="section-label label">OUR SERVICES</p>
+            <h2 class="section-title" id="services-title">つくる。その先まで。</h2>
+          </div>
+          <p class="section-head__text">
+            美しいデザインで伝わる体験をつくり、仕組みでビジネスを進化させる。<br class="br-pc">
+            つくって終わりではなく、その先の成長まで伴走します。
+          </p>
+        </div>
+
+        <ul class="service-list">
+          <li class="service reveal">
+            <div class="service__head">
+              <span class="service__num mono" aria-hidden="true">01</span>
+              <h3 class="service__title">ホームページ制作</h3>
+            </div>
+            <p class="service__text">伝えたい価値が届く、使いやすいWebサイトへ。目的に合わせて構成とデザインを設計します。</p>
+            <p class="service__tags">コーポレートサイト / LP / ECサイト</p>
+            <a class="service__link" href="https://shimono-web-samples-2026.yujiyuji-s3.chatgpt.site" target="_blank" rel="noopener">ホームページのサンプルを見る<span class="btn__icon" aria-hidden="true">↗</span><span class="visually-hidden">（新しいタブで開きます）</span></a>
+            <div class="service__figure">
+              <svg viewBox="0 0 200 90" aria-hidden="true" focusable="false">
+                <rect x="1" y="1" width="150" height="80" />
+                <g class="svg-lines"><line x1="12" y1="14" x2="64" y2="14"/><line x1="12" y1="22" x2="64" y2="22"/><line x1="12" y1="30" x2="64" y2="30"/><line x1="12" y1="38" x2="64" y2="38"/><line x1="12" y1="46" x2="64" y2="46"/><line x1="12" y1="54" x2="64" y2="54"/><line x1="12" y1="62" x2="64" y2="62"/></g>
+                <rect x="82" y="12" width="56" height="52" />
+              </svg>
+              <span class="label service__en">WEB DESIGN</span>
+            </div>
+          </li>
+          <li class="service reveal" style="--delay: 100ms">
+            <div class="service__head">
+              <span class="service__num mono" aria-hidden="true">02</span>
+              <h3 class="service__title">広告デザイン</h3>
+            </div>
+            <p class="service__text">商品やサービスの魅力を整理し、目に留まり、伝わるクリエイティブへ。</p>
+            <p class="service__tags">バナー / SNS広告 / キービジュアル</p>
+            <div class="service__figure">
+              <svg viewBox="0 0 200 90" aria-hidden="true" focusable="false">
+                <path d="M1 1 H124 V88 H1 Z" />
+                <line x1="92" y1="1" x2="92" y2="88" />
+                <rect x="12" y="14" width="36" height="46" />
+                <circle cx="96" cy="44" r="22" />
+              </svg>
+              <span class="label service__en">AD CREATIVE</span>
+            </div>
+          </li>
+          <li class="service reveal" style="--delay: 200ms">
+            <div class="service__head">
+              <span class="service__num mono" aria-hidden="true">03</span>
+              <h3 class="service__title">自動化ツール制作</h3>
+            </div>
+            <p class="service__text">繰り返しの作業を見直し、日々の業務に合う仕組みをつくります。</p>
+            <p class="service__tags">データ整理 / 業務フロー / AI活用</p>
+            <div class="service__figure">
+              <svg viewBox="0 0 200 90" aria-hidden="true" focusable="false">
+                <circle cx="20" cy="45" r="18" />
+                <line x1="44" y1="45" x2="60" y2="45" /><path d="M56 41 L60 45 L56 49" />
+                <rect x="66" y="28" width="34" height="34" />
+                <line x1="106" y1="45" x2="122" y2="45" /><path d="M118 41 L122 45 L118 49" />
+                <path d="M150 21 L174 45 L150 69 L126 45 Z" />
+              </svg>
+              <span class="label service__en">AUTOMATION</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Works (concept) ============ -->
+    <section class="works section section--dark" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <p class="section-label label"><span class="accent">CONCEPT</span> / 自主制作イメージ</p>
+            <h2 class="section-title section-title--rule" id="works-title">制作イメージ</h2>
+          </div>
+          <p class="section-head__text">
+            テクノロジーと美意識が出会うと、こんな表現も生まれます。<br class="br-pc">
+            掲載しているのは、表現の方向性を示す自主制作のコンセプトイメージです。
+          </p>
+        </div>
+
+        <div class="work-grid">
+          <!-- TODO: 掲載許可済みの実績が用意できたら、画像・担当範囲・制作目的を差し替える -->
+          <article class="work work--large reveal" aria-labelledby="work1-title">
+            <div class="work__media">
+              <img src="images/glass-horses-1254.webp"
+                   srcset="images/glass-horses-720.webp 720w, images/glass-horses-1254.webp 1254w"
+                   sizes="(max-width: 767px) 100vw, 60vw"
+                   width="1254" height="1254" loading="lazy" decoding="async"
+                   alt="暗い展示空間に吊るされた透明なガラスの馬の彫刻と、床に映り込む光">
+              <div class="work__overlay">
+                <p class="work__display" aria-hidden="true">STILL<br>LIVES</p>
+                <p class="work__catch">静けさのなかに、<br>生命が宿る。</p>
+              </div>
+            </div>
+            <div class="work__meta">
+              <div>
+                <p class="work__badge label">CONCEPT / 自主制作イメージ</p>
+                <h3 class="work__title" id="work1-title">Web方向性：アートギャラリー風サイト</h3>
+                <p class="work__desc">透明なガラス彫刻と暗い展示空間を主役にした、ブランドサイトの表現案です。</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="work work--small reveal" style="--delay: 120ms" aria-labelledby="work2-title">
+            <div class="work__media work__media--ad">
+              <img src="images/character-720.webp"
+                   width="720" height="720" loading="lazy" decoding="async"
+                   alt="">
+              <div class="work__panel">
+                <p class="work__panel-copy">テクノロジーは、<br>もっと美しく<br>寄り添える。</p>
+                <p class="work__panel-sub">仕組みで、<br>人の可能性をひらく。</p>
+                <span class="work__panel-rule" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="work__meta">
+              <div>
+                <p class="work__badge label">CONCEPT / 自主制作イメージ</p>
+                <h3 class="work__title" id="work2-title">広告方向性：キービジュアル</h3>
+                <p class="work__desc">アイボリー地に大きな文字とシアンの細いアクセントを合わせた、広告ビジュアルの表現案です。</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <a class="sample-link reveal" href="https://shimono-web-samples-2026.yujiyuji-s3.chatgpt.site" target="_blank" rel="noopener">
+          <span class="sample-link__label label">WEB SAMPLES / ホームページ</span>
+          <span class="sample-link__title">ホームページ制作のサンプルサイト</span>
+          <span class="sample-link__text">ホームページのサンプルをまとめたサイトです。別のタブで開きます。</span>
+          <span class="sample-link__icon" aria-hidden="true">↗</span>
+        </a>
+
+        <p class="works__note">※ 掲載イメージは表現の提案であり、納品実績ではありません。</p>
+      </div>
+    </section>
+
+    <!-- ============ Flow ============ -->
+    <section class="flow section section--sub" id="flow" aria-labelledby="flow-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label label">FLOW</p>
+          <h2 class="section-title" id="flow-title">制作の流れ</h2>
+        </div>
+        <ol class="flow-list">
+          <li class="flow-step reveal">
+            <span class="flow-step__num mono">01</span>
+            <h3 class="flow-step__title">ご相談</h3>
+            <p class="flow-step__text">つくりたいものや、業務の困りごとをお聞かせください。</p>
+          </li>
+          <li class="flow-step reveal" style="--delay: 80ms">
+            <span class="flow-step__num mono">02</span>
+            <h3 class="flow-step__title">方向性の整理</h3>
+            <p class="flow-step__text">目的と課題を整理し、進め方と制作の方向性をまとめます。</p>
+          </li>
+          <li class="flow-step reveal" style="--delay: 160ms">
+            <span class="flow-step__num mono">03</span>
+            <h3 class="flow-step__title">デザイン・制作</h3>
+            <p class="flow-step__text">確認をはさみながら、デザインと実装を進めます。</p>
+          </li>
+          <li class="flow-step reveal" style="--delay: 240ms">
+            <span class="flow-step__num mono">04</span>
+            <h3 class="flow-step__title">確認・公開</h3>
+            <p class="flow-step__text">最終確認のうえ公開し、その後の運用につなげます。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__inner">
+        <p class="contact__side label" aria-hidden="true">LET'S CREATE<br>THE NEXT TOGETHER</p>
+        <h2 class="contact__title reveal" id="contact-title">次の一歩を、<br>一緒につくる。</h2>
+        <div class="contact__body reveal" style="--delay: 100ms">
+          <p>つくりたいものや、日々の業務の困りごとからお聞かせください。</p>
+          <a class="btn btn--light contact__btn" href="mailto:yujiyuji.s3@gmail.com?subject=%E5%88%B6%E4%BD%9C%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">
+            メールで相談する<span class="btn__icon" aria-hidden="true">↗</span>
+          </a>
+          <p class="contact__mail">
+            <span class="label">MAIL</span>
+            <a href="mailto:yujiyuji.s3@gmail.com">yujiyuji.s3@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="logo" href="#top" aria-label="YUJI SHIMONO トップへ">YUJI SHIMONO</a>
+      <nav aria-label="フッターメニュー">
+        <ul class="footer-nav">
+          <li><a href="#services">サービス</a></li>
+          <li><a href="#works">制作イメージ</a></li>
+          <li><a href="#flow">制作の流れ</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">© <span data-year>2026</span> YUJI SHIMONO</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
