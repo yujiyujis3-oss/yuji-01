@@ -117,17 +117,6 @@
     });
   });
 
-  /* ---------- お問い合わせ（連絡先確定まで準備中表示） ---------- */
-  // TODO: 連絡先確定後、このボタンを mailto: リンクまたはフォームへの遷移に置き換える
-  var contactBtn = document.querySelector('.contact__btn');
-  var contactStatus = document.getElementById('contact-status');
-  if (contactBtn && contactStatus) {
-    contactBtn.addEventListener('click', function () {
-      contactStatus.hidden = false;
-      contactBtn.setAttribute('aria-expanded', 'true');
-    });
-  }
-
   /* ---------- 下層コンテンツの出現 ---------- */
   var reveals = document.querySelectorAll('.reveal');
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
