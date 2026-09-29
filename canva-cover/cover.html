@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canva表紙作成 サムネイル</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800;900&family=Klee+One:wght@600&family=Pacifico&display=block" rel="stylesheet">
+<style>
+  :root {
+    --teal: #3cbcc3;
+    --ink: #4a4a55;
+    --purple: #cf97ea;
+    --red: #f0463c;
+    --gray: #6b6b72;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #2a2a2e; }
+  body { display: grid; place-items: center; min-height: 100vh; }
+
+  /* 1080×1080 = Canvaの「Instagramの投稿（正方形）」サイズ */
+  .cover {
+    position: relative;
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: 'M PLUS Rounded 1c', 'Noto Sans CJK JP', sans-serif;
+    background:
+      radial-gradient(ellipse 520px 380px at 12% 88%, rgba(196, 214, 206, .55), transparent 70%),
+      radial-gradient(ellipse 600px 420px at 95% 8%, rgba(210, 222, 230, .6), transparent 70%),
+      radial-gradient(ellipse 480px 300px at 30% 30%, rgba(225, 233, 228, .7), transparent 70%),
+      #f6f7f5;
+  }
+
+  /* 完全攻略：ティールの角丸ラベル */
+  .badge {
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 138px;
+    border-radius: 69px;
+    background: var(--teal);
+    color: #fff;
+    font-weight: 900;
+    font-size: 92px;
+    letter-spacing: 4px;
+    display: grid;
+    place-items: center;
+    text-shadow: 3px 4px 0 rgba(0, 0, 0, .18);
+  }
+
+  /* Canvaで */
+  .sub {
+    position: absolute;
+    top: 262px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .sub .brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 118px;
+    line-height: 1.25;
+    background: linear-gradient(100deg, #1fc8d8 0%, #3a8dde 45%, #7d2ae8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .sub .de {
+    font-weight: 800;
+    font-size: 70px;
+    color: #56565e;
+  }
+
+  /* 表紙作成：Canvaの「スプライス」エフェクト風（線＋ずらした塗り） */
+  .title {
+    position: absolute;
+    top: 430px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 236px;
+    line-height: 1;
+    letter-spacing: -6px;
+  }
+  .title span { display: block; }
+  .title .fill {
+    position: absolute;
+    inset: 0;
+    transform: translate(-12px, 12px);
+    color: var(--purple);
+  }
+  .title .line {
+    position: relative;
+    color: transparent;
+    -webkit-text-stroke: 7px var(--ink);
+  }
+
+  /* イラスト */
+  .person {
+    position: absolute;
+    left: 60px;
+    bottom: 18px;
+    width: 360px;
+  }
+
+  /* 吹き出し */
+  .bubble {
+    position: absolute;
+    left: 400px;
+    top: 740px;
+    width: 640px;
+    height: 250px;
+  }
+  .bubble svg { position: absolute; inset: 0; }
+  .bubble .text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    padding: 10px 0 0 20px;
+  }
+  .bubble .lead {
+    font-family: 'Klee One', 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 1.45;
+    color: var(--gray);
+    letter-spacing: 2px;
+  }
+  .bubble .num {
+    font-weight: 400;
+    font-size: 176px;
+    line-height: 1;
+    color: var(--red);
+    letter-spacing: -4px;
+  }
+  .bubble .unit {
+    font-family: 'Klee One', 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--gray);
+    align-self: flex-end;
+    margin-bottom: 58px;
+  }
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+
+  <div class="badge">完全攻略</div>
+
+  <div class="sub">
+    <span class="brand">Canva</span><span class="de">で</span>
+  </div>
+
+  <div class="title">
+    <span class="fill" aria-hidden="true">表紙作成</span>
+    <span class="line">表紙作成</span>
+  </div>
+
+  <!-- デスクでノートPCを使う女性（オリジナルの線画イラスト） -->
+  <svg class="person" viewBox="0 0 360 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <pattern id="stripe" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(12)">
+        <rect width="9" height="9" fill="#f3e8d6"/>
+        <rect width="2.4" height="9" fill="#c7a878"/>
+      </pattern>
+    </defs>
+    <g stroke="#2b2d42" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+      <!-- 椅子 -->
+      <path d="M52 118 Q48 108 60 104 L104 104 Q114 106 112 118 L108 226 L58 226 Z" fill="#eef0f4"/>
+      <path d="M40 228 L158 228 Q166 230 162 240 L44 240 Q34 238 40 228 Z" fill="#eef0f4"/>
+      <path d="M44 150 L34 150 L34 226" fill="none"/>
+      <line x1="100" y1="240" x2="100" y2="330"/>
+      <path d="M100 330 L52 352 M100 330 L148 352 M100 330 L100 356 M100 330 L72 346 M100 330 L128 346" fill="none"/>
+      <circle cx="50" cy="356" r="6" fill="#2b2d42"/>
+      <circle cx="150" cy="356" r="6" fill="#2b2d42"/>
+      <circle cx="100" cy="362" r="6" fill="#2b2d42"/>
+
+      <!-- 後ろの脚 -->
+      <path d="M150 222 L214 226 L222 336 L204 338 L196 244 L150 244 Z" fill="url(#stripe)"/>
+      <path d="M204 336 L224 334 Q236 344 232 352 L200 352 Q196 344 204 336 Z" fill="#8a4b2a"/>
+
+      <!-- 前で組んだ脚 -->
+      <path d="M86 204 L208 206 Q232 208 238 226 L270 318 L252 326 L220 246 L96 244 Z" fill="url(#stripe)"/>
+      <path d="M252 324 L270 316 Q290 322 292 336 L262 338 Q250 334 252 324 Z" fill="#8a4b2a"/>
+
+      <!-- ポニーテール -->
+      <path d="M98 44 Q70 14 96 4 Q128 -4 124 26 Q150 18 142 48 Q146 76 128 90 L102 92 Q82 70 98 44 Z" fill="#27306b"/>
+      <path d="M100 42 Q76 60 70 96 Q66 118 80 126 Q76 104 92 84 Z" fill="#27306b"/>
+
+      <!-- 首・顔 -->
+      <path d="M112 96 L112 116 L130 116 L130 96 Z" fill="#fbe3d3"/>
+      <ellipse cx="124" cy="72" rx="21" ry="26" fill="#fbe3d3"/>
+      <path d="M102 60 Q108 36 132 42 Q146 48 146 64 Q132 58 118 56 Q108 58 102 70 Z" fill="#27306b"/>
+      <path d="M128 72 Q132 70 136 72 M116 72 Q119 70 122 72" fill="none" stroke-width="2"/>
+      <path d="M124 86 Q128 88 132 86" fill="none" stroke="#c25a5a" stroke-width="2"/>
+
+      <!-- ジャケット（胴体） -->
+      <path d="M92 118 Q110 108 122 112 Q136 108 150 116 Q160 150 158 208 L84 210 Q80 160 92 118 Z" fill="#e2a83c"/>
+      <path d="M112 114 L122 150 L132 114 Z" fill="#ffffff"/>
+      <path d="M112 114 L104 138 L118 146 M132 114 L140 138 L126 146" fill="none"/>
+
+      <!-- 腕：デスクのPCへ -->
+      <path d="M146 120 Q168 136 172 172 L214 168 L216 184 L162 190 Q150 170 142 146 Z" fill="#e2a83c"/>
+      <ellipse cx="220" cy="176" rx="9" ry="7" fill="#fbe3d3"/>
+
+      <!-- デスク -->
+      <rect x="150" y="182" width="206" height="12" rx="3" fill="#3b3f8f"/>
+      <rect x="160" y="194" width="186" height="5" fill="#c9cbe8" stroke-width="0"/>
+      <line x1="340" y1="199" x2="340" y2="400"/>
+
+      <!-- ノートPC（背面） -->
+      <path d="M228 180 L300 180 L318 128 L248 128 Z" fill="#b78ef0"/>
+      <circle cx="274" cy="154" r="4" fill="#2b2d42"/>
+      <path d="M212 181 L312 181" stroke-width="3"/>
+    </g>
+  </svg>
+
+  <div class="bubble">
+    <svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M18 20 L170 20 L540 22 Q624 26 624 125 Q622 226 540 230 L150 232 Q66 230 62 150 L60 92 Q58 44 18 20 Z"
+            fill="rgba(255,255,255,.55)" stroke="#6b6b72" stroke-width="2.4" stroke-linejoin="round"/>
+    </svg>
+    <div class="text">
+      <div class="lead">制作時間<br>たったの</div>
+      <div class="num">10</div>
+      <div class="unit">分</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
