@@ -65,3 +65,13 @@ Chrome でページを開き、右クリック →「検証」→ 画面左上�
 4. 1〜2分後、同じ画面の上部に公開URL（`https://yujiyujis3-oss.github.io/yuji-01/`）が表示される
 
 以降は main ブランチを更新すると、公開中のサイトにも自動で反映されます。
+
+## 美容室・エステ向け広告デザイン50点（`salon-designs/`）
+
+`salon-designs/index.html` に一覧があります。画像は `images/`、一覧用の軽量版は `thumbs/`、元データを作るスクリプトは `tools/` にあります。
+
+再生成する場合（Node.js・playwright-core・sharp が必要）：
+
+```bash
+cd salon-designs && node tools/build.js && node tools/gallery.js
+```
