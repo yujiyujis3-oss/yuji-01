@@ -37,7 +37,7 @@
 .portfolio-card h4 { font-size: 15px; font-weight: 500; line-height: 1.7; margin-top: 12px; overflow-wrap: anywhere; }
 .portfolio-card .sample-caption { font-size: 12px; }
 .portfolio-empty { padding: 64px 16px; border: 1px solid var(--line); text-align: center; color: var(--text-dim); }
-.portfolio-style-links { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px; margin: 40px 0 32px; }
+.portfolio-style-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 40px 0 32px; }
 .style-link { min-width: 0; display: block; }
 .style-link img { width: 100%; aspect-ratio: 4/5; object-fit: contain; padding: 8px; background: var(--bg-sub); border: 1px solid var(--line); }
 .style-link:hover img { border-color: var(--accent); }

@@ -13,6 +13,12 @@ window.PORTFOLIO = {
       "cover": "canva-044"
     },
     {
+      "id": "people",
+      "label": "人物・写真テイスト",
+      "description": "人の表情と空気感を生かした、写真テイストの表現。",
+      "cover": "canva-121"
+    },
+    {
       "id": "clean",
       "label": "きれい系",
       "description": "余白と光を生かした、上品で洗練された表現。",
@@ -1957,9 +1963,10 @@ window.PORTFOLIO = {
       "industry": "esthetic",
       "styles": [
         "lego",
-        "clean"
+        "clean",
+        "people"
       ],
-      "primaryStyle": "lego",
+      "primaryStyle": "people",
       "thumbnail": "images/portfolio/canva-121-thumb.webp",
       "image": "images/portfolio/canva-121.webp",
       "width": 1536,
@@ -3024,9 +3031,10 @@ window.PORTFOLIO = {
       "title": "美容室 — モデルビジュアル",
       "industry": "hair",
       "styles": [
-        "clean"
+        "clean",
+        "people"
       ],
-      "primaryStyle": "clean",
+      "primaryStyle": "people",
       "thumbnail": "images__salon-model.webp",
       "image": "images__salon-model-full.webp",
       "width": 1672,
@@ -3067,9 +3075,10 @@ window.PORTFOLIO = {
       "title": "YouTubeサムネイル ポートフォリオ",
       "industry": "media",
       "styles": [
-        "clean"
+        "clean",
+        "people"
       ],
-      "primaryStyle": "clean",
+      "primaryStyle": "people",
       "thumbnail": "images__youtube.webp",
       "image": "images__youtube-full.webp",
       "width": 1672,
