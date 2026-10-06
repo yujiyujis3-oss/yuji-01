@@ -1,11 +1,13 @@
 """Rebuild the no-JavaScript gallery and homepage entry cards from portfolio-data.js."""
 import json
+import hashlib
 from pathlib import Path
 from html import escape
 
 root = Path(__file__).resolve().parents[1]
 data = json.loads((root/'portfolio-data.js').read_text().removeprefix('window.PORTFOLIO = ').rstrip(';\n'))
 works = data['works']
+data_version = hashlib.sha256((root/'portfolio-data.js').read_bytes()).hexdigest()[:12]
 assert len({w['id'] for w in works}) == len(works)
 
 def card(w):
@@ -68,7 +70,7 @@ html=f'''<!doctype html>
     <div class="artwork-dialog-foot"><a class="text-link" id="artwork-original" target="_blank" rel="noopener">元のサイズで開く ↗</a><span id="artwork-position" aria-live="polite"></span><div class="artwork-navigation"><button type="button" class="filter-button" id="artwork-prev" aria-label="前の作品">← 前へ</button><button type="button" class="filter-button" id="artwork-next" aria-label="次の作品">次へ →</button></div></div>
   </dialog>
   <footer class="site-footer"><div class="container"><p class="copyright">© <span data-year>2026</span> YUJI SHIMONO</p></div></footer>
-  <script src="portfolio-data.js" defer></script>
+  <script src="portfolio-data.js?v={data_version}" defer></script>
   <script src="portfolio.js" defer></script>
   <script src="js__detail.js" defer></script>
 </body>
