@@ -2447,7 +2447,7 @@ window.PORTFOLIO = {
       "id": "8bit",
       "label": "８ビットファミコン風",
       "description": "美容室・居酒屋・飲食店など、業種別に参考作品をご覧いただけます。",
-      "cover": "8bit-6c81ecbffede"
+      "cover": "nursing-home"
     },
     {
       "id": "original",
