@@ -28,9 +28,13 @@ for s in data['collections']:
 
 links=[]
 for s in data['collections']:
+    if s['id'] != '8bit': continue
     cover=next(w for w in works if w['id']==s['cover'])
     count=sum(s['id'] == w['collection'] for w in works)
     links.append(f'''<a class="style-link" href="ad-design.html?collection={s['id']}#samples"><img src="{cover['thumbnail']}" width="{cover['width']}" height="{cover['height']}" loading="lazy" decoding="async" alt="{escape(cover['title'])}"><h3>{s['label']} ↗</h3><p>{count}点の作品を見る</p></a>''')
+for w in works:
+    if w['collection'] != 'original': continue
+    links.append(f'''<a class="style-link" href="{escape(w.get('detailPage', w['image']))}"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"><h3>{escape(w['title'])} ↗</h3></a>''')
 folder_links=''.join(links)
 
 html=f'''<!doctype html>
@@ -54,7 +58,7 @@ html=f'''<!doctype html>
     <nav class="page-actions" aria-label="ページ移動"><a class="btn btn--ghost" href="index.html#works">ホームの作品欄に戻る</a></nav>
     <div class="portfolio-intro" id="samples">
       <p class="section-label label">AD DESIGN / PORTFOLIO</p>
-      <h1 class="section-title" id="collection-title">広告デザイン</h1>
+      <h1 class="section-title" id="collection-title" hidden></h1>
       <p class="detail-lead">作品集を選び、その中から業種別に作品をご覧ください。</p>
       <p class="portfolio-note">広告・ポスター・バナーの参考作品。画像を選ぶと全体を大きく表示します。</p>
     </div>

@@ -62,7 +62,8 @@
     gallery.hidden = landing;
     controls.hidden = landing;
     back.hidden = landing;
-    title.textContent = landing ? '広告デザイン' : data.collections.find(function(c) { return c.id === style; }).label;
+    title.hidden = landing;
+    title.textContent = landing ? '' : data.collections.find(function(c) { return c.id === style; }).label;
     if (landing) { visible = []; return; }
 
     var matched = data.works.filter(function (w) {
