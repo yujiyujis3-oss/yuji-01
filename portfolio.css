@@ -59,3 +59,7 @@ body.artwork-open { overflow: hidden; }
 @media (max-width: 1000px) { .portfolio-style-links { grid-template-columns: repeat(3, minmax(0,1fr)); } }
 @media (max-width: 700px) { .portfolio-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 24px 14px; } .portfolio-style-links { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 24px 16px; } #industry-filters { display: none; } .industry-select { display: block; } }
 @media (max-width: 420px) { .portfolio-grid { grid-template-columns: minmax(0,1fr); } .filter-button { padding-inline: 12px; } .artwork-dialog-head { padding-inline: 12px; } }
+
+#collection-folders[hidden], #collection-back[hidden], #portfolio-gallery[hidden] { display: none; }
+#collection-folders { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 820px; }
+@media (max-width: 600px) { #collection-folders { grid-template-columns: minmax(0,1fr); } }

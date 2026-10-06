@@ -4,7 +4,9 @@
   var gallery = document.getElementById('portfolio-gallery');
   if (!data || !gallery) return;
   var controls = document.getElementById('portfolio-controls');
-  var styleFilters = document.getElementById('style-filters');
+  var folders = document.getElementById('collection-folders');
+  var back = document.getElementById('collection-back');
+  var title = document.getElementById('collection-title');
   var industryFilters = document.getElementById('industry-filters');
   var industrySelect = document.getElementById('industry-select');
   var search = document.getElementById('portfolio-search');
@@ -26,28 +28,26 @@
   }
   function readURL() {
     var params = new URLSearchParams(location.search);
-    style = known(data.styles, params.get('style')) ? params.get('style') : 'all';
+    var selected = params.get('collection') || (params.get('style') === 'pixel' ? '8bit' : 'all');
+    style = known(data.collections, selected) ? selected : 'all';
     industry = known(data.industries, params.get('industry')) ? params.get('industry') : 'all';
     query = params.get('q') || '';
     search.value = query;
   }
   function writeURL(replace) {
     var url = new URL(location.href);
-    ['style', 'industry', 'q'].forEach(function (key) { url.searchParams.delete(key); });
-    if (style !== 'all') url.searchParams.set('style', style);
+    ['style', 'collection', 'industry', 'q'].forEach(function (key) { url.searchParams.delete(key); });
+    if (style !== 'all') url.searchParams.set('collection', style);
     if (industry !== 'all') url.searchParams.set('industry', industry);
     if (query) url.searchParams.set('q', query);
     if (url.href !== location.href) history[replace ? 'replaceState' : 'pushState'](null, '', url);
   }
   function renderFilters() {
-    var eligible = data.works.filter(function (w) { return style === 'all' || w.styles.includes(style); });
-    styleFilters.innerHTML = button({id:'all',label:'すべて'}, data.works.length, style) + data.styles.map(function (s) {
-      return button(s, data.works.filter(function (w) { return w.styles.includes(s.id); }).length, style);
-    }).join('');
-    industryFilters.innerHTML = button({id:'all',label:'この雰囲気の全業種'}, eligible.length, industry) + data.industries.map(function (s) {
+    var eligible = data.works.filter(function (w) { return style === 'all' || w.collection === style; });
+    industryFilters.innerHTML = button({id:'all',label:'すべての業種'}, eligible.length, industry) + data.industries.map(function (s) {
       return button(s, eligible.filter(function (w) { return w.industry === s.id; }).length, industry);
     }).join('');
-    industrySelect.innerHTML = '<option value="all">この雰囲気の全業種（' + eligible.length + '点）</option>' + data.industries.map(function (s) {
+    industrySelect.innerHTML = '<option value="all">すべての業種（' + eligible.length + '点）</option>' + data.industries.map(function (s) {
       var count = eligible.filter(function (w) { return w.industry === s.id; }).length;
       return count ? '<option value="' + s.id + '">' + escape(s.label) + '（' + count + '点）</option>' : '';
     }).join('');
@@ -57,14 +57,22 @@
     industrySelect.value = industry;
   }
   function render() {
+    var landing = style === 'all';
+    folders.hidden = !landing;
+    gallery.hidden = landing;
+    controls.hidden = landing;
+    back.hidden = landing;
+    title.textContent = landing ? '広告デザイン' : data.collections.find(function(c) { return c.id === style; }).label;
+    if (landing) { visible = []; return; }
+
     var matched = data.works.filter(function (w) {
       var sector = data.industries.find(function (i) { return i.id === w.industry; });
-      return (style === 'all' || w.styles.includes(style)) && (industry === 'all' || industry === w.industry) && (!query || normalize(w.title + ' ' + sector.label).includes(normalize(query)));
+      return (style === 'all' || w.collection === style) && (industry === 'all' || industry === w.industry) && (!query || normalize(w.title + ' ' + sector.label).includes(normalize(query)));
     });
-    var groups = style === 'all' ? data.styles : data.styles.filter(function (s) { return s.id === style; });
+    var groups = style === 'all' ? data.collections : data.collections.filter(function (s) { return s.id === style; });
     visible = [];
     gallery.innerHTML = groups.map(function (s) {
-      var entries = matched.filter(function (w) { return style !== 'all' || w.primaryStyle === s.id; });
+      var entries = matched.filter(function (w) { return style !== 'all' || w.collection === s.id; });
       if (!entries.length) return '';
       return '<section class="portfolio-style" aria-labelledby="heading-' + s.id + '"><div class="portfolio-style-head"><h2 id="heading-' + s.id + '">' + escape(s.label) + '</h2><p>' + escape(s.description) + '</p></div>' + data.industries.map(function (i) {
         var works = entries.filter(function (w) { return w.industry === i.id; });
@@ -72,15 +80,9 @@
         visible = visible.concat(works);
         return '<section class="portfolio-industry" aria-labelledby="heading-' + s.id + '-' + i.id + '"><h3 id="heading-' + s.id + '-' + i.id + '">' + escape(i.label) + '<span>' + works.length + '点</span></h3><div class="portfolio-grid">' + works.map(card).join('') + '</div></section>';
       }).join('') + '</section>';
-    }).join('') || '<p class="portfolio-empty">条件に合う作品がありません。雰囲気・業種・検索語を変更してください。</p>';
-    status.textContent = matched.length + '点を表示 ／ 全' + data.works.length + '点';
+    }).join('') || '<p class="portfolio-empty">条件に合う作品がありません。業種・検索語を変更してください。</p>';
+    status.textContent = matched.length + '点を表示 ／ この作品集 ' + data.works.filter(function(w) { return w.collection === style; }).length + '点';
   }
-  styleFilters.addEventListener('click', function (event) {
-    var target = event.target.closest('button'); if (!target || target.disabled) return;
-    style = target.dataset.filter; industry = 'all';
-    renderFilters(); render(); writeURL(false);
-    styleFilters.querySelector('[aria-pressed="true"]').focus({preventScroll:true});
-  });
   industryFilters.addEventListener('click', function (event) {
     var target = event.target.closest('button'); if (!target || target.disabled) return;
     industry = target.dataset.filter;
@@ -125,5 +127,5 @@
     if (returnFocus && returnFocus.isConnected) returnFocus.focus({preventScroll:true});
   });
   dialog.addEventListener('click', function (event) { if (event.target === dialog) dialog.close(); });
-  readURL(); renderFilters(); render(); controls.hidden = false;
+  readURL(); renderFilters(); render();
 })();
