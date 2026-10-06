@@ -2395,7 +2395,7 @@ window.PORTFOLIO = {
       "width": 1672,
       "height": 941,
       "detailPage": "sample-nursing-home.html",
-      "collection": "original"
+      "collection": "8bit"
     },
     {
       "id": "youtube",
