@@ -1,0 +1,694 @@
+{
+  "source": "美女(1).zip",
+  "received_images": 76,
+  "unique_images": 76,
+  "added_images": 76,
+  "collection_total": 77,
+  "website_total": 277,
+  "works": [
+    {
+      "number": 1,
+      "filename": "美女/美女/0076_076_旅帰りの虹髪ボディケア.png",
+      "sha256": "75b8649445b1dcd1e0f24d2ec833ebc6590bd3d5ac492b47474fb30d870397e5",
+      "id": "bijo-75b8649445b1",
+      "industry": "body",
+      "image": "images/portfolio/bijo-75b8649445b1.webp",
+      "thumbnail": "images/portfolio/bijo-75b8649445b1-thumb.webp"
+    },
+    {
+      "number": 2,
+      "filename": "美女/美女/0077_013_original.png",
+      "sha256": "202d61052301e13113aa69e63e139513bfae387ef17de270916725ffeaac6588",
+      "id": "bijo-202d61052301",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-202d61052301.webp",
+      "thumbnail": "images/portfolio/bijo-202d61052301-thumb.webp"
+    },
+    {
+      "number": 3,
+      "filename": "美女/美女/0077_077_虹色ヘアで楽しむ美容室メニュー.png",
+      "sha256": "4838cda6db62aff7fe3e84f7c29f0967707181bf80f484c526292cd97416d9d0",
+      "id": "bijo-4838cda6db62",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-4838cda6db62.webp",
+      "thumbnail": "images/portfolio/bijo-4838cda6db62-thumb.webp"
+    },
+    {
+      "number": 4,
+      "filename": "美女/美女/0078_078_虹髪の彼女とエステメニュー.png",
+      "sha256": "f4087b4f07a7f1861afb02d901b0223646c70dff7031920b85f60c82b8b586ed",
+      "id": "bijo-f4087b4f07a7",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-f4087b4f07a7.webp",
+      "thumbnail": "images/portfolio/bijo-f4087b4f07a7-thumb.webp"
+    },
+    {
+      "number": 5,
+      "filename": "美女/美女/0079_079_虹髪で彩るネイルとまつ毛.png",
+      "sha256": "acb8e704db1451ecbcf545a79d801f2356511483c34dfb30f4d212c72930e752",
+      "id": "bijo-acb8e704db14",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-acb8e704db14.webp",
+      "thumbnail": "images/portfolio/bijo-acb8e704db14-thumb.webp"
+    },
+    {
+      "number": 6,
+      "filename": "美女/美女/0080_080_虹髪と選べる整体ケア.png",
+      "sha256": "6d5a5de181c0eb0bd9cc39ad28c247b1a1f2757c35a6fc805a9b26545df979e7",
+      "id": "bijo-6d5a5de181c0",
+      "industry": "body",
+      "image": "images/portfolio/bijo-6d5a5de181c0.webp",
+      "thumbnail": "images/portfolio/bijo-6d5a5de181c0-thumb.webp"
+    },
+    {
+      "number": 7,
+      "filename": "美女/美女/0081_081_虹色前髪で、気分チェンジ.png",
+      "sha256": "353fb40009908ccdb087ea0d7ca78b6c0192461d9b58148c99f3803ae8cdc291",
+      "id": "bijo-353fb4000990",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-353fb4000990.webp",
+      "thumbnail": "images/portfolio/bijo-353fb4000990-thumb.webp"
+    },
+    {
+      "number": 8,
+      "filename": "美女/美女/0082_082_虹色ヘアのエステ予約案内.png",
+      "sha256": "7ac64adc3ff7c31292a103a2ddc80ee393d89e25ef7c54f9ba0210dada86a398",
+      "id": "bijo-7ac64adc3ff7",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-7ac64adc3ff7.webp",
+      "thumbnail": "images/portfolio/bijo-7ac64adc3ff7-thumb.webp"
+    },
+    {
+      "number": 9,
+      "filename": "美女/美女/0083_083_虹髪モデルのネイル・まつ毛予約.png",
+      "sha256": "fbdb1e254b6db66a2b94232bb0ec7db35222bfbf11178538ba8e28eb3d5d199e",
+      "id": "bijo-fbdb1e254b6d",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-fbdb1e254b6d.webp",
+      "thumbnail": "images/portfolio/bijo-fbdb1e254b6d-thumb.webp"
+    },
+    {
+      "number": 10,
+      "filename": "美女/美女/0084_084_虹髪サロンのスカルプケア.png",
+      "sha256": "5fc9b402fadc59ccf612eecd267627dca015ddda158fc677186924fedf7a108c",
+      "id": "bijo-5fc9b402fadc",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-5fc9b402fadc.webp",
+      "thumbnail": "images/portfolio/bijo-5fc9b402fadc-thumb.webp"
+    },
+    {
+      "number": 11,
+      "filename": "美女/美女/0085_085_虹髪キャラクターの整体予約広告.png",
+      "sha256": "bb98a83f803e417a5cda5433550f355153985ec67a5fad5c1aa8f7121fa6b82e",
+      "id": "bijo-bb98a83f803e",
+      "industry": "body",
+      "image": "images/portfolio/bijo-bb98a83f803e.webp",
+      "thumbnail": "images/portfolio/bijo-bb98a83f803e-thumb.webp"
+    },
+    {
+      "number": 12,
+      "filename": "美女/美女/0086_086_虹髪のアロマボディケア.png",
+      "sha256": "7aab61900ecbafdb9d32f07935196b519107ea35ffe03df6ff243cb71d326214",
+      "id": "bijo-7aab61900ecb",
+      "industry": "body",
+      "image": "images/portfolio/bijo-7aab61900ecb.webp",
+      "thumbnail": "images/portfolio/bijo-7aab61900ecb-thumb.webp"
+    },
+    {
+      "number": 13,
+      "filename": "美女/美女/0087_087_虹髪と幾何学ネイル.png",
+      "sha256": "737c8f66bd05ffb87c91ba3169780fb648c49222a998baeb74ebf7651c3943b8",
+      "id": "bijo-737c8f66bd05",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-737c8f66bd05.webp",
+      "thumbnail": "images/portfolio/bijo-737c8f66bd05-thumb.webp"
+    },
+    {
+      "number": 14,
+      "filename": "美女/美女/0088_088_虹髪の女性が癒やされるドライヘッドスパ.png",
+      "sha256": "de5f38e922ecf0d3ecbf1133ca6cfc74585173b33f1b7341776c1027bf0def71",
+      "id": "bijo-de5f38e922ec",
+      "industry": "body",
+      "image": "images/portfolio/bijo-de5f38e922ec.webp",
+      "thumbnail": "images/portfolio/bijo-de5f38e922ec-thumb.webp"
+    },
+    {
+      "number": 15,
+      "filename": "美女/美女/0089_089_虹髪で楽しむメンテナンスカット.png",
+      "sha256": "c61a90827a85fc4442eaeb54322a7cfa68ea35e3a70459d088a7f67996960f5b",
+      "id": "bijo-c61a90827a85",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-c61a90827a85.webp",
+      "thumbnail": "images/portfolio/bijo-c61a90827a85-thumb.webp"
+    },
+    {
+      "number": 16,
+      "filename": "美女/美女/0090_090_虹髪の素肌ケアポスター.png",
+      "sha256": "b13f7e45f38117d165e607e8c992eefbb04fae965513cc91c49746307f8d2828",
+      "id": "bijo-b13f7e45f381",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-b13f7e45f381.webp",
+      "thumbnail": "images/portfolio/bijo-b13f7e45f381-thumb.webp"
+    },
+    {
+      "number": 17,
+      "filename": "美女/美女/0091_091_虹髪の彼女、ナチュラルまつ毛相談.png",
+      "sha256": "15078e9ac93aa400294aa064ca5d00725267b92addfae6c7e4e1100a6e7ccb71",
+      "id": "bijo-15078e9ac93a",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-15078e9ac93a.webp",
+      "thumbnail": "images/portfolio/bijo-15078e9ac93a-thumb.webp"
+    },
+    {
+      "number": 18,
+      "filename": "美女/美女/0092_092_虹髪のやすらぎハンドケア.png",
+      "sha256": "ff74015d16840a3be53b34487e0f1d2c6b8c2d4b3ce27100815bd57c100a1f86",
+      "id": "bijo-ff74015d1684",
+      "industry": "body",
+      "image": "images/portfolio/bijo-ff74015d1684.webp",
+      "thumbnail": "images/portfolio/bijo-ff74015d1684-thumb.webp"
+    },
+    {
+      "number": 19,
+      "filename": "美女/美女/0093_093_重なりが生む、虹色レイヤー.png",
+      "sha256": "39f0fb39e9712a57fac9814c7bfbeacb308355ce5295c95dd5edb71990247f4a",
+      "id": "bijo-39f0fb39e971",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-39f0fb39e971.webp",
+      "thumbnail": "images/portfolio/bijo-39f0fb39e971-thumb.webp"
+    },
+    {
+      "number": 20,
+      "filename": "美女/美女/0094_094_虹髪のボディスキンケア.png",
+      "sha256": "f039f7bd667122106ad06586d8e66b9e8c2307f8e24b66695978efdf45400321",
+      "id": "bijo-f039f7bd6671",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-f039f7bd6671.webp",
+      "thumbnail": "images/portfolio/bijo-f039f7bd6671-thumb.webp"
+    },
+    {
+      "number": 21,
+      "filename": "美女/美女/0095_095_虹髪のミラーネイル.png",
+      "sha256": "608c231b64bf80edf538fd34a747c3546ea0a72a5a021a2d7fe74e5d73306ab4",
+      "id": "bijo-608c231b64bf",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-608c231b64bf.webp",
+      "thumbnail": "images/portfolio/bijo-608c231b64bf-thumb.webp"
+    },
+    {
+      "number": 22,
+      "filename": "美女/美女/0096_096_虹色ヘアの美容室ポスター.png",
+      "sha256": "b98862c7d98bd09679ccfd1ae21087d9b9c3e4adbcfb6e6f9892a5c082a4a9b4",
+      "id": "bijo-b98862c7d98b",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-b98862c7d98b.webp",
+      "thumbnail": "images/portfolio/bijo-b98862c7d98b-thumb.webp"
+    },
+    {
+      "number": 23,
+      "filename": "美女/美女/0097_097_予定の合間のボディケア.png",
+      "sha256": "ef7455ea5b52f2173c19a4253808ca96074432db8b6b51227985b4279843569e",
+      "id": "bijo-ef7455ea5b52",
+      "industry": "body",
+      "image": "images/portfolio/bijo-ef7455ea5b52.webp",
+      "thumbnail": "images/portfolio/bijo-ef7455ea5b52-thumb.webp"
+    },
+    {
+      "number": 24,
+      "filename": "美女/美女/0098_098_虹髪の彼女、指先に宿る個性.png",
+      "sha256": "fd29a55849e18ba16a9d697dc30238375b5bb8c6c6669287381366dd85005d4e",
+      "id": "bijo-fd29a55849e1",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-fd29a55849e1.webp",
+      "thumbnail": "images/portfolio/bijo-fd29a55849e1-thumb.webp"
+    },
+    {
+      "number": 25,
+      "filename": "美女/美女/0099_099_虹髪の静かなサロン散歩.png",
+      "sha256": "bba6adef4db3ace91df590d912c89bcaca8b24a27cc3cbe2c8495bea33e61101",
+      "id": "bijo-bba6adef4db3",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-bba6adef4db3.webp",
+      "thumbnail": "images/portfolio/bijo-bba6adef4db3-thumb.webp"
+    },
+    {
+      "number": 26,
+      "filename": "美女/美女/0100_100_虹髪の整体サロン広告.png",
+      "sha256": "3f1293576a726156484aa548c98a50c9480e1265146f9365546961889c431213",
+      "id": "bijo-3f1293576a72",
+      "industry": "body",
+      "image": "images/portfolio/bijo-3f1293576a72.webp",
+      "thumbnail": "images/portfolio/bijo-3f1293576a72-thumb.webp"
+    },
+    {
+      "number": 27,
+      "filename": "美女/美女/0146_082_original.png",
+      "sha256": "5c0a846dd4ab3841ec66bf1efd7d402086c77785fce598f07e30e994f4acee4f",
+      "id": "bijo-5c0a846dd4ab",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-5c0a846dd4ab.webp",
+      "thumbnail": "images/portfolio/bijo-5c0a846dd4ab-thumb.webp"
+    },
+    {
+      "number": 28,
+      "filename": "美女/美女/0363_海辺に輝くシャンパンブロンド.png",
+      "sha256": "f149b0786a3a34dceabcbe7859f62104af1e1ba22c90472aa9dd52706c9a3213",
+      "id": "bijo-f149b0786a3a",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-f149b0786a3a.webp",
+      "thumbnail": "images/portfolio/bijo-f149b0786a3a-thumb.webp"
+    },
+    {
+      "number": 29,
+      "filename": "美女/美女/0366_風をまとう髪、ターコイズの光.png",
+      "sha256": "e5404ed69c29d33ad7b0d60c93b8af72c586ca654d602bbd537e1d32d6f15fac",
+      "id": "bijo-e5404ed69c29",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-e5404ed69c29.webp",
+      "thumbnail": "images/portfolio/bijo-e5404ed69c29-thumb.webp"
+    },
+    {
+      "number": 30,
+      "filename": "美女/美女/0500_錆と透光のまつ毛メニュー.png",
+      "sha256": "b855dcdd8cd7dcdc49af2ab82416a2f11f90491cf70ffeacf34846202f1e061e",
+      "id": "bijo-b855dcdd8cd7",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-b855dcdd8cd7.webp",
+      "thumbnail": "images/portfolio/bijo-b855dcdd8cd7-thumb.webp"
+    },
+    {
+      "number": 31,
+      "filename": "美女/美女/0522_青髪スタッフのボディケア採用.png",
+      "sha256": "fe96d86af0120237814539add4e51ba06508b86225f71d53f8e59f97cf9cf043",
+      "id": "bijo-fe96d86af012",
+      "industry": "body",
+      "image": "images/portfolio/bijo-fe96d86af012.webp",
+      "thumbnail": "images/portfolio/bijo-fe96d86af012-thumb.webp"
+    },
+    {
+      "number": 32,
+      "filename": "美女/美女/0653_自然光で微笑むSENのボブ.png",
+      "sha256": "7d88abda071cdd1bb8e7ca3c0c42162eb6ed53b63d109ea9220dc105bb610873",
+      "id": "bijo-7d88abda071c",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-7d88abda071c.webp",
+      "thumbnail": "images/portfolio/bijo-7d88abda071c-thumb.webp"
+    },
+    {
+      "number": 33,
+      "filename": "美女/美女/0933_きらめく髪、弾む私.png",
+      "sha256": "20409bca708699c00d721256e474281d1236c76c0665ee3a945e19592bca5a85",
+      "id": "bijo-20409bca7086",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-20409bca7086.webp",
+      "thumbnail": "images/portfolio/bijo-20409bca7086-thumb.webp"
+    },
+    {
+      "number": 34,
+      "filename": "美女/美女/0934_くせを、魅力に。自然なウェーブの笑顔.png",
+      "sha256": "e857fb6e0b1fb096e00f0b142f64ef823a7ed48eccc767fbf429301e00af0aea",
+      "id": "bijo-e857fb6e0b1f",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-e857fb6e0b1f.webp",
+      "thumbnail": "images/portfolio/bijo-e857fb6e0b1f-thumb.webp"
+    },
+    {
+      "number": 35,
+      "filename": "美女/美女/0967_カッパーブラウンで、気分を変える.png",
+      "sha256": "fd820c2f842b0d39d1c8ffa6e9f1c686192e692be39dc2c8a5bb1abb68a5522d",
+      "id": "bijo-fd820c2f842b",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-fd820c2f842b.webp",
+      "thumbnail": "images/portfolio/bijo-fd820c2f842b-thumb.webp"
+    },
+    {
+      "number": 36,
+      "filename": "美女/美女/0973_コバルトの美容師、働こう。.png",
+      "sha256": "12b765e3e066d53ea1220075ec0311208bf7437ffaf1b5994f7c8384d345f1b1",
+      "id": "bijo-12b765e3e066",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-12b765e3e066.webp",
+      "thumbnail": "images/portfolio/bijo-12b765e3e066-thumb.webp"
+    },
+    {
+      "number": 37,
+      "filename": "美女/美女/0980_シャンパンゴールドに輝くヘアサロン.png",
+      "sha256": "90785926765db15ab247d910c31b17a0c9ee037e789cc6f2bfeb16ca471ae8d9",
+      "id": "bijo-90785926765d",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-90785926765d.webp",
+      "thumbnail": "images/portfolio/bijo-90785926765d-thumb.webp"
+    },
+    {
+      "number": 38,
+      "filename": "美女/美女/0989_ティールボブの脱毛相談.png",
+      "sha256": "5dbefa3abe6582b897fab6d410cabf95c8fcb7c4b1b65a240d516a840420981b",
+      "id": "bijo-5dbefa3abe65",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-5dbefa3abe65.webp",
+      "thumbnail": "images/portfolio/bijo-5dbefa3abe65-thumb.webp"
+    },
+    {
+      "number": 39,
+      "filename": "美女/美女/0990_テラコッタの手とやわらかなタオル.png",
+      "sha256": "8f02b5a9258a82c9338b0c4e2f4253554b31f9e8770f5b4d5dded3c8786543fb",
+      "id": "bijo-8f02b5a9258a",
+      "industry": "body",
+      "image": "images/portfolio/bijo-8f02b5a9258a.webp",
+      "thumbnail": "images/portfolio/bijo-8f02b5a9258a-thumb.webp"
+    },
+    {
+      "number": 40,
+      "filename": "美女/美女/0999_ハニーブロンドのまつげ施術ポスター.png",
+      "sha256": "5501fb8d08676f175d6e9580a2a68e63620292e4901f3832a95bdc92f3f4ef9e",
+      "id": "bijo-5501fb8d0867",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-5501fb8d0867.webp",
+      "thumbnail": "images/portfolio/bijo-5501fb8d0867-thumb.webp"
+    },
+    {
+      "number": 41,
+      "filename": "美女/美女/1009_ブロンズと淡紫の素肌.png",
+      "sha256": "4291871c1fdf068f714b5c9da96ad91ab673e8520a5e4d4ba227f826c785bb50",
+      "id": "bijo-4291871c1fdf",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-4291871c1fdf.webp",
+      "thumbnail": "images/portfolio/bijo-4291871c1fdf-thumb.webp"
+    },
+    {
+      "number": 42,
+      "filename": "美女/美女/1014_ミントの光、脱毛カウンセリング.png",
+      "sha256": "c9f2eef0f0f4c2c6c4fe96d98f17454aceb28cbb733e14de6b33909284860c93",
+      "id": "bijo-c9f2eef0f0f4",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-c9f2eef0f0f4.webp",
+      "thumbnail": "images/portfolio/bijo-c9f2eef0f0f4-thumb.webp"
+    },
+    {
+      "number": 43,
+      "filename": "美女/美女/1027_レモンイエローのピクシー広告.png",
+      "sha256": "33ddbe6000ff155895289aa1a39827cc13a08aedd47031efc6c74af200b318a0",
+      "id": "bijo-33ddbe6000ff",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-33ddbe6000ff.webp",
+      "thumbnail": "images/portfolio/bijo-33ddbe6000ff-thumb.webp"
+    },
+    {
+      "number": 44,
+      "filename": "美女/美女/1037_上品な編み込みで迎える晴れの日.png",
+      "sha256": "337d6bb971f1481c7aaf9ca02116a14e5aae9d7a1e43e87cb8b886f8822cdc64",
+      "id": "bijo-337d6bb971f1",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-337d6bb971f1.webp",
+      "thumbnail": "images/portfolio/bijo-337d6bb971f1-thumb.webp"
+    },
+    {
+      "number": 45,
+      "filename": "美女/美女/1052_似合う髪を提案する美容室ポスター.png",
+      "sha256": "27354aa15598919b973a2e472bb3718aa0d67cafd5ae10b4510a46b73788cb01",
+      "id": "bijo-27354aa15598",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-27354aa15598.webp",
+      "thumbnail": "images/portfolio/bijo-27354aa15598-thumb.webp"
+    },
+    {
+      "number": 46,
+      "filename": "美女/美女/1053_余白に映える、繊細なまなざし.png",
+      "sha256": "cd42125d356df567712b586ed21f08229a30914d6c4e37e748821ee925c45f15",
+      "id": "bijo-cd42125d356d",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-cd42125d356d.webp",
+      "thumbnail": "images/portfolio/bijo-cd42125d356d-thumb.webp"
+    },
+    {
+      "number": 47,
+      "filename": "美女/美女/1054_余裕の朝、柔らかなカール.png",
+      "sha256": "89e4f826017039aa6f823f7e55b791ce374233a180e2850f4153436a24950952",
+      "id": "bijo-89e4f8260170",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-89e4f8260170.webp",
+      "thumbnail": "images/portfolio/bijo-89e4f8260170-thumb.webp"
+    },
+    {
+      "number": 48,
+      "filename": "美女/美女/1074_地中海の風と、軽やかレイヤー.png",
+      "sha256": "e95d58fcd2ddac68263b0e6315a09647c1c81f1a7d8f53d9b928b0e5916ab5a5",
+      "id": "bijo-e95d58fcd2dd",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-e95d58fcd2dd.webp",
+      "thumbnail": "images/portfolio/bijo-e95d58fcd2dd-thumb.webp"
+    },
+    {
+      "number": 49,
+      "filename": "美女/美女/1085_大人のブラウンカラー相談.png",
+      "sha256": "8dfde5b9733792d517349012594ea1a9796284ea0074831977fa839eff9d7cb7",
+      "id": "bijo-8dfde5b97337",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-8dfde5b97337.webp",
+      "thumbnail": "images/portfolio/bijo-8dfde5b97337-thumb.webp"
+    },
+    {
+      "number": 50,
+      "filename": "美女/美女/1086_大人の洗練ボブサロン広告.png",
+      "sha256": "9d158d4166f56696a71afbbb5e58018c25b0e514dca8ffe8e703d3009aa95a47",
+      "id": "bijo-9d158d4166f5",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-9d158d4166f5.webp",
+      "thumbnail": "images/portfolio/bijo-9d158d4166f5-thumb.webp"
+    },
+    {
+      "number": 51,
+      "filename": "美女/美女/1093_弾ける髪、きらめく光.png",
+      "sha256": "9fd397d4d0dcdedc3207bd0a6c2837c841ee9bab4422ce2496b723a7f0751a30",
+      "id": "bijo-9fd397d4d0dc",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-9fd397d4d0dc.webp",
+      "thumbnail": "images/portfolio/bijo-9fd397d4d0dc-thumb.webp"
+    },
+    {
+      "number": 52,
+      "filename": "美女/美女/1117_朝が軽くなる、まつ毛サロンポスター.png",
+      "sha256": "b0372c6167a786f10c7294fcc7e47f757b01aa16b3fe9071f60ca8a2aaaa155b",
+      "id": "bijo-b0372c6167a7",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-b0372c6167a7.webp",
+      "thumbnail": "images/portfolio/bijo-b0372c6167a7-thumb.webp"
+    },
+    {
+      "number": 53,
+      "filename": "美女/美女/1126_植物の光にきらめく金のリボン.png",
+      "sha256": "6b9fcddac3fe1b52e2c313766e85831aa7b4fec7cd1a3642d2c9c9030c0c46c7",
+      "id": "bijo-6b9fcddac3fe",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-6b9fcddac3fe.webp",
+      "thumbnail": "images/portfolio/bijo-6b9fcddac3fe-thumb.webp"
+    },
+    {
+      "number": 54,
+      "filename": "美女/美女/1127_植物の影とほどける肩.png",
+      "sha256": "1e66bef9886d95b8f422607a40fc2f78c7d33237d0173ce39a468d373863e88f",
+      "id": "bijo-1e66bef9886d",
+      "industry": "body",
+      "image": "images/portfolio/bijo-1e66bef9886d.webp",
+      "thumbnail": "images/portfolio/bijo-1e66bef9886d-thumb.webp"
+    },
+    {
+      "number": 55,
+      "filename": "美女/美女/1128_植物の影に包まれて.png",
+      "sha256": "032edcedbf13d6fd659d2ec3fafe23a66a81baf5f471d3cb0e6b7eb3b554a39b",
+      "id": "bijo-032edcedbf13",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-032edcedbf13.webp",
+      "thumbnail": "images/portfolio/bijo-032edcedbf13-thumb.webp"
+    },
+    {
+      "number": 56,
+      "filename": "美女/美女/1130_横顔を彩るまつ毛サロン.png",
+      "sha256": "5173da543098d02ae7a3fe7d93241df25e4124b77ae2f10fbb8366b546e577c0",
+      "id": "bijo-5173da543098",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-5173da543098.webp",
+      "thumbnail": "images/portfolio/bijo-5173da543098-thumb.webp"
+    },
+    {
+      "number": 57,
+      "filename": "美女/美女/1135_毛先まで好きになるサロン.png",
+      "sha256": "948e2d06173e4f5d7058446847c23b60e8ab02cd194610742ddfc6691bc0b48c",
+      "id": "bijo-948e2d06173e",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-948e2d06173e.webp",
+      "thumbnail": "images/portfolio/bijo-948e2d06173e-thumb.webp"
+    },
+    {
+      "number": 58,
+      "filename": "美女/美女/1137_水紋と翡翠のスキンケア.png",
+      "sha256": "9d4a0d3919484c4039cabf765663c3aa505297c7fcddbd0c5905d0ef6cffd0ba",
+      "id": "bijo-9d4a0d391948",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-9d4a0d391948.webp",
+      "thumbnail": "images/portfolio/bijo-9d4a0d391948-thumb.webp"
+    },
+    {
+      "number": 59,
+      "filename": "美女/美女/1141_洗練された美容室のヘアポスター.png",
+      "sha256": "7f9529f7e9949c0b72f624e23e711fe5314517f2a6546d946ede1c0428c68c35",
+      "id": "bijo-7f9529f7e994",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-7f9529f7e994.webp",
+      "thumbnail": "images/portfolio/bijo-7f9529f7e994-thumb.webp"
+    },
+    {
+      "number": 60,
+      "filename": "美女/美女/1146_海風になびく、自由な髪.png",
+      "sha256": "88764e1dee1ac31d575731d0200646489a18a15082a823808576a00b9724c9ee",
+      "id": "bijo-88764e1dee1a",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-88764e1dee1a.webp",
+      "thumbnail": "images/portfolio/bijo-88764e1dee1a-thumb.webp"
+    },
+    {
+      "number": 61,
+      "filename": "美女/美女/1181_白髪も、私らしく。.png",
+      "sha256": "97f4f05f90a9e7ef86cf23be17a692d962626edd5dc31f9d4f3f2f0fd26bded2",
+      "id": "bijo-97f4f05f90a9",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-97f4f05f90a9.webp",
+      "thumbnail": "images/portfolio/bijo-97f4f05f90a9-thumb.webp"
+    },
+    {
+      "number": 62,
+      "filename": "美女/美女/1214_結ぶ日も、きれいに。.png",
+      "sha256": "44271c41a2abdb20bb5b2e04d030d39d15553cf7522c1b7b7a95c780bc0ccb5c",
+      "id": "bijo-44271c41a2ab",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-44271c41a2ab.webp",
+      "thumbnail": "images/portfolio/bijo-44271c41a2ab-thumb.webp"
+    },
+    {
+      "number": 63,
+      "filename": "美女/美女/1228_肌をいたわる、フェイシャルの時間.png",
+      "sha256": "6de4bba1664981bd05641a7b6d5a9c043ee8ac995d5f2c355af07d3588ba9295",
+      "id": "bijo-6de4bba16649",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-6de4bba16649.webp",
+      "thumbnail": "images/portfolio/bijo-6de4bba16649-thumb.webp"
+    },
+    {
+      "number": 64,
+      "filename": "美女/美女/1238_艶を、日常に。美容室広告.png",
+      "sha256": "d35c1081912f9794370a822a3e04c73f3475c69c474ba55ceb2eea8b94ea5fee",
+      "id": "bijo-d35c1081912f",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-d35c1081912f.webp",
+      "thumbnail": "images/portfolio/bijo-d35c1081912f-thumb.webp"
+    },
+    {
+      "number": 65,
+      "filename": "美女/美女/1291_軽やかに伸ばす黒髪サロンポスター.png",
+      "sha256": "3f2436e40c64216d1ad80235c9f0b560dcecde12fc61841400123f03953f5053",
+      "id": "bijo-3f2436e40c64",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-3f2436e40c64.webp",
+      "thumbnail": "images/portfolio/bijo-3f2436e40c64-thumb.webp"
+    },
+    {
+      "number": 66,
+      "filename": "美女/美女/1292_軽やかに弾む、透明感ヘア.png",
+      "sha256": "07623a7d07f82169c1a6c56fc3d4ba3c2d48777f09c7c0bd04d7140e5c5f232e",
+      "id": "bijo-07623a7d07f8",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-07623a7d07f8.webp",
+      "thumbnail": "images/portfolio/bijo-07623a7d07f8-thumb.webp"
+    },
+    {
+      "number": 67,
+      "filename": "美女/美女/1296_軽やかレイヤーで、朝が楽しみ.png",
+      "sha256": "0e1860662c639bd6d6c58e6793ca76e7f72c801d3efc8b546b82dfe34c822901",
+      "id": "bijo-0e1860662c63",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-0e1860662c63.webp",
+      "thumbnail": "images/portfolio/bijo-0e1860662c63-thumb.webp"
+    },
+    {
+      "number": 68,
+      "filename": "美女/美女/1313_銀髪と透明プリズムのネイルアート広告.png",
+      "sha256": "c044fab439d9b96f1285f3bf27e6e389b8f36b8c35028424ec73365d99cc8e77",
+      "id": "bijo-c044fab439d9",
+      "industry": "nail",
+      "image": "images/portfolio/bijo-c044fab439d9.webp",
+      "thumbnail": "images/portfolio/bijo-c044fab439d9-thumb.webp"
+    },
+    {
+      "number": 69,
+      "filename": "美女/美女/1319_銅色ショートで、次の私へ.png",
+      "sha256": "33d62ffb788d5c4c5e9dd029d950e76c7881eb3f07c8567f6b48d1caa0b51d23",
+      "id": "bijo-33d62ffb788d",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-33d62ffb788d.webp",
+      "thumbnail": "images/portfolio/bijo-33d62ffb788d-thumb.webp"
+    },
+    {
+      "number": 70,
+      "filename": "美女/美女/1321_錆とガラスの光で伸びる.png",
+      "sha256": "386015daa29223fb5a4c4fdb92e6f269fc5aca94ff985482ce17fd68ed1b0978",
+      "id": "bijo-386015daa292",
+      "industry": "body",
+      "image": "images/portfolio/bijo-386015daa292.webp",
+      "thumbnail": "images/portfolio/bijo-386015daa292-thumb.webp"
+    },
+    {
+      "number": 71,
+      "filename": "美女/美女/1329_錆と光のボディケア広告.png",
+      "sha256": "39da402d42a775e3a58767b6ec6552182fd1fe0660a12e7275a1e333fc0bfb74",
+      "id": "bijo-39da402d42a7",
+      "industry": "body",
+      "image": "images/portfolio/bijo-39da402d42a7.webp",
+      "thumbnail": "images/portfolio/bijo-39da402d42a7-thumb.webp"
+    },
+    {
+      "number": 72,
+      "filename": "美女/美女/1330_錆と光のボディケア相談.png",
+      "sha256": "57c8301861ff091b69f2cc3768dfb9f2e483876709c51be7f3e642135d3ce719",
+      "id": "bijo-57c8301861ff",
+      "industry": "body",
+      "image": "images/portfolio/bijo-57c8301861ff.webp",
+      "thumbnail": "images/portfolio/bijo-57c8301861ff-thumb.webp"
+    },
+    {
+      "number": 73,
+      "filename": "美女/美女/1331_錆と光のリラクゼーション.png",
+      "sha256": "05d4d4e8b0dc61855353c3732d87cc30662cbfb7958dc1e1ffb151741c1560e7",
+      "id": "bijo-05d4d4e8b0dc",
+      "industry": "body",
+      "image": "images/portfolio/bijo-05d4d4e8b0dc.webp",
+      "thumbnail": "images/portfolio/bijo-05d4d4e8b0dc-thumb.webp"
+    },
+    {
+      "number": 74,
+      "filename": "美女/美女/1332_錆と光の美容サロンスタッフ募集.png",
+      "sha256": "0e3fad2241fdb7c3f6bf0e5d5ba2492c7c258203561523a2057b6e1b197a8778",
+      "id": "bijo-0e3fad2241fd",
+      "industry": "esthetic",
+      "image": "images/portfolio/bijo-0e3fad2241fd.webp",
+      "thumbnail": "images/portfolio/bijo-0e3fad2241fd-thumb.webp"
+    },
+    {
+      "number": 75,
+      "filename": "美女/美女/1333_錆と氷青のヘアチェンジ.png",
+      "sha256": "df74b7561f81c8b6487aec0b2382ae2f9944683020b84b23123a6ed808ddc696",
+      "id": "bijo-df74b7561f81",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-df74b7561f81.webp",
+      "thumbnail": "images/portfolio/bijo-df74b7561f81-thumb.webp"
+    },
+    {
+      "number": 76,
+      "filename": "美女/美女/1334_錆と藍が映える美容師募集広告.png",
+      "sha256": "9c826ce9cca61eaa6575a51e354b5e6db805f963457c381496fdda2bad03e381",
+      "id": "bijo-9c826ce9cca6",
+      "industry": "hair",
+      "image": "images/portfolio/bijo-9c826ce9cca6.webp",
+      "thumbnail": "images/portfolio/bijo-9c826ce9cca6-thumb.webp"
+    }
+  ]
+}
