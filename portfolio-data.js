@@ -2329,7 +2329,7 @@ window.PORTFOLIO = {
       "width": 1672,
       "height": 940,
       "detailPage": "sample-ramen-pixel.html",
-      "collection": "original"
+      "collection": "8bit"
     },
     {
       "id": "sweets-1",
