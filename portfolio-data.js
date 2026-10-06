@@ -2373,7 +2373,7 @@ window.PORTFOLIO = {
       "width": 1672,
       "height": 941,
       "detailPage": "sample-salon-model.html",
-      "collection": "original"
+      "collection": "bijo"
     },
     {
       "id": "yohaku",
@@ -2456,7 +2456,7 @@ window.PORTFOLIO = {
       "coverImage": "images/portfolio/bijo-cover.webp",
       "coverWidth": 1000,
       "coverHeight": 1000,
-      "pending": true
+      "pending": false
     },
     {
       "id": "original",
