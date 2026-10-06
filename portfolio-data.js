@@ -17,6 +17,18 @@ window.PORTFOLIO = {
       "label": "ファミコン・8ビット風",
       "description": "懐かしいゲームの世界を思わせる、ドット絵の広告・ポスター。",
       "cover": "8bit-6c81ecbffede"
+    },
+    {
+      "id": "people",
+      "label": "人物・写真テイスト",
+      "description": "人の表情と空気感を生かした、写真テイストの表現。",
+      "cover": "salon-model"
+    },
+    {
+      "id": "retro",
+      "label": "レトロ・イラスト系",
+      "description": "どこか懐かしい、温かみのあるタッチ。",
+      "cover": "restaurant-illustration"
     }
   ],
   "industries": [
@@ -39,6 +51,22 @@ window.PORTFOLIO = {
     {
       "id": "body",
       "label": "整体・マッサージ"
+    },
+    {
+      "id": "care",
+      "label": "介護施設"
+    },
+    {
+      "id": "event",
+      "label": "イベント"
+    },
+    {
+      "id": "product",
+      "label": "商品・暮らし"
+    },
+    {
+      "id": "media",
+      "label": "動画・メディア"
     }
   ],
   "works": [
@@ -2917,6 +2945,192 @@ window.PORTFOLIO = {
       "sourceSha256": "e2eeae51ee65b80c127df167652af92e298b33ca1d39635c14938e1a37ee22a6",
       "image": "images/portfolio/8bit-reference-098.webp",
       "thumbnail": "images/portfolio/8bit-reference-098-thumb.webp"
+    },
+    {
+      "id": "kissa-machi",
+      "title": "喫茶まち — デザインサンプル",
+      "industry": "food",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__kissa-machi.webp",
+      "image": "images__kissa-machi-full.webp",
+      "width": 400,
+      "height": 652,
+      "detailPage": "sample-kissa-machi.html"
+    },
+    {
+      "id": "restaurant-illustration",
+      "title": "洋食屋 — イラストバナー",
+      "industry": "food",
+      "styles": [
+        "retro"
+      ],
+      "primaryStyle": "retro",
+      "thumbnail": "images__restaurant-illustration.webp",
+      "image": "images__restaurant-illustration-full.webp",
+      "width": 1672,
+      "height": 941,
+      "detailPage": "sample-restaurant-illustration.html"
+    },
+    {
+      "id": "ramen-pixel",
+      "title": "ラーメン — ピクセルアートバナー",
+      "industry": "food",
+      "styles": [
+        "pixel"
+      ],
+      "primaryStyle": "pixel",
+      "thumbnail": "images__ramen-pixel.webp",
+      "image": "images__ramen-pixel-full.webp",
+      "width": 1672,
+      "height": 940,
+      "detailPage": "sample-ramen-pixel.html"
+    },
+    {
+      "id": "sweets-1",
+      "title": "秋スイーツ — 表紙",
+      "industry": "food",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__sweets-1.webp",
+      "image": "images__sweets-1-full.webp",
+      "width": 1080,
+      "height": 1350,
+      "detailPage": "sample-sweets-1.html"
+    },
+    {
+      "id": "sweets-2",
+      "title": "秋スイーツ — おすすめ3選",
+      "industry": "food",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__sweets-2.webp",
+      "image": "images__sweets-2-full.webp",
+      "width": 1080,
+      "height": 1350,
+      "detailPage": "sample-sweets-2.html"
+    },
+    {
+      "id": "salon-illustration",
+      "title": "美容室 — イラストバナー",
+      "industry": "hair",
+      "styles": [
+        "retro"
+      ],
+      "primaryStyle": "retro",
+      "thumbnail": "images__salon-illustration.webp",
+      "image": "images__salon-illustration-full.webp",
+      "width": 1672,
+      "height": 941,
+      "detailPage": "sample-salon-illustration.html"
+    },
+    {
+      "id": "salon-model",
+      "title": "美容室 — モデルビジュアル",
+      "industry": "hair",
+      "styles": [
+        "clean",
+        "people"
+      ],
+      "primaryStyle": "people",
+      "thumbnail": "images__salon-model.webp",
+      "image": "images__salon-model-full.webp",
+      "width": 1672,
+      "height": 941,
+      "detailPage": "sample-salon-model.html"
+    },
+    {
+      "id": "yohaku",
+      "title": "余白 — デザインサンプル",
+      "industry": "hair",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__yohaku.webp",
+      "image": "images__yohaku-full.webp",
+      "width": 400,
+      "height": 652,
+      "detailPage": "sample-yohaku.html"
+    },
+    {
+      "id": "nursing-home",
+      "title": "介護施設 — ピクセルアートバナー",
+      "industry": "care",
+      "styles": [
+        "pixel",
+        "cute"
+      ],
+      "primaryStyle": "pixel",
+      "thumbnail": "images__nursing-home.webp",
+      "image": "images__nursing-home-full.webp",
+      "width": 1672,
+      "height": 941,
+      "detailPage": "sample-nursing-home.html"
+    },
+    {
+      "id": "youtube",
+      "title": "YouTubeサムネイル ポートフォリオ",
+      "industry": "media",
+      "styles": [
+        "clean",
+        "people"
+      ],
+      "primaryStyle": "people",
+      "thumbnail": "images__youtube.webp",
+      "image": "images__youtube-full.webp",
+      "width": 1672,
+      "height": 941,
+      "detailPage": "sample-youtube.html"
+    },
+    {
+      "id": "awa",
+      "title": "AWA 泡ハンドソープ",
+      "industry": "product",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__awa.webp",
+      "image": "images__awa-full.webp",
+      "width": 1080,
+      "height": 1350,
+      "detailPage": "sample-awa.html"
+    },
+    {
+      "id": "halloween-green",
+      "title": "Halloween Night — 緑背景",
+      "industry": "event",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__halloween-green.webp",
+      "image": "images__halloween-green-full.webp",
+      "width": 2480,
+      "height": 3508,
+      "detailPage": "sample-halloween-green.html"
+    },
+    {
+      "id": "halloween-white",
+      "title": "Halloween Night — 白背景",
+      "industry": "event",
+      "styles": [
+        "clean"
+      ],
+      "primaryStyle": "clean",
+      "thumbnail": "images__halloween-white.webp",
+      "image": "images__halloween-white-full.webp",
+      "width": 2481,
+      "height": 3508,
+      "detailPage": "sample-halloween-white.html"
     }
   ]
 };
+
