@@ -1,4 +1,5 @@
 /* Style-first portfolio; shares the site's existing colors and typography. */
+.portfolio-update { margin-bottom: 24px; }
 .portfolio-page .detail-header { padding-block: 16px; }
 .portfolio-page .page-actions { margin-bottom: 28px; }
 .portfolio-page .portfolio-intro { margin-bottom: 24px; }

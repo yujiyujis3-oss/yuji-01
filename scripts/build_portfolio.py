@@ -27,7 +27,7 @@ html=f'''<!doctype html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>今までの作品・広告デザイン｜YUJI SHIMONO</title>
-  <meta name="description" content="レゴ風、人物・写真テイスト、かわいい系、きれい系など、雰囲気から選べる広告作品集。美容室、飲食店、エステ、ネイル、整体、介護施設のデザインをご覧いただけます。">
+  <meta name="description" content="ファミコン・8ビット風、レゴ風、人物・写真テイスト、かわいい系、きれい系など、雰囲気から選べる広告作品集。美容室、飲食店、エステ、ネイル、整体、介護施設の参考作品をご覧いただけます。">
   <meta name="theme-color" content="#101416">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,7 +44,7 @@ html=f'''<!doctype html>
       <p class="section-label label">AD DESIGN / PORTFOLIO</p>
       <h1 class="section-title">今までの作品</h1>
       <p class="detail-lead">まずは、好きな雰囲気から。<br>その中で業種を選び、ご希望に近いデザインをご覧ください。</p>
-      <p class="portfolio-note">広告・ポスター・バナーのサンプル作品。画像を選ぶと全体を大きく表示します。</p>
+      <p class="portfolio-note">広告・ポスター・バナーの参考作品。画像を選ぶと全体を大きく表示します。</p>
     </div>
     <div class="portfolio-controls" id="portfolio-controls" hidden>
       <span class="filter-label" id="style-label">01　雰囲気を選ぶ</span>
@@ -82,6 +82,7 @@ for s in data['styles']:
     count=sum(s['id'] in w['styles'] for w in works)
     links.append(f'''<a class="style-link" href="ad-design.html?style={s['id']}#samples"><img src="{cover['thumbnail']}" width="{cover['width']}" height="{cover['height']}" loading="lazy" decoding="async" alt="{escape(cover['title'])}"><h3>{s['label']} ↗</h3><p>{count}点の作品を見る</p></a>''')
 entry=f'''<!-- PORTFOLIO ENTRY START -->
+        <p class="portfolio-update"><a class="text-link" href="ad-design.html?style=pixel#samples">ファミコン・8ビット風の参考作品を追加しました ↗</a></p>
         <div class="portfolio-style-links">{''.join(links)}</div>
         <a class="btn btn--ghost" href="ad-design.html">広告作品をすべて見る（{len(works)}点）<span class="btn__icon" aria-hidden="true">↗</span></a>
         <h3 class="portfolio-home-heading">Web・ビジュアルの制作イメージ</h3>
