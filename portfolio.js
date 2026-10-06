@@ -21,7 +21,7 @@
   function known(list, id) { return list.some(function (item) { return item.id === id; }); }
   function normalize(value) { return value.normalize('NFKC').toLocaleLowerCase('ja'); }
   function card(work) {
-    return '<article class="portfolio-card"><a href="' + escape(work.image) + '" data-artwork="' + escape(work.id) + '"><div class="portfolio-card-media"><img src="' + escape(work.thumbnail) + '" width="' + work.width + '" height="' + work.height + '" loading="lazy" decoding="async" alt="' + escape(work.title) + '"></div><h4>' + escape(work.title) + '</h4><span class="sample-caption">作品を大きく見る ↗</span></a></article>';
+    return '<article class="portfolio-card"><a href="' + escape(work.image) + '" data-artwork="' + escape(work.id) + '"><div class="portfolio-card-media"><img src="' + escape(work.thumbnail) + '" width="' + work.width + '" height="' + work.height + '" loading="lazy" decoding="async" alt="' + escape(work.title) + '"></div><span class="sample-caption">作品を大きく見る ↗</span></a></article>';
   }
   function button(item, count, selected) {
     return '<button class="filter-button" type="button" data-filter="' + item.id + '" aria-pressed="' + (item.id === selected) + '"' + (count === 0 ? ' disabled hidden' : '') + '>' + escape(item.label) + '<span>' + count + '</span></button>';
@@ -96,7 +96,8 @@
 
   function showWork(work) {
     activeWork = work;
-    document.getElementById('artwork-title').textContent = work.title;
+    document.getElementById('artwork-title').textContent = '作品';
+    document.getElementById('artwork-title').hidden = true;
     var img = document.getElementById('artwork-image');
     img.src = work.image; img.alt = work.title; img.width = work.width; img.height = work.height;
     document.getElementById('artwork-original').href = work.image;

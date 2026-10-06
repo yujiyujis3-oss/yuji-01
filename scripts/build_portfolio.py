@@ -14,7 +14,7 @@ css_version = hashlib.sha256((root/'portfolio.css').read_bytes()).hexdigest()[:1
 assert len({w['id'] for w in works}) == len(works)
 
 def card(w):
-    return f'''<article class="portfolio-card"><a href="{escape(w['image'])}" data-artwork="{w['id']}"><div class="portfolio-card-media"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></div><h4>{escape(w['title'])}</h4><span class="sample-caption">作品を大きく見る ↗</span></a></article>'''
+    return f'''<article class="portfolio-card"><a href="{escape(w['image'])}" data-artwork="{w['id']}"><div class="portfolio-card-media"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></div><span class="sample-caption">作品を大きく見る ↗</span></a></article>'''
 
 groups=[]
 for s in data['collections']:
@@ -34,7 +34,7 @@ for s in data['collections']:
     links.append(f'''<a class="style-link" href="ad-design.html?collection={s['id']}#samples"><img src="{cover['thumbnail']}" width="{cover['width']}" height="{cover['height']}" loading="lazy" decoding="async" alt="{escape(cover['title'])}"><h3>{s['label']} ↗</h3><p>{count}点の作品を見る</p></a>''')
 for w in works:
     if w['collection'] != 'original': continue
-    links.append(f'''<a class="style-link" href="{escape(w.get('detailPage', w['image']))}"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"><h3>{escape(w['title'])} ↗</h3></a>''')
+    links.append(f'''<a class="style-link" href="{escape(w.get('detailPage', w['image']))}"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></a>''')
 folder_links=''.join(links)
 
 html=f'''<!doctype html>
