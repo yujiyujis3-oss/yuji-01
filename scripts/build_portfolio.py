@@ -75,7 +75,7 @@ html=f'''<!doctype html>
     </div>
     <noscript><p class="detail-lead">全{len(works)}点を作品集別・業種別に掲載しています。画像を選ぶと大きく開きます。</p></noscript>
     <div id="portfolio-gallery">{''.join(groups)}</div>
-    <div class="detail-contact"><a class="btn btn--light" href="mailto:yujiyuji.s3@gmail.com?subject=%E5%88%B6%E4%BD%9C%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">このデザインで制作を相談する ↗</a></div>
+    <div class="detail-contact"><a class="btn btn--light" href="mailto:yujiyuji.s3@gmail.com?subject=%E5%88%B6%E4%BD%9C%E3%81%AE%E3%81%94%E7%9B%B8%E8%AB%87">メール</a></div>
     <nav class="page-actions" aria-label="ページ移動"><a class="btn btn--ghost" href="index.html#works">ホームの作品欄に戻る</a><a class="btn btn--ghost" href="#samples">作品の先頭へ戻る ↑</a></nav>
   </main>
   <dialog class="artwork-dialog" id="artwork-dialog" aria-labelledby="artwork-title">
