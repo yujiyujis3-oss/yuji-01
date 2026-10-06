@@ -81,7 +81,7 @@
         visible = visible.concat(works);
         return '<section class="portfolio-industry" aria-labelledby="heading-' + s.id + '-' + i.id + '"><h3 id="heading-' + s.id + '-' + i.id + '">' + escape(i.label) + '<span>' + works.length + '点</span></h3><div class="portfolio-grid">' + works.map(card).join('') + '</div></section>';
       }).join('') + '</section>';
-    }).join('') || '<p class="portfolio-empty">条件に合う作品がありません。業種・検索語を変更してください。</p>';
+    }).join('') || '<p class="portfolio-empty">作品は準備中です。</p>';
     status.textContent = matched.length + '点を表示 ／ この作品集 ' + data.works.filter(function(w) { return w.collection === style; }).length + '点';
   }
   industryFilters.addEventListener('click', function (event) {

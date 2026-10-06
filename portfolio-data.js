@@ -44,7 +44,7 @@ window.PORTFOLIO = {
   "works": [
     {
       "id": "canva-002",
-      "title": "サロンの静かな贅沢",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-002-thumb.webp",
       "image": "images/portfolio/canva-002.webp",
@@ -56,7 +56,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-003",
-      "title": "やさしい時間のフェイシャルエステ",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-003-thumb.webp",
       "image": "images/portfolio/canva-003.webp",
@@ -68,7 +68,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-004",
-      "title": "ほっとする、梅おにぎり",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-004-thumb.webp",
       "image": "images/portfolio/canva-004.webp",
@@ -80,7 +80,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-005",
-      "title": "青いスカーフの低めシニヨン",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-005-thumb.webp",
       "image": "images/portfolio/canva-005.webp",
@@ -92,7 +92,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-006",
-      "title": "のびのび、私の時間",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-006-thumb.webp",
       "image": "images/portfolio/canva-006.webp",
@@ -104,7 +104,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-007",
-      "title": "小さな物語のアートネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-007-thumb.webp",
       "image": "images/portfolio/canva-007.webp",
@@ -116,7 +116,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-008",
-      "title": "気軽に話せる美容カウンセリング",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-008-thumb.webp",
       "image": "images/portfolio/canva-008.webp",
@@ -128,7 +128,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-009",
-      "title": "黄金の天ぷら、八ビットの粋",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-009-thumb.webp",
       "image": "images/portfolio/canva-009.webp",
@@ -140,7 +140,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-010",
-      "title": "手に、やさしい休息",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-010-thumb.webp",
       "image": "images/portfolio/canva-010.webp",
@@ -152,7 +152,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-012",
-      "title": "小さな輝きのシンプルネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-012-thumb.webp",
       "image": "images/portfolio/canva-012.webp",
@@ -164,7 +164,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-013",
-      "title": "美容予約を彩るピクセルカレンダー",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-013-thumb.webp",
       "image": "images/portfolio/canva-013.webp",
@@ -176,7 +176,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-014",
-      "title": "青空に浮かぶバターパンケーキ",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-014-thumb.webp",
       "image": "images/portfolio/canva-014.webp",
@@ -188,7 +188,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-019",
-      "title": "ピクセルアートのテイクアウトコーヒー",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-019-thumb.webp",
       "image": "images/portfolio/canva-019.webp",
@@ -200,7 +200,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-020",
-      "title": "雲の下、ほどける休日",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-020-thumb.webp",
       "image": "images/portfolio/canva-020.webp",
@@ -212,7 +212,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-021",
-      "title": "斜めの鏡とヘアスタイル相談",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-021-thumb.webp",
       "image": "images/portfolio/canva-021.webp",
@@ -224,7 +224,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-022",
-      "title": "彩りを選ぶワンカラーネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-022-thumb.webp",
       "image": "images/portfolio/canva-022.webp",
@@ -236,7 +236,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-023",
-      "title": "蝶の中のエステ時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-023-thumb.webp",
       "image": "images/portfolio/canva-023.webp",
@@ -248,7 +248,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-024",
-      "title": "黄金オムライスのレトロ広告",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-024-thumb.webp",
       "image": "images/portfolio/canva-024.webp",
@@ -260,7 +260,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-025",
-      "title": "ロングヘア、次の一歩",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-025-thumb.webp",
       "image": "images/portfolio/canva-025.webp",
@@ -272,7 +272,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-026",
-      "title": "木のスツールで、ひと息ボディケア",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-026-thumb.webp",
       "image": "images/portfolio/canva-026.webp",
@@ -284,7 +284,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-027",
-      "title": "肌の迷いをほどく美容カウンセリング",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-027-thumb.webp",
       "image": "images/portfolio/canva-027.webp",
@@ -296,7 +296,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-028",
-      "title": "まつ毛サロンの虹色8ビット広告",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-028-thumb.webp",
       "image": "images/portfolio/canva-028.webp",
@@ -308,7 +308,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-029",
-      "title": "心ほどける鮭定食",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-029-thumb.webp",
       "image": "images/portfolio/canva-029.webp",
@@ -320,7 +320,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-030",
-      "title": "レトロ電話でヘア予約",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-030-thumb.webp",
       "image": "images/portfolio/canva-030.webp",
@@ -332,7 +332,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-031",
-      "title": "ピクセルで伝える整体相談",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-031-thumb.webp",
       "image": "images/portfolio/canva-031.webp",
@@ -344,7 +344,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-032",
-      "title": "コーラル色のフットネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-032-thumb.webp",
       "image": "images/portfolio/canva-032.webp",
@@ -356,7 +356,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-033",
-      "title": "ピクセルで描くブライダルエステ相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-033-thumb.webp",
       "image": "images/portfolio/canva-033.webp",
@@ -368,7 +368,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-035",
-      "title": "髪にも、秋をひとさじ",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-035-thumb.webp",
       "image": "images/portfolio/canva-035.webp",
@@ -380,7 +380,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-036",
-      "title": "歩いた一日に、足元リラックス",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-036-thumb.webp",
       "image": "images/portfolio/canva-036.webp",
@@ -392,7 +392,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-037",
-      "title": "指先で遊ぶ幾何学ネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-037-thumb.webp",
       "image": "images/portfolio/canva-037.webp",
@@ -404,7 +404,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-038",
-      "title": "ノートを開く美容相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-038-thumb.webp",
       "image": "images/portfolio/canva-038.webp",
@@ -416,7 +416,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-039",
-      "title": "軽やかショートのピクセル広告",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-039-thumb.webp",
       "image": "images/portfolio/canva-039.webp",
@@ -428,7 +428,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-040",
-      "title": "紅茶と、ゆっくり。",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-040-thumb.webp",
       "image": "images/portfolio/canva-040.webp",
@@ -440,7 +440,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-041",
-      "title": "すきま時間のボディケア休憩",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-041-thumb.webp",
       "image": "images/portfolio/canva-041.webp",
@@ -452,7 +452,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-042",
-      "title": "トマトパスタのカフェランチ",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-042-thumb.webp",
       "image": "images/portfolio/canva-042.webp",
@@ -464,7 +464,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-043",
-      "title": "軽やかな横顔とナチュラルまつ毛",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-043-thumb.webp",
       "image": "images/portfolio/canva-043.webp",
@@ -476,7 +476,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-044",
-      "title": "泡雲にのぞくフェイシャル時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-044-thumb.webp",
       "image": "images/portfolio/canva-044.webp",
@@ -488,7 +488,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-045",
-      "title": "意志を宿すモードヘア",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-045-thumb.webp",
       "image": "images/portfolio/canva-045.webp",
@@ -500,7 +500,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-046",
-      "title": "香るユーカリ、やすらぎのひととき",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-046-thumb.webp",
       "image": "images/portfolio/canva-046.webp",
@@ -512,7 +512,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-048",
-      "title": "夕暮れのエステサロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-048-thumb.webp",
       "image": "images/portfolio/canva-048.webp",
@@ -524,7 +524,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-049",
-      "title": "分け合うほど、おいしいピザ",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-049-thumb.webp",
       "image": "images/portfolio/canva-049.webp",
@@ -536,7 +536,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-050",
-      "title": "前髪で今日を変える",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-050-thumb.webp",
       "image": "images/portfolio/canva-050.webp",
@@ -548,7 +548,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-051",
-      "title": "いたわりを届けるセラピスト募集",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-051-thumb.webp",
       "image": "images/portfolio/canva-051.webp",
@@ -560,7 +560,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-053",
-      "title": "デニム袖と赤いハートのワンポイントネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-053-thumb.webp",
       "image": "images/portfolio/canva-053.webp",
@@ -572,7 +572,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-054",
-      "title": "深青に並ぶ三貫の寿司",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-054-thumb.webp",
       "image": "images/portfolio/canva-054.webp",
@@ -584,7 +584,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-055",
-      "title": "優雅な横顔のヘアセット",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-055-thumb.webp",
       "image": "images/portfolio/canva-055.webp",
@@ -596,7 +596,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-056",
-      "title": "肩の力を、ふっと。",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-056-thumb.webp",
       "image": "images/portfolio/canva-056.webp",
@@ -608,7 +608,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-057",
-      "title": "ピクセル階段のネイリスト募集",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-057-thumb.webp",
       "image": "images/portfolio/canva-057.webp",
@@ -620,7 +620,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-058",
-      "title": "ピクセルで描くエステスタッフ募集",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-058-thumb.webp",
       "image": "images/portfolio/canva-058.webp",
@@ -632,7 +632,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-059",
-      "title": "集まる夜の宴会テーブル",
+      "title": "参考作品",
       "industry": "pub",
       "thumbnail": "images/portfolio/canva-059-thumb.webp",
       "image": "images/portfolio/canva-059.webp",
@@ -644,7 +644,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-060",
-      "title": "髪のこと、ここから。",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-060-thumb.webp",
       "image": "images/portfolio/canva-060.webp",
@@ -656,7 +656,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-061",
-      "title": "姿勢相談、ピクセルで受付中",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-061-thumb.webp",
       "image": "images/portfolio/canva-061.webp",
@@ -668,7 +668,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-062",
-      "title": "紙扇とナチュラルネイル",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-062-thumb.webp",
       "image": "images/portfolio/canva-062.webp",
@@ -680,7 +680,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-063",
-      "title": "ピクセルアートの脱毛カウンセリング",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-063-thumb.webp",
       "image": "images/portfolio/canva-063.webp",
@@ -692,7 +692,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-064",
-      "title": "8ビットの空中バーガー広告",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-064-thumb.webp",
       "image": "images/portfolio/canva-064.webp",
@@ -704,7 +704,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-065",
-      "title": "波打つ髪のレトロパーマ広告",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-065-thumb.webp",
       "image": "images/portfolio/canva-065.webp",
@@ -716,7 +716,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-066",
-      "title": "自分のためのボディケア予約",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-066-thumb.webp",
       "image": "images/portfolio/canva-066.webp",
@@ -728,7 +728,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-068",
-      "title": "五つの餃子で乾杯",
+      "title": "参考作品",
       "industry": "pub",
       "thumbnail": "images/portfolio/canva-068-thumb.webp",
       "image": "images/portfolio/canva-068.webp",
@@ -740,7 +740,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-069",
-      "title": "秋色リーフと肌ケア相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-069-thumb.webp",
       "image": "images/portfolio/canva-069.webp",
@@ -752,7 +752,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-070",
-      "title": "ピクセルで彩る、私らしい眉",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-070-thumb.webp",
       "image": "images/portfolio/canva-070.webp",
@@ -764,7 +764,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-071",
-      "title": "足もとから、ひと休み",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-071-thumb.webp",
       "image": "images/portfolio/canva-071.webp",
@@ -776,7 +776,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-072",
-      "title": "後ろ姿まで好きになるサロン",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-072-thumb.webp",
       "image": "images/portfolio/canva-072.webp",
@@ -788,7 +788,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-073",
-      "title": "8ビットのうるおいケア",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-073-thumb.webp",
       "image": "images/portfolio/canva-073.webp",
@@ -800,7 +800,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-074",
-      "title": "紫の三日月ヘッドスパ",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-074-thumb.webp",
       "image": "images/portfolio/canva-074.webp",
@@ -812,7 +812,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-075",
-      "title": "喫茶のプリン日和",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-075-thumb.webp",
       "image": "images/portfolio/canva-075.webp",
@@ -824,7 +824,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-076",
-      "title": "タオルとお茶の静かな休息",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-076-thumb.webp",
       "image": "images/portfolio/canva-076.webp",
@@ -836,7 +836,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-077",
-      "title": "美しい伏し目のまつ毛デザイン",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-077-thumb.webp",
       "image": "images/portfolio/canva-077.webp",
@@ -848,7 +848,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-078",
-      "title": "8ビット彩るごちそうカレー",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-078-thumb.webp",
       "image": "images/portfolio/canva-078.webp",
@@ -860,7 +860,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-079",
-      "title": "ピクセルの扉、はじめての一歩",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-079-thumb.webp",
       "image": "images/portfolio/canva-079.webp",
@@ -872,7 +872,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-080",
-      "title": "余白のピクセル階段、整体広告",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-080-thumb.webp",
       "image": "images/portfolio/canva-080.webp",
@@ -884,7 +884,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-081",
-      "title": "ミント背景の編み込みヘア広告",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-081-thumb.webp",
       "image": "images/portfolio/canva-081.webp",
@@ -896,7 +896,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-082",
-      "title": "コバルトショートネイルの鮮烈広告",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-082-thumb.webp",
       "image": "images/portfolio/canva-082.webp",
@@ -908,7 +908,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-083",
-      "title": "静かな時間のプライベートエステ",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-083-thumb.webp",
       "image": "images/portfolio/canva-083.webp",
@@ -920,7 +920,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-084",
-      "title": "真紅のピクセルラーメン",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-084-thumb.webp",
       "image": "images/portfolio/canva-084.webp",
@@ -932,7 +932,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-085",
-      "title": "風に揺れる、さらり髪",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-085-thumb.webp",
       "image": "images/portfolio/canva-085.webp",
@@ -944,7 +944,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-086",
-      "title": "考えごとを、ひと休み。ドライヘッドケア",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-086-thumb.webp",
       "image": "images/portfolio/canva-086.webp",
@@ -956,7 +956,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-087",
-      "title": "赤い封筒で、次のネイルへ",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-087-thumb.webp",
       "image": "images/portfolio/canva-087.webp",
@@ -968,7 +968,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-088",
-      "title": "ピクセルで彩るエステサロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-088-thumb.webp",
       "image": "images/portfolio/canva-088.webp",
@@ -980,7 +980,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-089",
-      "title": "焼きたてクロワッサンと朝の一杯",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-089-thumb.webp",
       "image": "images/portfolio/canva-089.webp",
@@ -992,7 +992,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-090",
-      "title": "ピクセル美容師の採用ポスター",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-090-thumb.webp",
       "image": "images/portfolio/canva-090.webp",
@@ -1004,7 +1004,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-091",
-      "title": "秋色ネイルと読書の時間",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-091-thumb.webp",
       "image": "images/portfolio/canva-091.webp",
@@ -1016,7 +1016,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-092",
-      "title": "レトロピクセルのリラクゼーション広告",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-092-thumb.webp",
       "image": "images/portfolio/canva-092.webp",
@@ -1028,7 +1028,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-093",
-      "title": "肌から始まる美容相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-093-thumb.webp",
       "image": "images/portfolio/canva-093.webp",
@@ -1040,7 +1040,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-094",
-      "title": "炭火焼き鳥の夜",
+      "title": "参考作品",
       "industry": "pub",
       "thumbnail": "images/portfolio/canva-094-thumb.webp",
       "image": "images/portfolio/canva-094.webp",
@@ -1052,7 +1052,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-095",
-      "title": "S字ポニーテールの色遊び広告",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-095-thumb.webp",
       "image": "images/portfolio/canva-095.webp",
@@ -1064,7 +1064,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-096",
-      "title": "8ビットの朝焼けボディケア",
+      "title": "参考作品",
       "industry": "body",
       "thumbnail": "images/portfolio/canva-096-thumb.webp",
       "image": "images/portfolio/canva-096.webp",
@@ -1076,7 +1076,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-097",
-      "title": "余韻を纏うまつ毛パーマ",
+      "title": "参考作品",
       "industry": "nail",
       "thumbnail": "images/portfolio/canva-097-thumb.webp",
       "image": "images/portfolio/canva-097.webp",
@@ -1088,7 +1088,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-098",
-      "title": "肌をいたわるフェイシャル時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "thumbnail": "images/portfolio/canva-098-thumb.webp",
       "image": "images/portfolio/canva-098.webp",
@@ -1100,7 +1100,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-099",
-      "title": "レトロ喫茶のクリームソーダ",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images/portfolio/canva-099-thumb.webp",
       "image": "images/portfolio/canva-099.webp",
@@ -1112,7 +1112,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "canva-100",
-      "title": "8ビット美髪サロン広告",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images/portfolio/canva-100-thumb.webp",
       "image": "images/portfolio/canva-100.webp",
@@ -1124,7 +1124,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-4d20e142295e",
-      "title": "8ビットおでんナイト",
+      "title": "参考作品",
       "industry": "pub",
       "width": 1122,
       "height": 1402,
@@ -1136,7 +1136,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-79af251445fb",
-      "title": "8ビットごほうびパフェ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1148,7 +1148,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-8a963fd2458e",
-      "title": "8ビットで冒険するショートヘア",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1160,7 +1160,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-adb7431c3da7",
-      "title": "8ビットで彩るネイルとまつ毛",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1172,7 +1172,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e039fbd68da4",
-      "title": "8ビットで彩るネイル時間",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1184,7 +1184,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-9f15d2cce731",
-      "title": "8ビットで彩る美容室の横顔",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1196,7 +1196,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e57ad79a6129",
-      "title": "8ビットで彩る肌時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1208,7 +1208,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-804f8f837c65",
-      "title": "8ビットで彩る肌相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1220,7 +1220,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-96188f885b52",
-      "title": "8ビットで楽しむやさしい美容時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1232,7 +1232,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-0e22cc999265",
-      "title": "8ビットで楽しむピザカフェ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1244,7 +1244,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-0f913239700f",
-      "title": "8ビットで楽しむ今夜の串焼き",
+      "title": "参考作品",
       "industry": "pub",
       "width": 1122,
       "height": 1402,
@@ -1256,7 +1256,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-6e989162bcdd",
-      "title": "8ビットで楽しむ指先の季節",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1268,7 +1268,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-19d7540508ac",
-      "title": "8ビットで見つける自分らしい髪",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1280,7 +1280,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-557eafac56b8",
-      "title": "8ビットで選ぶネイルデザイン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1292,7 +1292,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-9284b958a27f",
-      "title": "8ビットどら焼きのひと休み",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1304,7 +1304,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-9344ae3022a3",
-      "title": "8ビットのお呼ばれネイル招待状",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1316,7 +1316,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-a4570f95c146",
-      "title": "8ビットのごほうびサロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1328,7 +1328,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e2e73e79efd8",
-      "title": "8ビットのネイル・まつ毛サロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1340,7 +1340,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-d6ef43cb974a",
-      "title": "8ビットのヘアスタイルカレンダー",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1352,7 +1352,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-d49f2b11a1a3",
-      "title": "8ビットの夏足元ケア広告",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1364,7 +1364,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-7501202db416",
-      "title": "8ビットの森で整う髪",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1376,7 +1376,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-b0bc283d836f",
-      "title": "8ビットの森で目もとを彩る",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1388,7 +1388,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-644b0452d47c",
-      "title": "8ビットの週末きらめきサロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1400,7 +1400,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-688d26dcfc79",
-      "title": "8ビットカレーの滝めぐり",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1412,7 +1412,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-0d7d1c250cf4",
-      "title": "8ビット・エステの休憩時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1424,7 +1424,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-d54d7e9eb6cc",
-      "title": "8ビット喫茶のパスタとおしゃべり",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1436,7 +1436,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-5cf0601dea7e",
-      "title": "8ビット夜景の指先サロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1448,7 +1448,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-a31461f71a08",
-      "title": "8ビット広場で、抹茶ひと息",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1460,7 +1460,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-02b7720e6d91",
-      "title": "8ビット整体のひと休み",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1472,7 +1472,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-63b8ede6040c",
-      "title": "8ビット整体のひと息",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1484,7 +1484,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-69f59f0c6562",
-      "title": "8ビット整体の休憩時間",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1496,7 +1496,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-1ed6ff6933a9",
-      "title": "8ビット整体マスコットの散歩",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1508,7 +1508,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ed5adda323cd",
-      "title": "8ビット整体リラックス予約",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1520,7 +1520,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-9bbd661fadfe",
-      "title": "8ビット整体・マッサージ広告",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1532,7 +1532,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-47b02bed72a7",
-      "title": "8ビット整体・マッサージ案内",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1544,7 +1544,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-b2ce7a0891e2",
-      "title": "8ビット春待ちパーマ",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1556,7 +1556,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ece03b73f37c",
-      "title": "8ビット月夜のフェイスケア",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1568,7 +1568,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ed2d399e0481",
-      "title": "8ビット朝焼けの整体マッサージ",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1580,7 +1580,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-63243a51a065",
-      "title": "8ビット村のネイルサロン広告",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1592,7 +1592,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-5aff199c270b",
-      "title": "8ビット癒やしの整体塔",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1604,7 +1604,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-05bb246b63fa",
-      "title": "8ビット砂漠のネイル＆まつ毛",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1616,7 +1616,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-0f4c6cb631a1",
-      "title": "8ビット砂漠の夏ケア相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1628,7 +1628,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-f1314830ea40",
-      "title": "8ビット編み髪の週末",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1640,7 +1640,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-cd79eefb06e8",
-      "title": "8ビット美容室のヘアスタイル選び",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1652,7 +1652,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-6c81ecbffede",
-      "title": "8ビット美容室の新ステージ",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1664,7 +1664,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-0927d519c5d7",
-      "title": "8ビット美容室トラベルポスター",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1676,7 +1676,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-3bba80451b24",
-      "title": "8ビット肌相談サロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1688,7 +1688,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-9c63bcdd5a09",
-      "title": "8ビット街角のネイルサロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1700,7 +1700,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-f529932538ee",
-      "title": "8ビット迷路の前髪チェンジ",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1712,7 +1712,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-533c4c336d3a",
-      "title": "8ビット餃子で乾杯",
+      "title": "参考作品",
       "industry": "pub",
       "width": 1122,
       "height": 1402,
@@ -1724,7 +1724,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-4b60e5fa8d9f",
-      "title": "あつあつの、しあわせ。8ビットカフェ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1736,7 +1736,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-b0f3f85a0c55",
-      "title": "からだの声を聞く庭園迷路",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1748,7 +1748,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-76a330c189b2",
-      "title": "チーズの誘惑、8ビットカフェ路線",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1760,7 +1760,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-3233bd61b25a",
-      "title": "ドット絵で始める肌相談",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1772,7 +1772,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-a5593b4e8f2a",
-      "title": "ドット絵の港とボブ",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1784,7 +1784,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-f197d54dc23a",
-      "title": "ドット絵美容ティータイム",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1796,7 +1796,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-da4318e274b2",
-      "title": "ネイルで、旅気分。",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1808,7 +1808,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ac0261388706",
-      "title": "ネイルとまつ毛の8ビット迷宮",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1820,7 +1820,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-bc9aa7916fb7",
-      "title": "ピクセルで彩るまつ毛サロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -1832,7 +1832,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-5a56d0471f2a",
-      "title": "ピクセル時計塔の美容サロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1844,7 +1844,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-b112182ce9b9",
-      "title": "ピクセル美サロンの癒し時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1856,7 +1856,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-846e0323b6cf",
-      "title": "ピクセル美容室の髪休み",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1868,7 +1868,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-c6f3902a415b",
-      "title": "レトロ8ビットで出会うプリン",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1880,7 +1880,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-9d4046c42ff7",
-      "title": "レトロ8ビットの朝ごはんカフェ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1892,7 +1892,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e638578d2f7e",
-      "title": "レトロ8ビットの美容室広告",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1904,7 +1904,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-b87dca4d65f8",
-      "title": "レトロピクセルの和定食ランチ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1916,7 +1916,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-d064c52ba370",
-      "title": "仕事帰りの8ビット整体休憩所",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1928,7 +1928,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-136ce776230a",
-      "title": "夕暮れの8ビット美容室",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -1940,7 +1940,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-954a100dd577",
-      "title": "夕暮れ港の8ビット喫茶",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -1952,7 +1952,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-74b3a3392e0e",
-      "title": "夕暮れ港の素肌ケア",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1964,7 +1964,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-a1351135fa8c",
-      "title": "夜のリラックス、森のエステ",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -1976,7 +1976,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-3e410970dbf1",
-      "title": "夜勤明けの8ビット整体時間",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -1988,7 +1988,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ab527b7c436e",
-      "title": "大人の遊び心、8ビット美容室",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -2000,7 +2000,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-4137bcf911f6",
-      "title": "旅のあと、整体の時間",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2012,7 +2012,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-43b907926e5e",
-      "title": "晴れの日の特別なドット絵ヘア",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -2024,7 +2024,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ceecf6fc3e03",
-      "title": "月に一度の8ビット美容時間",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -2036,7 +2036,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-746e1a8ee20d",
-      "title": "月夜の8ビットネイルサロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -2048,7 +2048,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-bffa3f044985",
-      "title": "月夜のおむすびカフェ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -2060,7 +2060,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-cdc52316a6ed",
-      "title": "朝から整う8ビット整体",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2072,7 +2072,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-146efce2e601",
-      "title": "森に映える夜のクリームソーダ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -2084,7 +2084,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-3006cf6ec410",
-      "title": "森の中の8ビット整体",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2096,7 +2096,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-25b73aa2d600",
-      "title": "横顔に彩り、8ビットサロン広告",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -2108,7 +2108,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-d133d77744e4",
-      "title": "深呼吸から始める8ビット整体",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2120,7 +2120,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e27d4f5dea3d",
-      "title": "焼きたてをどうぞ！8ビットカフェ",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -2132,7 +2132,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-7cd146c52d5c",
-      "title": "素の爪を彩るドット絵サロン",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -2144,7 +2144,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-c19b49b26836",
-      "title": "美しさへ続く8ビット路線",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -2156,7 +2156,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-bea85ea6d83a",
-      "title": "美しさを育てる8ビットサロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -2168,7 +2168,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-319aec87eab8",
-      "title": "肌と話す8ビット美容サロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -2180,7 +2180,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-1dbd3036473c",
-      "title": "色で変わる8ビット美容室",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -2192,7 +2192,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-ea298e23d28a",
-      "title": "花咲く鏡のレトロ美容サロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -2204,7 +2204,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-2db02d90dd09",
-      "title": "週末は、8ビット整体で肩の力を抜こう",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2216,7 +2216,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e0c63254395b",
-      "title": "雨の日も、好きな髪で。",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -2228,7 +2228,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-f04692d78645",
-      "title": "雨夜のドット美容サロン",
+      "title": "参考作品",
       "industry": "esthetic",
       "width": 1122,
       "height": 1402,
@@ -2240,7 +2240,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-2037f6517edd",
-      "title": "雨夜の整体マッサージ広告",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2252,7 +2252,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-1ac443eb2e58",
-      "title": "青いネイルの8ビット広告",
+      "title": "参考作品",
       "industry": "nail",
       "width": 1122,
       "height": 1402,
@@ -2264,7 +2264,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-40c7f9e3a50f",
-      "title": "青をひそませる、8ビット美容室",
+      "title": "参考作品",
       "industry": "hair",
       "width": 1122,
       "height": 1402,
@@ -2276,7 +2276,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-4e75173dd802",
-      "title": "静かな部屋の8ビット整体",
+      "title": "参考作品",
       "industry": "body",
       "width": 1122,
       "height": 1402,
@@ -2288,7 +2288,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "8bit-e2eeae51ee65",
-      "title": "香りで選ぶ、8ビットコーヒー",
+      "title": "参考作品",
       "industry": "food",
       "width": 1122,
       "height": 1402,
@@ -2300,7 +2300,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "kissa-machi",
-      "title": "喫茶まち — デザインサンプル",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images__kissa-machi.webp",
       "image": "images__kissa-machi-full.webp",
@@ -2311,7 +2311,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "restaurant-illustration",
-      "title": "洋食屋 — イラストバナー",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images__restaurant-illustration.webp",
       "image": "images__restaurant-illustration-full.webp",
@@ -2322,7 +2322,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "ramen-pixel",
-      "title": "ラーメン — ピクセルアートバナー",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images__ramen-pixel.webp",
       "image": "images__ramen-pixel-full.webp",
@@ -2333,7 +2333,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "sweets-1",
-      "title": "秋スイーツ — 表紙",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images__sweets-1.webp",
       "image": "images__sweets-1-full.webp",
@@ -2344,7 +2344,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "sweets-2",
-      "title": "秋スイーツ — おすすめ3選",
+      "title": "参考作品",
       "industry": "food",
       "thumbnail": "images__sweets-2.webp",
       "image": "images__sweets-2-full.webp",
@@ -2355,7 +2355,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "salon-illustration",
-      "title": "美容室 — イラストバナー",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images__salon-illustration.webp",
       "image": "images__salon-illustration-full.webp",
@@ -2366,7 +2366,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "salon-model",
-      "title": "美容室 — モデルビジュアル",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images__salon-model.webp",
       "image": "images__salon-model-full.webp",
@@ -2377,7 +2377,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "yohaku",
-      "title": "余白 — デザインサンプル",
+      "title": "参考作品",
       "industry": "hair",
       "thumbnail": "images__yohaku.webp",
       "image": "images__yohaku-full.webp",
@@ -2388,7 +2388,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "nursing-home",
-      "title": "介護施設 — ピクセルアートバナー",
+      "title": "参考作品",
       "industry": "care",
       "thumbnail": "images__nursing-home.webp",
       "image": "images__nursing-home-full.webp",
@@ -2399,7 +2399,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "youtube",
-      "title": "YouTubeサムネイル ポートフォリオ",
+      "title": "参考作品",
       "industry": "media",
       "thumbnail": "images__youtube.webp",
       "image": "images__youtube-full.webp",
@@ -2410,7 +2410,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "awa",
-      "title": "AWA 泡ハンドソープ",
+      "title": "参考作品",
       "industry": "product",
       "thumbnail": "images__awa.webp",
       "image": "images__awa-full.webp",
@@ -2421,7 +2421,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "halloween-green",
-      "title": "Halloween Night — 緑背景",
+      "title": "参考作品",
       "industry": "event",
       "thumbnail": "images__halloween-green.webp",
       "image": "images__halloween-green-full.webp",
@@ -2432,7 +2432,7 @@ window.PORTFOLIO = {
     },
     {
       "id": "halloween-white",
-      "title": "Halloween Night — 白背景",
+      "title": "参考作品",
       "industry": "event",
       "thumbnail": "images__halloween-white.webp",
       "image": "images__halloween-white-full.webp",
@@ -2448,6 +2448,15 @@ window.PORTFOLIO = {
       "label": "８ビットファミコン風",
       "description": "美容室・居酒屋・飲食店など、業種別に参考作品をご覧いただけます。",
       "cover": "nursing-home"
+    },
+    {
+      "id": "bijo",
+      "label": "美女",
+      "description": "",
+      "coverImage": "images/portfolio/bijo-cover.webp",
+      "coverWidth": 1000,
+      "coverHeight": 1000,
+      "pending": true
     },
     {
       "id": "original",
