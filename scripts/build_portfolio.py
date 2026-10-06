@@ -13,6 +13,20 @@ script_version = hashlib.sha256((root/'portfolio.js').read_bytes()).hexdigest()[
 css_version = hashlib.sha256((root/'portfolio.css').read_bytes()).hexdigest()[:12]
 assert len({w['id'] for w in works}) == len(works)
 
+shapes = [('portrait', '縦長'), ('square', '正方形'), ('landscape', '横長')]
+
+def shape(w):
+    ratio = w['width'] / w['height']
+    return 'portrait' if ratio < 0.98 else 'landscape' if ratio > 1.02 else 'square'
+
+def arranged_cards(items):
+    rows = []
+    for name, label in shapes:
+        matching = [w for w in items if shape(w) == name]
+        if matching:
+            rows.append(f'<div class="portfolio-shape" data-orientation="{name}"><p class="portfolio-shape-label">{label}</p><div class="portfolio-grid portfolio-grid--{name}">{"".join(card(w) for w in matching)}</div></div>')
+    return ''.join(rows)
+
 def card(w):
     return f'''<article class="portfolio-card"><a href="{escape(w['image'])}" data-artwork="{w['id']}"><div class="portfolio-card-media"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></div><span class="sample-caption">作品を大きく見る ↗</span></a></article>'''
 
@@ -22,7 +36,7 @@ for s in data['collections']:
     for i in data['industries']:
         items=[w for w in works if w['collection']==s['id'] and w['industry']==i['id']]
         if not items:continue
-        sections.append(f'''<section class="portfolio-industry" aria-labelledby="heading-{s['id']}-{i['id']}"><h3 id="heading-{s['id']}-{i['id']}">{i['label']}<span>{len(items)}点</span></h3><div class="portfolio-grid">{''.join(card(w) for w in items)}</div></section>''')
+        sections.append(f'''<section class="portfolio-industry" aria-labelledby="heading-{s['id']}-{i['id']}"><h3 id="heading-{s['id']}-{i['id']}">{i['label']}<span>{len(items)}点</span></h3>{arranged_cards(items)}</section>''')
     if sections:
         groups.append(f'''<section class="portfolio-style" aria-labelledby="heading-{s['id']}"><div class="portfolio-style-head"><h2 id="heading-{s['id']}">{s['label']}</h2><p>{s['description']}</p></div>{''.join(sections)}</section>''')
 
@@ -32,10 +46,12 @@ for s in data['collections']:
     cover={'thumbnail':s['coverImage'],'width':s['coverWidth'],'height':s['coverHeight'],'title':s['label']} if 'coverImage' in s else next(w for w in works if w['id']==s['cover'])
     count=sum(s['id'] == w['collection'] for w in works)
     links.append(f'''<a class="style-link" href="ad-design.html?collection={s['id']}#samples"><img src="{cover['thumbnail']}" width="{cover['width']}" height="{cover['height']}" loading="lazy" decoding="async" alt="{escape(cover['title'])}"><h3>{s['label']} ↗</h3><p>{'作品は準備中です' if s.get('pending') else str(count)+'点の作品を見る'}</p></a>''')
-for w in works:
-    if w['collection'] != 'original': continue
-    links.append(f'''<a class="style-link" href="{escape(w.get('detailPage', w['image']))}"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></a>''')
-folder_links=''.join(links)
+folder_links='<div class="portfolio-style-links collection-links">'+''.join(links)+'</div>'
+for name, label in shapes:
+    originals = [w for w in works if w['collection'] == 'original' and shape(w) == name]
+    if not originals: continue
+    cards = [f'''<a class="style-link" href="{escape(w.get('detailPage', w['image']))}"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></a>''' for w in originals]
+    folder_links += f'<div class="portfolio-shape" data-orientation="{name}"><p class="portfolio-shape-label">{label}</p><div class="portfolio-style-links portfolio-grid--{name}">{"".join(cards)}</div></div>'
 
 html=f'''<!doctype html>
 <html lang="ja">
@@ -63,7 +79,7 @@ html=f'''<!doctype html>
       <p class="portfolio-note">広告・ポスター・バナーの参考作品。画像を選ぶと全体を大きく表示します。</p>
     </div>
     <nav id="collection-back" class="page-actions" hidden><a class="btn btn--ghost" href="ad-design.html#samples">作品集を選ぶ ←</a></nav>
-    <div id="collection-folders" class="portfolio-style-links">{folder_links}</div>
+    <div id="collection-folders" class="portfolio-entry">{folder_links}</div>
     <div class="portfolio-controls" id="portfolio-controls" hidden>
       <span class="filter-label" id="industry-label">業種を選ぶ</span>
       <div class="filter-row" id="industry-filters" role="group" aria-labelledby="industry-label"></div>
@@ -93,11 +109,12 @@ html=f'''<!doctype html>
 (root/'ad-design.html').write_text(html)
 
 entry=f'''<!-- PORTFOLIO ENTRY START -->
-        <div class="portfolio-style-links">{''.join(links)}</div>
+        <div class="portfolio-entry">{folder_links}</div>
         <a class="btn btn--ghost" href="ad-design.html">広告作品をすべて見る（{len(works)}点）<span class="btn__icon" aria-hidden="true">↗</span></a>
         <h3 class="portfolio-home-heading">Web・ビジュアルの制作イメージ</h3>
         <!-- PORTFOLIO ENTRY END -->'''
 home=(root/'index.html').read_text()
+home=re.sub(r'portfolio\.css(?:\?v=[a-zA-Z0-9]+)?', f'portfolio.css?v={css_version}', home)
 home=home.replace('今までの作品','広告デザイン')
 home=home.replace('aria-labelledby="works-title"','aria-label="広告デザイン作品"')
 home=re.sub(r'\s*<h2[^>]*id="works-title"[^>]*>.*?</h2>', '', home)
@@ -107,4 +124,4 @@ if '<!-- PORTFOLIO ENTRY START -->' in home:
     home=home[:start]+entry+home[end:]
 else:home=home.replace('<div class="work-grid">',entry+'\n        <div class="work-grid">')
 (root/'index.html').write_text(home, newline='\r\n')
-print(f'Built gallery with {len(works)} unique works and {len(links)} collection entry cards.')
+print(f'Built gallery with {len(works)} unique works, {len(links)} collections, and orientation groups.')

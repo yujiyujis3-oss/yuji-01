@@ -20,6 +20,19 @@
   }
   function known(list, id) { return list.some(function (item) { return item.id === id; }); }
   function normalize(value) { return value.normalize('NFKC').toLocaleLowerCase('ja'); }
+  var shapes = [{id:'portrait',label:'縦長'}, {id:'square',label:'正方形'}, {id:'landscape',label:'横長'}];
+  function shape(work) {
+    var ratio = work.width / work.height;
+    return ratio < 0.98 ? 'portrait' : ratio > 1.02 ? 'landscape' : 'square';
+  }
+  function arrangedCards(works) {
+    return shapes.map(function (format) {
+      var items = works.filter(function (work) { return shape(work) === format.id; });
+      if (!items.length) return '';
+      visible = visible.concat(items);
+      return '<div class="portfolio-shape" data-orientation="' + format.id + '"><p class="portfolio-shape-label">' + format.label + '</p><div class="portfolio-grid portfolio-grid--' + format.id + '">' + items.map(card).join('') + '</div></div>';
+    }).join('');
+  }
   function card(work) {
     return '<article class="portfolio-card"><a href="' + escape(work.image) + '" data-artwork="' + escape(work.id) + '"><div class="portfolio-card-media"><img src="' + escape(work.thumbnail) + '" width="' + work.width + '" height="' + work.height + '" loading="lazy" decoding="async" alt="' + escape(work.title) + '"></div><span class="sample-caption">作品を大きく見る ↗</span></a></article>';
   }
@@ -78,8 +91,7 @@
       return '<section class="portfolio-style" aria-labelledby="heading-' + s.id + '"><div class="portfolio-style-head"><h2 id="heading-' + s.id + '">' + escape(s.label) + '</h2><p>' + escape(s.description) + '</p></div>' + data.industries.map(function (i) {
         var works = entries.filter(function (w) { return w.industry === i.id; });
         if (!works.length) return '';
-        visible = visible.concat(works);
-        return '<section class="portfolio-industry" aria-labelledby="heading-' + s.id + '-' + i.id + '"><h3 id="heading-' + s.id + '-' + i.id + '">' + escape(i.label) + '<span>' + works.length + '点</span></h3><div class="portfolio-grid">' + works.map(card).join('') + '</div></section>';
+        return '<section class="portfolio-industry" aria-labelledby="heading-' + s.id + '-' + i.id + '"><h3 id="heading-' + s.id + '-' + i.id + '">' + escape(i.label) + '<span>' + works.length + '点</span></h3>' + arrangedCards(works) + '</section>';
       }).join('') + '</section>';
     }).join('') || '<p class="portfolio-empty">作品は準備中です。</p>';
     status.textContent = matched.length + '点を表示 ／ この作品集 ' + data.works.filter(function(w) { return w.collection === style; }).length + '点';
