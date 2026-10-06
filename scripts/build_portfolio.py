@@ -27,7 +27,7 @@ html=f'''<!doctype html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>今までの作品・広告デザイン｜YUJI SHIMONO</title>
-  <meta name="description" content="ファミコン・8ビット風、レゴ風、人物・写真テイスト、かわいい系、きれい系など、雰囲気から選べる広告作品集。美容室、飲食店、エステ、ネイル、整体、介護施設の参考作品をご覧いただけます。">
+  <meta name="description" content="ユーザー指定の画像から選んだ参考作品集。ファミコン・8ビット風、かわいい系、きれい系の美容室、飲食店、エステ、ネイル、整体の広告・ポスターをご覧いただけます。">
   <meta name="theme-color" content="#101416">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
