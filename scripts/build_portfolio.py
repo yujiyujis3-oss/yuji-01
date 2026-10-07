@@ -42,7 +42,7 @@ for s in data['collections']:
 
 links=[]
 for s in data['collections']:
-    if s['id'] not in ('8bit', 'bijo'): continue
+    if s['id'] not in ('8bit', 'bijo', 'lego'): continue
     cover={'thumbnail':s['coverImage'],'width':s['coverWidth'],'height':s['coverHeight'],'title':s['label']} if 'coverImage' in s else next(w for w in works if w['id']==s['cover'])
     count=sum(s['id'] == w['collection'] for w in works)
     links.append(f'''<a class="style-link" href="ad-design.html?collection={s['id']}#samples"><img src="{cover['thumbnail']}" width="{cover['width']}" height="{cover['height']}" loading="lazy" decoding="async" alt="{escape(cover['title'])}"><h3>{s['label']} ↗</h3><p>{'作品は準備中です' if s.get('pending') else str(count)+'点の作品を見る'}</p></a>''')
