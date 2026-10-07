@@ -2323,7 +2323,7 @@ window.PORTFOLIO = {
       "width": 400,
       "height": 652,
       "detailPage": "sample-kissa-machi.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "restaurant-illustration",
@@ -2334,7 +2334,7 @@ window.PORTFOLIO = {
       "width": 1672,
       "height": 941,
       "detailPage": "sample-restaurant-illustration.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "ramen-pixel",
@@ -2356,7 +2356,7 @@ window.PORTFOLIO = {
       "width": 1080,
       "height": 1350,
       "detailPage": "sample-sweets-1.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "sweets-2",
@@ -2367,7 +2367,7 @@ window.PORTFOLIO = {
       "width": 1080,
       "height": 1350,
       "detailPage": "sample-sweets-2.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "salon-illustration",
@@ -2378,7 +2378,7 @@ window.PORTFOLIO = {
       "width": 1672,
       "height": 941,
       "detailPage": "sample-salon-illustration.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "salon-model",
@@ -2400,7 +2400,7 @@ window.PORTFOLIO = {
       "width": 400,
       "height": 652,
       "detailPage": "sample-yohaku.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "nursing-home",
@@ -2422,7 +2422,7 @@ window.PORTFOLIO = {
       "width": 1672,
       "height": 941,
       "detailPage": "sample-youtube.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "awa",
@@ -2433,7 +2433,7 @@ window.PORTFOLIO = {
       "width": 1080,
       "height": 1350,
       "detailPage": "sample-awa.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "halloween-green",
@@ -2444,7 +2444,7 @@ window.PORTFOLIO = {
       "width": 2480,
       "height": 3508,
       "detailPage": "sample-halloween-green.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "halloween-white",
@@ -2455,7 +2455,7 @@ window.PORTFOLIO = {
       "width": 2481,
       "height": 3508,
       "detailPage": "sample-halloween-white.html",
-      "collection": "original"
+      "collection": "normal"
     },
     {
       "id": "bijo-75b8649445b1",
@@ -5382,6 +5382,666 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "lego",
       "sourceHash": "9256237a1892170deef5039b17d8f80e613e7544c0a11d9b999177c2c53e6886"
+    },
+    {
+      "id": "normal-9db1a2af1425",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-9db1a2af1425-thumb.webp",
+      "image": "images/portfolio/normal-9db1a2af1425.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "9db1a2af1425006e859f9fb5c20ab0e320c150dd6026b9ad76bba5b582975ad9",
+      "sourceFile": "通常１/0107_exec-05340399-9230-4be6-9ded-35c0c576e866.png"
+    },
+    {
+      "id": "normal-fab8263e55e7",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-fab8263e55e7-thumb.webp",
+      "image": "images/portfolio/normal-fab8263e55e7.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "fab8263e55e7892b2a974df31efc3081eb920835a3e51e8cd275bdcef39b3c9f",
+      "sourceFile": "通常１/0108_exec-0ac53738-316f-437b-8182-bbed49c715ce.png"
+    },
+    {
+      "id": "normal-3bcb654187aa",
+      "title": "居酒屋の参考作品",
+      "industry": "pub",
+      "thumbnail": "images/portfolio/normal-3bcb654187aa-thumb.webp",
+      "image": "images/portfolio/normal-3bcb654187aa.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "normal",
+      "sourceHash": "3bcb654187aa31fe8716e069111f36201a46048d93ed0471ba93d58bd7498dd6",
+      "sourceFile": "通常１/0109_exec-11864f02-69f0-4618-bd75-5cc940e18bc0.png"
+    },
+    {
+      "id": "normal-c1a8cf09b123",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-c1a8cf09b123-thumb.webp",
+      "image": "images/portfolio/normal-c1a8cf09b123.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "c1a8cf09b1231327ec5f4061a2016354101b7e5abcccb298c3a71f8d24f8d315",
+      "sourceFile": "通常１/0110_exec-11c268fb-7c0e-46ed-815d-d86ebda6f9cc.png"
+    },
+    {
+      "id": "normal-ed530f0caf34",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-ed530f0caf34-thumb.webp",
+      "image": "images/portfolio/normal-ed530f0caf34.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "ed530f0caf343fc62a055aa3d8c649ded64fb5662fb730651389670f6ff5b538",
+      "sourceFile": "通常１/0111_exec-132cc447-b123-4f03-a050-c719522135dc.png"
+    },
+    {
+      "id": "normal-ebe9262cd26c",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-ebe9262cd26c-thumb.webp",
+      "image": "images/portfolio/normal-ebe9262cd26c.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "ebe9262cd26c74aa54c98c117aedad68d0ff9f5383dd248a6aa202b032e2b790",
+      "sourceFile": "通常１/0112_exec-14becd6a-1b9e-41f9-9f45-1dabab76465b.png"
+    },
+    {
+      "id": "normal-920686f3aec1",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-920686f3aec1-thumb.webp",
+      "image": "images/portfolio/normal-920686f3aec1.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "920686f3aec1409845ec7576e8820c6c49f703060c87c0a3af66b05b36f3a8ef",
+      "sourceFile": "通常１/0113_exec-14ff1b58-63a7-45d0-8ee3-ea5e8562b22d.png"
+    },
+    {
+      "id": "normal-b121f3d724a8",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-b121f3d724a8-thumb.webp",
+      "image": "images/portfolio/normal-b121f3d724a8.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "b121f3d724a8d8701f53910d64ab10e7999d71baa8f1bc90e9a7f3e86c774410",
+      "sourceFile": "通常１/0114_exec-154de2be-880f-437d-b079-09047edbe332.png"
+    },
+    {
+      "id": "normal-3bb40b2fc05a",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-3bb40b2fc05a-thumb.webp",
+      "image": "images/portfolio/normal-3bb40b2fc05a.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "3bb40b2fc05a5540762c375f60120f03fd46e7bfdd6b966d67232825109d4c8d",
+      "sourceFile": "通常１/0115_exec-1738e6c4-2b22-42a8-bb82-04455114f1ff.png"
+    },
+    {
+      "id": "normal-f04347230a52",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-f04347230a52-thumb.webp",
+      "image": "images/portfolio/normal-f04347230a52.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "f04347230a52229000c2727949ee2591f8394a0132d38ceb6246ce7e5c0ebf21",
+      "sourceFile": "通常１/0116_exec-18e22afa-777c-42cc-8759-5fa862085a3e.png"
+    },
+    {
+      "id": "normal-e52dfee8ecc2",
+      "title": "居酒屋の参考作品",
+      "industry": "pub",
+      "thumbnail": "images/portfolio/normal-e52dfee8ecc2-thumb.webp",
+      "image": "images/portfolio/normal-e52dfee8ecc2.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "e52dfee8ecc2a248e490d795d190e5bf7b63af11de89b62bcf5758d759e38173",
+      "sourceFile": "通常１/0118_054_original.png"
+    },
+    {
+      "id": "normal-944e015a1ff8",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-944e015a1ff8-thumb.webp",
+      "image": "images/portfolio/normal-944e015a1ff8.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "944e015a1ff88c51d02f55885e7fcafcf5c485f2b81c2a186db04039a45acea2",
+      "sourceFile": "通常１/0118_exec-1fa35883-31a7-46ad-a4c6-69d2853608a5.png"
+    },
+    {
+      "id": "normal-d7eba7ee7f25",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-d7eba7ee7f25-thumb.webp",
+      "image": "images/portfolio/normal-d7eba7ee7f25.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "d7eba7ee7f25214950cc1912ace100327b1703a0c1793e07ab027955ce063a7d",
+      "sourceFile": "通常１/0119_055_original.png"
+    },
+    {
+      "id": "normal-ad71ba1067b9",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-ad71ba1067b9-thumb.webp",
+      "image": "images/portfolio/normal-ad71ba1067b9.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "ad71ba1067b924f2137d8b5b6fdf56c4acb6852a47415a13b8907c4dd1933711",
+      "sourceFile": "通常１/0119_exec-235ccd73-29c7-467a-a79e-837d355bd7ac.png"
+    },
+    {
+      "id": "normal-fbac59374d12",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-fbac59374d12-thumb.webp",
+      "image": "images/portfolio/normal-fbac59374d12.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "fbac59374d12712612b45d7f72e65bb3b35291e637d9ddafe7fb46bc19985e45",
+      "sourceFile": "通常１/0120_exec-24023ca9-5d00-4e89-ad46-a9584a2eb2c7.png"
+    },
+    {
+      "id": "normal-d6cdef9d3d32",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-d6cdef9d3d32-thumb.webp",
+      "image": "images/portfolio/normal-d6cdef9d3d32.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "d6cdef9d3d3271d47ddc4b622affd43e9906beba8741ec663314c8380f7b9272",
+      "sourceFile": "通常１/0121_exec-25d23891-0512-4557-987d-09a402b565ed.png"
+    },
+    {
+      "id": "normal-0fdd3b1c8a35",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-0fdd3b1c8a35-thumb.webp",
+      "image": "images/portfolio/normal-0fdd3b1c8a35.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "0fdd3b1c8a352b9b523c0b2b3624d8828ba2e5ccb00682e4a26b1406d6911a50",
+      "sourceFile": "通常１/0122_exec-2654831e-6bf7-482a-b7c9-6398c294cad6.png"
+    },
+    {
+      "id": "normal-f14555c13772",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-f14555c13772-thumb.webp",
+      "image": "images/portfolio/normal-f14555c13772.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "f14555c137724e8648aa851c0d297fd11fe7c3f2bcff2f1f8d368f915d1eabbd",
+      "sourceFile": "通常１/0123_exec-2a0efab3-6ace-4b8d-a6a0-10523531e892.png"
+    },
+    {
+      "id": "normal-cf1c9c72449b",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-cf1c9c72449b-thumb.webp",
+      "image": "images/portfolio/normal-cf1c9c72449b.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "cf1c9c72449b1b56c874b80a141c9fd39ccbe956716a5eb5da759362ab2b1d80",
+      "sourceFile": "通常１/0124_exec-2c0d4254-6a1b-4dd6-a488-8ac274976259.png"
+    },
+    {
+      "id": "normal-739597801df5",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-739597801df5-thumb.webp",
+      "image": "images/portfolio/normal-739597801df5.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "739597801df52ea61685f70778766c7cbf932041f93f7e1b03a6b05bbaed6dfb",
+      "sourceFile": "通常１/0125_exec-2c835045-651d-4e96-96aa-5ae93a0cea93.png"
+    },
+    {
+      "id": "normal-d043ee0ce405",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-d043ee0ce405-thumb.webp",
+      "image": "images/portfolio/normal-d043ee0ce405.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "normal",
+      "sourceHash": "d043ee0ce4050c171822ffd92c181182025a26515aa6dc0aaa22f527bafe5b9c",
+      "sourceFile": "通常１/0126_exec-30befd3c-4b73-4e2e-98e8-ba964298f44d.png"
+    },
+    {
+      "id": "normal-7fd4330cd1a2",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-7fd4330cd1a2-thumb.webp",
+      "image": "images/portfolio/normal-7fd4330cd1a2.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "7fd4330cd1a22b28c57a7cf46c05cbee6a0a254012b32e41c4a8b25ff331ddcb",
+      "sourceFile": "通常１/0127_exec-32a2609b-4e50-40eb-b794-2724e3a72512.png"
+    },
+    {
+      "id": "normal-cee6730a177b",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-cee6730a177b-thumb.webp",
+      "image": "images/portfolio/normal-cee6730a177b.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "cee6730a177bad13a92fea51f7f9a774802bdae419a32516d36cc67574f7e437",
+      "sourceFile": "通常１/0128_exec-33462c7e-e516-4457-be70-61412d176887.png"
+    },
+    {
+      "id": "normal-24f8a438d678",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-24f8a438d678-thumb.webp",
+      "image": "images/portfolio/normal-24f8a438d678.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "24f8a438d6788d2f1164a4adfb0145d4ee4b40c7c938864aa4d510e50ca91b52",
+      "sourceFile": "通常１/0129_exec-37392d45-0cca-4ab5-a959-24f3ddf16596.png"
+    },
+    {
+      "id": "normal-abe866cac7f0",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-abe866cac7f0-thumb.webp",
+      "image": "images/portfolio/normal-abe866cac7f0.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "abe866cac7f094a229fd9fdcb905b15de0f253924d63a8b1b531315a06dc608d",
+      "sourceFile": "通常１/0130_exec-38b9116e-a5f0-4b5f-8a65-d0b72a83ea9e.png"
+    },
+    {
+      "id": "normal-6f26f8aa2368",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-6f26f8aa2368-thumb.webp",
+      "image": "images/portfolio/normal-6f26f8aa2368.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "6f26f8aa2368ee811c1ae03e6ce6b8fe160f350bda5784466c9d46e107169bff",
+      "sourceFile": "通常１/0131_exec-38dffcbb-6388-4b82-9a9e-710006b437a1.png"
+    },
+    {
+      "id": "normal-3c64e2b28468",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-3c64e2b28468-thumb.webp",
+      "image": "images/portfolio/normal-3c64e2b28468.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "3c64e2b284685a363106307f4e062c3168f75a575ff0d61dacf2befcdf180ac2",
+      "sourceFile": "通常１/0132_exec-398b6ca7-1dbf-4568-90ae-d8662a077b9e.png"
+    },
+    {
+      "id": "normal-be8c6f711af2",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-be8c6f711af2-thumb.webp",
+      "image": "images/portfolio/normal-be8c6f711af2.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "be8c6f711af2167643e9683fad236127ea5fee76a80305a3531ade99b718f3ff",
+      "sourceFile": "通常１/0133_exec-3dff1e28-d023-4ad5-9572-dfa280ef4ee7.png"
+    },
+    {
+      "id": "normal-b7ff0521445a",
+      "title": "居酒屋の参考作品",
+      "industry": "pub",
+      "thumbnail": "images/portfolio/normal-b7ff0521445a-thumb.webp",
+      "image": "images/portfolio/normal-b7ff0521445a.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "b7ff0521445aa72cfca12279131f51707b5c4c3ecf7f286250fd040aa9dad119",
+      "sourceFile": "通常１/0134_exec-40f6f00c-e01b-4e36-8392-67b8668df531.png"
+    },
+    {
+      "id": "normal-484fef445b9e",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-484fef445b9e-thumb.webp",
+      "image": "images/portfolio/normal-484fef445b9e.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "484fef445b9e34ac7ed64ceaca4a5db7a3955ebba1c5b2138eabc2894bdb4b5b",
+      "sourceFile": "通常１/0135_exec-4113a44a-08c6-4c21-a1e2-6fc34ae6724a.png"
+    },
+    {
+      "id": "normal-642c5b4e4ee5",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-642c5b4e4ee5-thumb.webp",
+      "image": "images/portfolio/normal-642c5b4e4ee5.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "642c5b4e4ee525c0f934c47d17341b6835eac5bdef9ef9c20eccadc7fbe8bec4",
+      "sourceFile": "通常１/0136_exec-44f14038-4cd3-4f86-9538-1386549ccf18.png"
+    },
+    {
+      "id": "normal-95ff7b3866db",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-95ff7b3866db-thumb.webp",
+      "image": "images/portfolio/normal-95ff7b3866db.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "95ff7b3866dba556ff45d6ace3ec4443a72c110837a528008b74dbf07d192d91",
+      "sourceFile": "通常１/0137_exec-48b9389a-33f3-423c-8460-35f7675c664b.png"
+    },
+    {
+      "id": "normal-69e332929e17",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-69e332929e17-thumb.webp",
+      "image": "images/portfolio/normal-69e332929e17.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "69e332929e172d10062e0557bd3ecefbd009d7bbc36e04fa91168fd01808a2c9",
+      "sourceFile": "通常１/0138_exec-4c747944-8c01-40e2-b4d4-4a98cd639dca.png"
+    },
+    {
+      "id": "normal-40a6693bd5b9",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-40a6693bd5b9-thumb.webp",
+      "image": "images/portfolio/normal-40a6693bd5b9.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "40a6693bd5b9e5a1113ddb30b79fe32ca81c0029e854341698615e797a564310",
+      "sourceFile": "通常１/0139_exec-4d31a75f-dc02-4374-b8cf-f4a18822ffd5.png"
+    },
+    {
+      "id": "normal-3084b8610821",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/normal-3084b8610821-thumb.webp",
+      "image": "images/portfolio/normal-3084b8610821.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "3084b8610821322b177bf9140b9d061e79c665358e985def472a3ce623e3c949",
+      "sourceFile": "通常１/0140_exec-576015a4-5ff7-4395-943f-3c0deb815e68.png"
+    },
+    {
+      "id": "normal-aa6ca9122daa",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-aa6ca9122daa-thumb.webp",
+      "image": "images/portfolio/normal-aa6ca9122daa.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "aa6ca9122daa990b6c5755b72a83c739bcf7e1817cc111f495097e3d9137f511",
+      "sourceFile": "通常１/0141_exec-5ac578d6-bd49-4a2d-9717-0499b4eefde2.png"
+    },
+    {
+      "id": "normal-e7ad0f5df363",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-e7ad0f5df363-thumb.webp",
+      "image": "images/portfolio/normal-e7ad0f5df363.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "e7ad0f5df3633007738658a87e0db171cd5e1f6805f0de2d882c84f4034fed1f",
+      "sourceFile": "通常１/0142_exec-5c769c6e-0fa9-40ff-a004-b69689d0631e.png"
+    },
+    {
+      "id": "normal-1fca977ac95e",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-1fca977ac95e-thumb.webp",
+      "image": "images/portfolio/normal-1fca977ac95e.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "1fca977ac95ee0fbf533ebb42767a96abaef3dcb84006646df3bf73b515acf54",
+      "sourceFile": "通常１/0143_exec-5dc54058-1f82-4f7c-9f8d-7094cd899191.png"
+    },
+    {
+      "id": "normal-b43def15e839",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-b43def15e839-thumb.webp",
+      "image": "images/portfolio/normal-b43def15e839.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "b43def15e8391cd4f33abb02035d4fdba8075e24cd363ff2e39c9be5fa4dba23",
+      "sourceFile": "通常１/0144_exec-5ee79882-6e6c-4b75-acb2-6d7cb36058e1.png"
+    },
+    {
+      "id": "normal-43d7bdb3fdcb",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-43d7bdb3fdcb-thumb.webp",
+      "image": "images/portfolio/normal-43d7bdb3fdcb.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "43d7bdb3fdcb5f781cdcd6e143998f95e77d1e24fa31984ce0ca59d44cdae6fe",
+      "sourceFile": "通常１/0145_exec-69249584-d697-498a-b64a-afff74ee83a1.png"
+    },
+    {
+      "id": "normal-459a09667728",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-459a09667728-thumb.webp",
+      "image": "images/portfolio/normal-459a09667728.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "459a096677284ce9c32fcdf13e4bc4f03ddd5295e6231c2968312b5639b21dfe",
+      "sourceFile": "通常１/0146_exec-6bc69b41-1f77-4fd9-999f-ac08d5899437.png"
+    },
+    {
+      "id": "normal-b2c8899f265b",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-b2c8899f265b-thumb.webp",
+      "image": "images/portfolio/normal-b2c8899f265b.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "b2c8899f265b0dbce4c1c4662742e345e9af0b6178fc99ac8f6b64a110ef54b5",
+      "sourceFile": "通常１/0147_exec-6d066124-b274-494f-bfc2-997557dd29b6.png"
+    },
+    {
+      "id": "normal-c333c3253e1a",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-c333c3253e1a-thumb.webp",
+      "image": "images/portfolio/normal-c333c3253e1a.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "c333c3253e1ab307280b2bc7515edc8e1ee0acd66ea2b83adbc3a5f5ea849dcc",
+      "sourceFile": "通常１/0148_exec-6e48a73c-067d-40cb-a5e0-a06f060e93d1.png"
+    },
+    {
+      "id": "normal-4315370703c4",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-4315370703c4-thumb.webp",
+      "image": "images/portfolio/normal-4315370703c4.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "normal",
+      "sourceHash": "4315370703c46d87bd609552546981c5d69d9049142c6be1d164d4cd0c8d77e5",
+      "sourceFile": "通常１/0149_exec-6e7067b1-4f4f-4028-a9c9-2ec174523c5f.png"
+    },
+    {
+      "id": "normal-72e526763f30",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-72e526763f30-thumb.webp",
+      "image": "images/portfolio/normal-72e526763f30.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "72e526763f302b50c785f314799cdbeaba04625d3be9f6de829e5fb33690fb3e",
+      "sourceFile": "通常１/0150_exec-6f1000f9-30a2-4cf9-8313-257684f11ca8.png"
+    },
+    {
+      "id": "normal-93ca86ad58e1",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/normal-93ca86ad58e1-thumb.webp",
+      "image": "images/portfolio/normal-93ca86ad58e1.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "93ca86ad58e1d70ccd24a8ca8c061546b0c2504a237b713e3945e78166417974",
+      "sourceFile": "通常１/0151_exec-7425f7e3-d46a-4c58-804b-66352a10bd36.png"
+    },
+    {
+      "id": "normal-543ec868e311",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-543ec868e311-thumb.webp",
+      "image": "images/portfolio/normal-543ec868e311.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "543ec868e31163a73937808f6f274b0a283b03ca37604c524abc0d0e14fa4291",
+      "sourceFile": "通常１/0152_exec-7451f07a-ebc8-45ba-8cb6-aa4f00264485.png"
+    },
+    {
+      "id": "normal-7c50ed569791",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-7c50ed569791-thumb.webp",
+      "image": "images/portfolio/normal-7c50ed569791.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "7c50ed5697912a83ddb645e182f57578f9242be866752adb742cdd6ee9bde7b3",
+      "sourceFile": "通常１/0153_exec-76974acc-6964-4cc9-9305-0b562c4a488e.png"
+    },
+    {
+      "id": "normal-76903a2ee829",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-76903a2ee829-thumb.webp",
+      "image": "images/portfolio/normal-76903a2ee829.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "normal",
+      "sourceHash": "76903a2ee8291c6b5feb5a57e8c548287e94cefd1cbf1a6f596adcf24c918409",
+      "sourceFile": "通常１/0154_exec-7bb3600c-1998-4798-a7d3-94e37ac93477.png"
+    },
+    {
+      "id": "normal-7c8cdf3af82f",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-7c8cdf3af82f-thumb.webp",
+      "image": "images/portfolio/normal-7c8cdf3af82f.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "7c8cdf3af82fcc27c6d2c5259cf771cf8b59d8e3dea7147161324c0105217c02",
+      "sourceFile": "通常１/0155_exec-7eea3dc8-4e5c-4838-8964-93d9b0843712.png"
+    },
+    {
+      "id": "normal-18a048fae691",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-18a048fae691-thumb.webp",
+      "image": "images/portfolio/normal-18a048fae691.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "normal",
+      "sourceHash": "18a048fae69189e29f9442f00f43e56d3540ecd597506f3255c3b4d42f0dede0",
+      "sourceFile": "通常１/0156_exec-7fb3952b-f47a-483d-925f-8932a59ecc85.png"
+    },
+    {
+      "id": "normal-9c4be8c67cd4",
+      "title": "居酒屋の参考作品",
+      "industry": "pub",
+      "thumbnail": "images/portfolio/normal-9c4be8c67cd4-thumb.webp",
+      "image": "images/portfolio/normal-9c4be8c67cd4.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "9c4be8c67cd4100c85f35295349463070f02878e08ac73b9edac5fddb2e3694a",
+      "sourceFile": "通常１/0157_exec-803f492f-2023-4510-b831-f988e8ef207d.png"
+    },
+    {
+      "id": "normal-adf01205578a",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/normal-adf01205578a-thumb.webp",
+      "image": "images/portfolio/normal-adf01205578a.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "adf01205578a8b75c12a474413be47dfcc464de2c30a74aef1270b2b595cc01e",
+      "sourceFile": "通常１/0158_exec-86e59097-e50f-4cee-bbd9-6b7dde5bae02.png"
+    },
+    {
+      "id": "normal-41c2d032fdb3",
+      "title": "整体・マッサージの参考作品",
+      "industry": "body",
+      "thumbnail": "images/portfolio/normal-41c2d032fdb3-thumb.webp",
+      "image": "images/portfolio/normal-41c2d032fdb3.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "normal",
+      "sourceHash": "41c2d032fdb320d60a77851f9a3341e623bf8a50a0dcd05c8c6e72773c22b664",
+      "sourceFile": "通常１/0159_exec-873761cd-28ac-4095-8845-1b9d351e9113.png"
+    },
+    {
+      "id": "normal-9146bbb696b2",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/normal-9146bbb696b2-thumb.webp",
+      "image": "images/portfolio/normal-9146bbb696b2.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "normal",
+      "sourceHash": "9146bbb696b22e420b230451b3fb7b51ffb4f89f822a1b7cff7fa97e07dd2c12",
+      "sourceFile": "通常１/0160_exec-8b5a146b-5fde-4621-88e9-07c1216df041.png"
     }
   ],
   "collections": [
@@ -5407,10 +6067,10 @@ window.PORTFOLIO = {
       "cover": "lego-62bcc4a328b1"
     },
     {
-      "id": "original",
-      "label": "元々の参考作品",
-      "description": "飲食店・美容室・介護施設などの参考作品。",
-      "cover": "restaurant-illustration"
+      "id": "normal",
+      "label": "通常",
+      "description": "広告・ポスター・バナーの参考作品。",
+      "cover": "normal-9db1a2af1425"
     }
   ]
 };

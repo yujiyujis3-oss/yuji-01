@@ -42,16 +42,11 @@ for s in data['collections']:
 
 links=[]
 for s in data['collections']:
-    if s['id'] not in ('8bit', 'bijo', 'lego'): continue
+    if s['id'] not in ('8bit', 'bijo', 'lego', 'normal'): continue
     cover={'thumbnail':s['coverImage'],'width':s['coverWidth'],'height':s['coverHeight'],'title':s['label']} if 'coverImage' in s else next(w for w in works if w['id']==s['cover'])
     count=sum(s['id'] == w['collection'] for w in works)
     links.append(f'''<a class="style-link" href="ad-design.html?collection={s['id']}#samples"><img src="{cover['thumbnail']}" width="{cover['width']}" height="{cover['height']}" loading="lazy" decoding="async" alt="{escape(cover['title'])}"><h3>{s['label']} ↗</h3><p>{'作品は準備中です' if s.get('pending') else str(count)+'点の作品を見る'}</p></a>''')
 folder_links='<div class="portfolio-style-links collection-links">'+''.join(links)+'</div>'
-for name, label in shapes:
-    originals = [w for w in works if w['collection'] == 'original' and shape(w) == name]
-    if not originals: continue
-    cards = [f'''<a class="style-link" href="{escape(w.get('detailPage', w['image']))}"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></a>''' for w in originals]
-    folder_links += f'<div class="portfolio-shape" data-orientation="{name}"><p class="portfolio-shape-label">{label}</p><div class="portfolio-style-links portfolio-grid--{name}">{"".join(cards)}</div></div>'
 
 html=f'''<!doctype html>
 <html lang="ja">

@@ -42,6 +42,7 @@
   function readURL() {
     var params = new URLSearchParams(location.search);
     var selected = params.get('collection') || (params.get('style') === 'pixel' ? '8bit' : 'all');
+    if (selected === 'original') selected = 'normal';
     style = known(data.collections, selected) ? selected : 'all';
     industry = known(data.industries, params.get('industry')) ? params.get('industry') : 'all';
     query = params.get('q') || '';
