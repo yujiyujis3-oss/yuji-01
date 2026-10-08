@@ -1,0 +1,958 @@
+{
+  "source": "レゴ６.zip",
+  "added_images": 95,
+  "collection_total": 522,
+  "website_total": 994,
+  "works": [
+    {
+      "filename": "レゴ６/0930_exec-fce6be12-bbdb-4ec8-acbf-992adc7eda03.png",
+      "sha256": "6433657f80120342500af7d8e455c347ad7c423a746362331395c704b537de92",
+      "width": 1254,
+      "height": 1254,
+      "id": "lego-6433657f8012",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-6433657f8012.webp",
+      "thumbnail": "images/portfolio/lego-6433657f8012-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0931_うなじケアのラベンダーサロン.png",
+      "sha256": "557a4f144a24f48010eedb66ddda064842db5a6e8a3f5ff654b3fe8be6582002",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-557a4f144a24",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-557a4f144a24.webp",
+      "thumbnail": "images/portfolio/lego-557a4f144a24-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0932_お出かけ前の美容サロン相談.png",
+      "sha256": "c9d7662045d61ab58f22598319e6bb2b41a62f888f8e04affe0376b0888641fe",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-c9d7662045d6",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-c9d7662045d6.webp",
+      "thumbnail": "images/portfolio/lego-c9d7662045d6-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0937_こもれびの介護スタッフ募集.png",
+      "sha256": "9c616327dddf62fa30a61238ca1cc5cd1b873e68dcc138374aa23cd9d9eda5ee",
+      "width": 1055,
+      "height": 1491,
+      "id": "lego-9c616327dddf",
+      "industry": "care",
+      "image": "images/portfolio/lego-9c616327dddf.webp",
+      "thumbnail": "images/portfolio/lego-9c616327dddf-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0938_つや肌を彩る美習慣.png",
+      "sha256": "95752e176736965610ff050dd970bc4b752ec07bfce26cacdb70e89280d7951a",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-95752e176736",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-95752e176736.webp",
+      "thumbnail": "images/portfolio/lego-95752e176736-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0939_はじめての脱毛相談.png",
+      "sha256": "650c53e53dc4dcc0075c97adea6b15750ae98387fc88ba187e3bba0c721a6086",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-650c53e53dc4",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-650c53e53dc4.webp",
+      "thumbnail": "images/portfolio/lego-650c53e53dc4-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0940_ひげと髪、上質バーバースタイル.png",
+      "sha256": "25051866e2afcdcfd205366f6dd3e1ff6357ad695be8d7f17f07096d3f6ff0f8",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-25051866e2af",
+      "industry": "hair",
+      "image": "images/portfolio/lego-25051866e2af.webp",
+      "thumbnail": "images/portfolio/lego-25051866e2af-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0941_ひげ脱毛の相談タイム.png",
+      "sha256": "cc2506551229c4020a00fd1b18ebc562192dd2d562481a01ffa3df573d689222",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-cc2506551229",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-cc2506551229.webp",
+      "thumbnail": "images/portfolio/lego-cc2506551229-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0942_ひじ・ひざケア相談サロン.png",
+      "sha256": "4dbe4a7962f524b5a48b8678963e9d2b482ea4bb5e8002a68dae83ccef0ca9b9",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-4dbe4a7962f5",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-4dbe4a7962f5.webp",
+      "thumbnail": "images/portfolio/lego-4dbe4a7962f5-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0943_ひとり晩ごはん、特等席の居酒屋.png",
+      "sha256": "a7e4e9b0ffc18606f3b4924f20283a29c8473d190731e4bbfc1b554b01e31e68",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-a7e4e9b0ffc1",
+      "industry": "food",
+      "image": "images/portfolio/lego-a7e4e9b0ffc1.webp",
+      "thumbnail": "images/portfolio/lego-a7e4e9b0ffc1-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0944_ふたりで始める美容相談.png",
+      "sha256": "c997b280a7b36c1fa7772594707fd6c760caf9e7de81a35814b7c27fc9e263a5",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-c997b280a7b3",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-c997b280a7b3.webp",
+      "thumbnail": "images/portfolio/lego-c997b280a7b3-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0945_ふたりで楽しむ上質ペアスパ.png",
+      "sha256": "636d15f989ab5fa6ea5d8d05203f439d1f85fb134b1bc4f2ec3dd988f210d0a8",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-636d15f989ab",
+      "industry": "body",
+      "image": "images/portfolio/lego-636d15f989ab.webp",
+      "thumbnail": "images/portfolio/lego-636d15f989ab-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0946_ふたりの個性が輝くヘアサロン.png",
+      "sha256": "8db0f1d99d9dbb94d51c2d3b2d2ea51a29baa046dc1d929996cb4e3e9e23989e",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-8db0f1d99d9d",
+      "industry": "hair",
+      "image": "images/portfolio/lego-8db0f1d99d9d.webp",
+      "thumbnail": "images/portfolio/lego-8db0f1d99d9d-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0947_ふたりの新しい髪、サロンのひととき.png",
+      "sha256": "2f097cef405460a28cb9cdd495d13d264c6fcfcc3e803edf049056be0b0df0bb",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-2f097cef4054",
+      "industry": "hair",
+      "image": "images/portfolio/lego-2f097cef4054.webp",
+      "thumbnail": "images/portfolio/lego-2f097cef4054-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0948_また来たくなるサロンの余韻.png",
+      "sha256": "56b7221b2046df003293ec6681a71c5d6a916c8ff3a8c42293397675fce904ae",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-56b7221b2046",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-56b7221b2046.webp",
+      "thumbnail": "images/portfolio/lego-56b7221b2046-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0950_みんなで楽しむ今夜の宴.png",
+      "sha256": "3bd8b270f06e1531aff868f2b7816aa062a23d9388d1e346b6cd906d1c3b29d8",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-3bd8b270f06e",
+      "industry": "pub",
+      "image": "images/portfolio/lego-3bd8b270f06e.webp",
+      "thumbnail": "images/portfolio/lego-3bd8b270f06e-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0951_やさしいブロックのフェイシャルエステ.png",
+      "sha256": "f862b459fc47ec3c8f431384f8bd8d93ef8fbfad80cc98cc83cb0cd09d46794f",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-f862b459fc47",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-f862b459fc47.webp",
+      "thumbnail": "images/portfolio/lego-f862b459fc47-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0952_やさしいブロックフェイシャル.png",
+      "sha256": "6cd2d830a1e63f2f785b59931f30def5dec66979daa207c3c94eb8325430ab5b",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-6cd2d830a1e6",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-6cd2d830a1e6.webp",
+      "thumbnail": "images/portfolio/lego-6cd2d830a1e6-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0953_やさしいミントのフェイシャル時間.png",
+      "sha256": "6c1e1651ee663d4f737ddc94b3a99d45daa11f3470085d01a173bf881af09bec",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-6c1e1651ee66",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-6c1e1651ee66.webp",
+      "thumbnail": "images/portfolio/lego-6c1e1651ee66-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0954_やさしい手のフェイシャルケア.png",
+      "sha256": "05ac8a2d61788307d1c2e3fe6525ee7d96d0000b21ef05b8bede783327c74a19",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-05ac8a2d6178",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-05ac8a2d6178.webp",
+      "thumbnail": "images/portfolio/lego-05ac8a2d6178-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0958_アンバーボトルの保湿相談.png",
+      "sha256": "d4ecc961d0ad4ff83d4f056b8ea05a3fc7daeb671b332cb6722048b601872084",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-d4ecc961d0ad",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-d4ecc961d0ad.webp",
+      "thumbnail": "images/portfolio/lego-d4ecc961d0ad-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0959_アーチ越しの心地よいサロン.png",
+      "sha256": "c267dd5d38f3ef7781b5e91a55db631da0afdfc9a291f1e8d27233b05d587d2f",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-c267dd5d38f3",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-c267dd5d38f3.webp",
+      "thumbnail": "images/portfolio/lego-c267dd5d38f3-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0960_インド風フェイシャルの静かな癒やし.png",
+      "sha256": "13ce608ed8f6790dcd450e61899d7d2cca1564735ccd3cb2556c80aebef0e7fc",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-13ce608ed8f6",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-13ce608ed8f6.webp",
+      "thumbnail": "images/portfolio/lego-13ce608ed8f6-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0961_エスプレッソの師弟、未来のカフェ.png",
+      "sha256": "baf55d0e6fe5fddf67e19bc33b82751a7615ec61365e4629ab4041ace0708f2c",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-baf55d0e6fe5",
+      "industry": "food",
+      "image": "images/portfolio/lego-baf55d0e6fe5.webp",
+      "thumbnail": "images/portfolio/lego-baf55d0e6fe5-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0962_エメラルドに映える新しい髪.png",
+      "sha256": "3e3c38ab0c7f86cdcb5ecef578b7baf94c3252981d31ff9d796eae1a46ea19c9",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-3e3c38ab0c7f",
+      "industry": "hair",
+      "image": "images/portfolio/lego-3e3c38ab0c7f.webp",
+      "thumbnail": "images/portfolio/lego-3e3c38ab0c7f-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0963_エメラルドの抹茶時間.png",
+      "sha256": "966da917271ae6846ba6a204c85c7100845c2a9f1dd94cd83825145e55eebbdb",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-966da917271a",
+      "industry": "food",
+      "image": "images/portfolio/lego-966da917271a.webp",
+      "thumbnail": "images/portfolio/lego-966da917271a-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0964_エメラルドの肌相談サロン.png",
+      "sha256": "aee63eb828ef2e1bd8a9836828dab05c527db3aace66aa3045bb4113446bd912",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-aee63eb828ef",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-aee63eb828ef.webp",
+      "thumbnail": "images/portfolio/lego-aee63eb828ef-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0965_エメラルド光のヘアシルエット.png",
+      "sha256": "6b37f59d5de53071a7e4bb1f888547da542143b99e6fa0a120bfe12ce9fd0b50",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-6b37f59d5de5",
+      "industry": "hair",
+      "image": "images/portfolio/lego-6b37f59d5de5.webp",
+      "thumbnail": "images/portfolio/lego-6b37f59d5de5-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0966_オリーブの壁、白い毛布の休息.png",
+      "sha256": "e8e2f00681e1930b95ef26486701d68ef9a0ab88a305ccdf6c4f5fa73be5f57f",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-e8e2f00681e1",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-e8e2f00681e1.webp",
+      "thumbnail": "images/portfolio/lego-e8e2f00681e1-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0969_グリーンの素肌ケアサロン.png",
+      "sha256": "31919b2c53720bd4150d29c2921fa63a56ca9e5955878adcdeb5adf4ed3b367a",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-31919b2c5372",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-31919b2c5372.webp",
+      "thumbnail": "images/portfolio/lego-31919b2c5372-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0970_コバルトとピーチのヘアカラーラボ.png",
+      "sha256": "704c96fb78250764c87cee67a9671f2158d88ab51cea9ff30b256bdf89c37df4",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-704c96fb7825",
+      "industry": "hair",
+      "image": "images/portfolio/lego-704c96fb7825.webp",
+      "thumbnail": "images/portfolio/lego-704c96fb7825-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0971_コバルトの夜、美肌サロン.png",
+      "sha256": "a66f9a053385e25154cb88a90760f0184ff6425d15a082743998d1061b6c470c",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-a66f9a053385",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-a66f9a053385.webp",
+      "thumbnail": "images/portfolio/lego-a66f9a053385-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0976_サロンで育つ、次の一歩.png",
+      "sha256": "b99e8f3fca3bd52ac7fe1b88a1a812a4b9eeac48107b91e3df69bcf6cf97f8ed",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-b99e8f3fca3b",
+      "industry": "hair",
+      "image": "images/portfolio/lego-b99e8f3fca3b.webp",
+      "thumbnail": "images/portfolio/lego-b99e8f3fca3b-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0977_サロンで選ぶ、メンズスキンケア.png",
+      "sha256": "5de94e162d4e95000703010f08b6f133530027706f2ffe9723f87e4232dbb712",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-5de94e162d4e",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-5de94e162d4e.webp",
+      "thumbnail": "images/portfolio/lego-5de94e162d4e-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0978_サロンで選ぶ、三色のくすみカラー.png",
+      "sha256": "16970fc33ad106e8e6f1fc4076cd4be1b8a376a4dfe12efb2dca7d444e0e1f7c",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-16970fc33ad1",
+      "industry": "hair",
+      "image": "images/portfolio/lego-16970fc33ad1.webp",
+      "thumbnail": "images/portfolio/lego-16970fc33ad1-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0979_サロンギフトの上質な静物.png",
+      "sha256": "6ceda9ee2e8d543127dcb347faf1c36bc4eb9eebbf8ffba51fec5d0a7115a2aa",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-6ceda9ee2e8d",
+      "industry": "hair",
+      "image": "images/portfolio/lego-6ceda9ee2e8d.webp",
+      "thumbnail": "images/portfolio/lego-6ceda9ee2e8d-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0981_スパイス香るカレーランチ.png",
+      "sha256": "caace1d9e03bae9756f4c2807643b92f59b6a6ebf013ebdf889ef55fcb851229",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-caace1d9e03b",
+      "industry": "food",
+      "image": "images/portfolio/lego-caace1d9e03b.webp",
+      "thumbnail": "images/portfolio/lego-caace1d9e03b-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0982_スポーツ後も整う髪.png",
+      "sha256": "eed0a574cd2e1f3df178ccf9b6bbff6b5bbfd9d6253fd22c0e2e6682c472f051",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-eed0a574cd2e",
+      "industry": "hair",
+      "image": "images/portfolio/lego-eed0a574cd2e.webp",
+      "thumbnail": "images/portfolio/lego-eed0a574cd2e-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0983_セラドン壁に映える黒髪.png",
+      "sha256": "5f4861fe9846188d48f3968dc7955050c27bdddc9057203d7049cd7d4df8ddf5",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-5f4861fe9846",
+      "industry": "hair",
+      "image": "images/portfolio/lego-5f4861fe9846.webp",
+      "thumbnail": "images/portfolio/lego-5f4861fe9846-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0984_ターコイズアトリエの質感カット.png",
+      "sha256": "6adb46d3ddbb03fabb5e2ae2881239d5e5b63c98b6a3b21204158d258dee3708",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-6adb46d3ddbb",
+      "industry": "hair",
+      "image": "images/portfolio/lego-6adb46d3ddbb.webp",
+      "thumbnail": "images/portfolio/lego-6adb46d3ddbb-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0985_チョコブラウンの立体ハイライト.png",
+      "sha256": "b1016238f90a920c9a093674365a85c314b3156e9775b50de2ccfbedf0ba7546",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-b1016238f90a",
+      "industry": "hair",
+      "image": "images/portfolio/lego-b1016238f90a.webp",
+      "thumbnail": "images/portfolio/lego-b1016238f90a-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0994_ネオンとカールのパーマ相談.png",
+      "sha256": "bb067c681fddb9e7000bf2cfc2d73b95895a5f31b0b428bd1bf737d7925a2f8e",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-bb067c681fdd",
+      "industry": "hair",
+      "image": "images/portfolio/lego-bb067c681fdd.webp",
+      "thumbnail": "images/portfolio/lego-bb067c681fdd-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0995_ネオン彩るテイクアウト時間.png",
+      "sha256": "f8b3cae5dad9191b3f5a43ea7857a9530cbf3b8da6e0105f06c05f25dc85e0f4",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-f8b3cae5dad9",
+      "industry": "food",
+      "image": "images/portfolio/lego-f8b3cae5dad9.webp",
+      "thumbnail": "images/portfolio/lego-f8b3cae5dad9-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0996_ネオン彩る週末ヘアサロン.png",
+      "sha256": "9253a65a5fde4fdc65261eed3841bca6cbf0f5ac9b177460d11e02b968a50e50",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-9253a65a5fde",
+      "industry": "hair",
+      "image": "images/portfolio/lego-9253a65a5fde.webp",
+      "thumbnail": "images/portfolio/lego-9253a65a5fde-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0997_ネオン映える黒椀ラーメンの夜.png",
+      "sha256": "21e583077aed345d301f9c1ffda50b3679a24e6b6e804b8953511d2b2c5bdbeb",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-21e583077aed",
+      "industry": "food",
+      "image": "images/portfolio/lego-21e583077aed.webp",
+      "thumbnail": "images/portfolio/lego-21e583077aed-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/0998_ネオン輝く脱毛相談カウンター.png",
+      "sha256": "76288af2e9fc0c8ef1b76caa5c82676c25f6ebc7c1794a2a44770a0e932c4544",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-76288af2e9fc",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-76288af2e9fc.webp",
+      "thumbnail": "images/portfolio/lego-76288af2e9fc-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1000_バリの光、深呼吸する肌.png",
+      "sha256": "4f8662157a175d718c226486e3c74969b4e3771bbaa909d7cecdd27a239b57d0",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-4f8662157a17",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-4f8662157a17.webp",
+      "thumbnail": "images/portfolio/lego-4f8662157a17-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1001_パリのブロック・フェイシャルサロン.png",
+      "sha256": "ce22a65b816c2f0dd4482b149517eb1f96f2f9c10b8d5dec79da071d3347baa1",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-ce22a65b816c",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-ce22a65b816c.webp",
+      "thumbnail": "images/portfolio/lego-ce22a65b816c-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1002_ブリックで彩る極上スパサロン.png",
+      "sha256": "fc259f712a7a1d062e950f786b51a680e1bab7a9b268172e96ad25c49ee46803",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-fc259f712a7a",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-fc259f712a7a.webp",
+      "thumbnail": "images/portfolio/lego-fc259f712a7a-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1003_ブリックで彩る花嫁ヘア.png",
+      "sha256": "8ff70b860eb50c1011efa0eac3c461abee995ee600107aeeeb64916a24120a22",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-8ff70b860eb5",
+      "industry": "hair",
+      "image": "images/portfolio/lego-8ff70b860eb5.webp",
+      "thumbnail": "images/portfolio/lego-8ff70b860eb5-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1004_ブリックミニチュアの部分脱毛相談.png",
+      "sha256": "b94489a6dae94712db81e11fb2099e8d4ebd26d86c65cd2b3ce9e4445a22a1ac",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-b94489a6dae9",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-b94489a6dae9.webp",
+      "thumbnail": "images/portfolio/lego-b94489a6dae9-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1005_ブロックで描く、安心の病室.png",
+      "sha256": "46c7b48e91ce39f4df9c55e968bf9504cf0147466512d628ab7b75140864936c",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-46c7b48e91ce",
+      "industry": "care",
+      "image": "images/portfolio/lego-46c7b48e91ce.webp",
+      "thumbnail": "images/portfolio/lego-46c7b48e91ce-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1006_ブロックの扉が招く新しいサロン.png",
+      "sha256": "32b9ea3eb68c1254a77f19da52f8eeefebe1d5a0176123effe00b0a33e7f056b",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-32b9ea3eb68c",
+      "industry": "hair",
+      "image": "images/portfolio/lego-32b9ea3eb68c.webp",
+      "thumbnail": "images/portfolio/lego-32b9ea3eb68c-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1007_ブロック仕立てのパームスプリングス美肌ケア.png",
+      "sha256": "318eafb177e24d62d0d0f30f1665ce521914f34d69c7bb7961f9e105208704c9",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-318eafb177e2",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-318eafb177e2.webp",
+      "thumbnail": "images/portfolio/lego-318eafb177e2-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1008_ブロック仕立ての腕ケア相談.png",
+      "sha256": "e2c6b0573a79bfe12c09ae41436da239f5f6447322f65826e683856c1455e35b",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-e2c6b0573a79",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-e2c6b0573a79.webp",
+      "thumbnail": "images/portfolio/lego-e2c6b0573a79-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1011_マゼンタの光に包まれた頭皮相談.png",
+      "sha256": "600b74f021075a10037520a1251d353fa6ea41dd2af75754a670046d39f0a7c1",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-600b74f02107",
+      "industry": "hair",
+      "image": "images/portfolio/lego-600b74f02107.webp",
+      "thumbnail": "images/portfolio/lego-600b74f02107-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1012_ミニチュアサロンの上質ヘアケア.png",
+      "sha256": "bca14cc72a6c088241a49647942b6f59a12add741d57f848e2aece726e258acd",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-bca14cc72a6c",
+      "industry": "hair",
+      "image": "images/portfolio/lego-bca14cc72a6c.webp",
+      "thumbnail": "images/portfolio/lego-bca14cc72a6c-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1013_ミントとマゼンタの立体スタイルブック.png",
+      "sha256": "61ba23aa9d2ffb1be0d762753f7631b740cb0fbaf73f8e0d4725a2265c5c1dc3",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-61ba23aa9d2f",
+      "industry": "hair",
+      "image": "images/portfolio/lego-61ba23aa9d2f.webp",
+      "thumbnail": "images/portfolio/lego-61ba23aa9d2f-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1015_ミントカフェの虹色シトラスタルト.png",
+      "sha256": "d2cd3a9664de6f1e929b422fb029e255e7edcb5011ad3cd493807f3771eb3fd2",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-d2cd3a9664de",
+      "industry": "food",
+      "image": "images/portfolio/lego-d2cd3a9664de.webp",
+      "thumbnail": "images/portfolio/lego-d2cd3a9664de-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1017_メイク前の、やさしいクレンジング.png",
+      "sha256": "54eacc2ff1e9c865c6fd056d56d26ead59152c5df72dcbc68b4aa9d23d0aaf92",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-54eacc2ff1e9",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-54eacc2ff1e9.webp",
+      "thumbnail": "images/portfolio/lego-54eacc2ff1e9-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1257_虹色ヘアと選ぶ、今日のサロンケア.png",
+      "sha256": "1689b698ce69b12d71543da6b4dbd7893cca52a0744efeefb7c5a7ed57c72dc3",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-1689b698ce69",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-1689b698ce69.webp",
+      "thumbnail": "images/portfolio/lego-1689b698ce69-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1258_虹色ヘアのカフェチーム.png",
+      "sha256": "ec64ed8142e46237f00149a50fec6003ecf676af5358176240593a0a81f7f5c3",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-ec64ed8142e4",
+      "industry": "food",
+      "image": "images/portfolio/lego-ec64ed8142e4.webp",
+      "thumbnail": "images/portfolio/lego-ec64ed8142e4-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1259_虹色ヘアのカラー相談.png",
+      "sha256": "34b69e131c499397132e1cc91776e8061f70ac6b1eecf115ccc904e99b2f91cc",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-34b69e131c49",
+      "industry": "hair",
+      "image": "images/portfolio/lego-34b69e131c49.webp",
+      "thumbnail": "images/portfolio/lego-34b69e131c49-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1260_虹色ヘアのサロンタイム.png",
+      "sha256": "bc44941b711270f541dff50ec1cf61909d023533b4d8eb76738581b1a9bd5ba3",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-bc44941b7112",
+      "industry": "hair",
+      "image": "images/portfolio/lego-bc44941b7112.webp",
+      "thumbnail": "images/portfolio/lego-bc44941b7112-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1261_虹色ヘアのサロンチーム.png",
+      "sha256": "5559e5c58343a24b5cfc8214760984e79d1f1007345134fdc3689a3b7793eccf",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-5559e5c58343",
+      "industry": "hair",
+      "image": "images/portfolio/lego-5559e5c58343.webp",
+      "thumbnail": "images/portfolio/lego-5559e5c58343-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1357_鍋を囲む、あたたかな夜.png",
+      "sha256": "1d175ce8848473c69e79c3c291c852083d78fc62642bbab8bda0fc561d96c802",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-1d175ce88484",
+      "industry": "food",
+      "image": "images/portfolio/lego-1d175ce88484.webp",
+      "thumbnail": "images/portfolio/lego-1d175ce88484-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1358_鏡に映る、私に似合うショート.png",
+      "sha256": "9db58d89b10e0c318c4bce868127834434b950865da56ab82b5681756c7df237",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-9db58d89b10e",
+      "industry": "hair",
+      "image": "images/portfolio/lego-9db58d89b10e.webp",
+      "thumbnail": "images/portfolio/lego-9db58d89b10e-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1360_鏡に映る、虹色の遊び心.png",
+      "sha256": "c99792ddcc502ec05735011df8d24911c471783659e237e9f99436d9ebdd2cd8",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-c99792ddcc50",
+      "industry": "hair",
+      "image": "images/portfolio/lego-c99792ddcc50.webp",
+      "thumbnail": "images/portfolio/lego-c99792ddcc50-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1361_鏡の前の肌相談.png",
+      "sha256": "49a453a05f5226758c6de9e6793ca960dc8fa9a886c7c4eaa66cbe71d9162b94",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-49a453a05f52",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-49a453a05f52.webp",
+      "thumbnail": "images/portfolio/lego-49a453a05f52-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1364_陽だまりに映えるレインボーヘア.png",
+      "sha256": "1897a359e05965697d90c1088aec6ed419623ba6f2e84113cba9014bb4838e6d",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-1897a359e059",
+      "industry": "hair",
+      "image": "images/portfolio/lego-1897a359e059.webp",
+      "thumbnail": "images/portfolio/lego-1897a359e059-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1365_陽だまりのブロック風フットエステ.png",
+      "sha256": "98ebb65590a42051b53e13215a2aee8f40a2dbe13cce266e64af0d411ee1dd9e",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-98ebb65590a4",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-98ebb65590a4.webp",
+      "thumbnail": "images/portfolio/lego-98ebb65590a4-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1367_雨の日に整う、ネオンショート.png",
+      "sha256": "05c3918aeff6e57897fb0ed2e3fa020ada2affae9e55212c310b3531bc1acc73",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-05c3918aeff6",
+      "industry": "hair",
+      "image": "images/portfolio/lego-05c3918aeff6.webp",
+      "thumbnail": "images/portfolio/lego-05c3918aeff6-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1370_雨窓と艶髪のヘアサロン.png",
+      "sha256": "c2a1a77afae90ce73513cfad40054259b7d3f31539ef45d617e2843f7980f110",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-c2a1a77afae9",
+      "industry": "hair",
+      "image": "images/portfolio/lego-c2a1a77afae9.webp",
+      "thumbnail": "images/portfolio/lego-c2a1a77afae9-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1371_雲上のフェイシャルサロン.png",
+      "sha256": "ff7b5045fc63836b73ef1a1e76eed0bf173e553a06418fa35caae9dd311d4466",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-ff7b5045fc63",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-ff7b5045fc63.webp",
+      "thumbnail": "images/portfolio/lego-ff7b5045fc63-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1372_雲上の天使ハンドエステ.png",
+      "sha256": "5677aa6bb948b2dc358374cd79e43b96099aa7a72cf1ab87d8440b90675723ef",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-5677aa6bb948",
+      "industry": "nail",
+      "image": "images/portfolio/lego-5677aa6bb948.webp",
+      "thumbnail": "images/portfolio/lego-5677aa6bb948-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1373_雲上の天使リラクゼーション.png",
+      "sha256": "636f73c287556293d65267ebcfd46184e97d871b9d61eb91edbe3aee34b66daf",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-636f73c28755",
+      "industry": "body",
+      "image": "images/portfolio/lego-636f73c28755.webp",
+      "thumbnail": "images/portfolio/lego-636f73c28755-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1375_青い水にほどけるシャンプー休息.png",
+      "sha256": "a8fd2643043c30bd47b1d360772dd27639d445e919a5ce3bb37b76c447100ea1",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-a8fd2643043c",
+      "industry": "hair",
+      "image": "images/portfolio/lego-a8fd2643043c.webp",
+      "thumbnail": "images/portfolio/lego-a8fd2643043c-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1377_青みを忍ばせる黒髪.png",
+      "sha256": "00ab9b3af829690bdcb33c53633954c464add017c69845b46617c535581fe9f9",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-00ab9b3af829",
+      "industry": "hair",
+      "image": "images/portfolio/lego-00ab9b3af829.webp",
+      "thumbnail": "images/portfolio/lego-00ab9b3af829-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1383_静かなシャンプー時間.png",
+      "sha256": "027784cc27cfe123733c6a95652626f86943d326f4c31ff7552b98b7fd1d99aa",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-027784cc27cf",
+      "industry": "hair",
+      "image": "images/portfolio/lego-027784cc27cf.webp",
+      "thumbnail": "images/portfolio/lego-027784cc27cf-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1385_静かな個室サロンの一室.png",
+      "sha256": "8648f7b1337da92daa552bbabe6979774a5fd2b816027c2e89cd4eea69878f39",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-8648f7b1337d",
+      "industry": "hair",
+      "image": "images/portfolio/lego-8648f7b1337d.webp",
+      "thumbnail": "images/portfolio/lego-8648f7b1337d-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1386_静かな背中ケア、上質なサロン時間.png",
+      "sha256": "ea3ac9cfd5dea274002d5462928e0e67c45fdb598530e597b6c8a035d39194ac",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-ea3ac9cfd5de",
+      "industry": "body",
+      "image": "images/portfolio/lego-ea3ac9cfd5de.webp",
+      "thumbnail": "images/portfolio/lego-ea3ac9cfd5de-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1387_静かな贅沢を、髪に。.png",
+      "sha256": "cdb4d979d322f8624813c24066ec1a10467c934a9c5b158b6374473746db82d5",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-cdb4d979d322",
+      "industry": "hair",
+      "image": "images/portfolio/lego-cdb4d979d322.webp",
+      "thumbnail": "images/portfolio/lego-cdb4d979d322-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1389_音楽と楽しむサロン時間.png",
+      "sha256": "ea8cd5b3d23ce4f2b72d97e45f889237209cba594b5d37e38afdb36f89e6b842",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-ea8cd5b3d23c",
+      "industry": "hair",
+      "image": "images/portfolio/lego-ea8cd5b3d23c.webp",
+      "thumbnail": "images/portfolio/lego-ea8cd5b3d23c-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1390_頬に触れて始まる保湿相談.png",
+      "sha256": "6f6fe01e6d146148cc02786238a26fe5b1c7d2c79ca1832c62839ef01c94cf8c",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-6f6fe01e6d14",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-6f6fe01e6d14.webp",
+      "thumbnail": "images/portfolio/lego-6f6fe01e6d14-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1392_顔まわりを彩るアプリコットと藍.png",
+      "sha256": "a6dbb17f48459944d8f1e82888e76c75e4f363f5ddcbeed8b353665003732590",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-a6dbb17f4845",
+      "industry": "hair",
+      "image": "images/portfolio/lego-a6dbb17f4845.webp",
+      "thumbnail": "images/portfolio/lego-a6dbb17f4845-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1394_風になびく軽やかレイヤー.png",
+      "sha256": "4a06361d152bf57d3585cb3d1054c154827afb3d3bc756b7516cd5843d3d2e81",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-4a06361d152b",
+      "industry": "hair",
+      "image": "images/portfolio/lego-4a06361d152b.webp",
+      "thumbnail": "images/portfolio/lego-4a06361d152b-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1396_首元をいたわるスパケア.png",
+      "sha256": "cab87ced8c625f9bc5160148d85db1312f64d03f310cd836e6d665d7538200d3",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-cab87ced8c62",
+      "industry": "body",
+      "image": "images/portfolio/lego-cab87ced8c62.webp",
+      "thumbnail": "images/portfolio/lego-cab87ced8c62-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1397_香り立つ、切り替えの一杯.png",
+      "sha256": "532370e40ee78761f8c246d74b331f032bd900aea796bc0521d470a1ad847b56",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-532370e40ee7",
+      "industry": "food",
+      "image": "images/portfolio/lego-532370e40ee7.webp",
+      "thumbnail": "images/portfolio/lego-532370e40ee7-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1398_髪が変わる、ブロック階段サロン.png",
+      "sha256": "b7bd6ce0e420b402974cffc8ba4d20acbb8faf1abe0d9b23d30717919702a242",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-b7bd6ce0e420",
+      "industry": "hair",
+      "image": "images/portfolio/lego-b7bd6ce0e420.webp",
+      "thumbnail": "images/portfolio/lego-b7bd6ce0e420-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1403_髪をほどく、静かなリラクゼーション.png",
+      "sha256": "b0ab46f55e5373d9708e4be3ce4bac9fcba2e5cd8891002be6eb2a204d797ef7",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-b0ab46f55e53",
+      "industry": "hair",
+      "image": "images/portfolio/lego-b0ab46f55e53.webp",
+      "thumbnail": "images/portfolio/lego-b0ab46f55e53-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1404_髪を一緒に考える相談時間.png",
+      "sha256": "e2c9c83f07c79f3f0c42b5844d2f7b66004df47732f77de8ffcec63e7cf61f5f",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-e2c9c83f07c7",
+      "industry": "hair",
+      "image": "images/portfolio/lego-e2c9c83f07c7.webp",
+      "thumbnail": "images/portfolio/lego-e2c9c83f07c7-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1406_髪を変える、ブロック美容室.png",
+      "sha256": "2242de16ffac79a018534b0af05ffb64276641f7785705813bc93917d50d13ac",
+      "width": 1024,
+      "height": 1536,
+      "id": "lego-2242de16ffac",
+      "industry": "hair",
+      "image": "images/portfolio/lego-2242de16ffac.webp",
+      "thumbnail": "images/portfolio/lego-2242de16ffac-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1407_髪色を選ぶ、上質なカラー相談.png",
+      "sha256": "4dd28748864bb04575743772191bd7d924e84459d9c7f6000c859a6705cb4d44",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-4dd28748864b",
+      "industry": "hair",
+      "image": "images/portfolio/lego-4dd28748864b.webp",
+      "thumbnail": "images/portfolio/lego-4dd28748864b-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1408_黒いキューブのプライベート美容.png",
+      "sha256": "a09e268cdfbb45ca4b269bd23553099274b9a07636bd1b50b1b7fdc960521d0a",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-a09e268cdfbb",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-a09e268cdfbb.webp",
+      "thumbnail": "images/portfolio/lego-a09e268cdfbb-thumb.webp"
+    },
+    {
+      "filename": "レゴ６/1409_黒い棚で選ぶホームケア.png",
+      "sha256": "a1dd4282865dc5dacd0d6eb81688b989c3a65991af24698ca653d239d2ae5c14",
+      "width": 1122,
+      "height": 1402,
+      "id": "lego-a1dd4282865d",
+      "industry": "esthetic",
+      "image": "images/portfolio/lego-a1dd4282865d.webp",
+      "thumbnail": "images/portfolio/lego-a1dd4282865d-thumb.webp"
+    }
+  ]
+}
