@@ -12846,6 +12846,102 @@ window.PORTFOLIO = {
       "collection": "lego",
       "sourceHash": "f98797dfe71d9f3e9d9b09f4d6da22e33311a4630491a6c1f3e60cbb0bc10994",
       "sourceFile": "レゴ７/0751_からだに、ひと息。静かな整体ケア.png"
+    },
+    {
+      "id": "mixed-2597edc45a49",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/mixed-2597edc45a49-thumb.webp",
+      "image": "images/portfolio/mixed-2597edc45a49.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "bijo",
+      "sourceHash": "2597edc45a49f24ee021ca19d02f3bd0d2482915983f15a89aa79aec4bba04c9",
+      "sourceFile": "混ざったやつ/0191_上質なハンドトリートメントのごほうび.png"
+    },
+    {
+      "id": "mixed-cb18d888c364",
+      "title": "エステ・美容サロンの参考作品",
+      "industry": "esthetic",
+      "thumbnail": "images/portfolio/mixed-cb18d888c364-thumb.webp",
+      "image": "images/portfolio/mixed-cb18d888c364.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "8bit",
+      "sourceHash": "cb18d888c3644cbc56d2fcd07bdd9cacf6437fa87c5dad001fb2966a0e5c6121",
+      "sourceFile": "混ざったやつ/0208_いたわる時間を贈るエステギフト.png"
+    },
+    {
+      "id": "mixed-3c96e459e7b0",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/mixed-3c96e459e7b0-thumb.webp",
+      "image": "images/portfolio/mixed-3c96e459e7b0.webp",
+      "width": 1122,
+      "height": 1402,
+      "collection": "8bit",
+      "sourceHash": "3c96e459e7b03b2482348450bd905404b73d93c9e359438d746984264a93eda1",
+      "sourceFile": "混ざったやつ/0210_つるりと昼、うどん日和.png"
+    },
+    {
+      "id": "mixed-418162c28a7e",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/mixed-418162c28a7e-thumb.webp",
+      "image": "images/portfolio/mixed-418162c28a7e.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "8bit",
+      "sourceHash": "418162c28a7e7d2a31988ba47caec6689229681b4b1a2ab074222d86439396b4",
+      "sourceFile": "混ざったやつ/0212_はじめてのまつ毛サロン相談.png"
+    },
+    {
+      "id": "mixed-5fdb4077af9e",
+      "title": "美容室・ヘアサロンの参考作品",
+      "industry": "hair",
+      "thumbnail": "images/portfolio/mixed-5fdb4077af9e-thumb.webp",
+      "image": "images/portfolio/mixed-5fdb4077af9e.webp",
+      "width": 1254,
+      "height": 1254,
+      "collection": "8bit",
+      "sourceHash": "5fdb4077af9ea7470dbac42691906667826ba78eb0c6ba6cbd583a15e9338c98",
+      "sourceFile": "混ざったやつ/0215_まっすぐ、気分よく。.png"
+    },
+    {
+      "id": "mixed-585095614ca0",
+      "title": "ネイル・まつ毛の参考作品",
+      "industry": "nail",
+      "thumbnail": "images/portfolio/mixed-585095614ca0-thumb.webp",
+      "image": "images/portfolio/mixed-585095614ca0.webp",
+      "width": 1536,
+      "height": 1024,
+      "collection": "normal",
+      "sourceHash": "585095614ca0e8ea19eb7921e998f1bdd16ae504927342bb9af7db51ec22021a",
+      "sourceFile": "混ざったやつ/0218_ガラスに映えるシアーネイル.png"
+    },
+    {
+      "id": "mixed-058a50a0b51e",
+      "title": "飲食店・カフェの参考作品",
+      "industry": "food",
+      "thumbnail": "images/portfolio/mixed-058a50a0b51e-thumb.webp",
+      "image": "images/portfolio/mixed-058a50a0b51e.webp",
+      "width": 2480,
+      "height": 3508,
+      "collection": "normal",
+      "sourceHash": "058a50a0b51e0aac0733ef113105c7c19a288fcf359737e1bb29207d92216c89",
+      "sourceFile": "混ざったやつ/1040_下野友嗣.png"
+    },
+    {
+      "id": "mixed-997fb05e64ec",
+      "title": "介護施設の参考作品",
+      "industry": "care",
+      "thumbnail": "images/portfolio/mixed-997fb05e64ec-thumb.webp",
+      "image": "images/portfolio/mixed-997fb05e64ec.webp",
+      "width": 1672,
+      "height": 941,
+      "collection": "normal",
+      "sourceHash": "997fb05e64ecab6da9d904bb54d5e7f2fab2ec9c300c24f0c4da83e65c81ea63",
+      "sourceFile": "混ざったやつ/1045_介護施設の一日.png"
     }
   ],
   "collections": [
