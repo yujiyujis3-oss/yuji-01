@@ -80,7 +80,7 @@
     folders.hidden = !landing;
     gallery.hidden = landing;
     controls.hidden = landing;
-    back.hidden = landing;
+    back.href = landing ? 'index.html#services' : 'ad-design.html#samples';
     title.hidden = landing;
     title.textContent = landing ? '' : data.collections.find(function(c) { return c.id === style; }).label;
     if (landing) { visible = []; return; }
