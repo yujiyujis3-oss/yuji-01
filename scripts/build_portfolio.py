@@ -53,7 +53,7 @@ html=f'''<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>広告デザイン｜YUJI SHIMONO</title>
+  <title>広告デザイン｜SIMONO</title>
   <meta name="description" content="８ビットファミコン風などの広告デザイン参考作品。美容室、居酒屋、飲食店、エステ、ネイル、整体、介護施設のカテゴリーからご覧いただけます。">
   <meta name="theme-color" content="#101416">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,7 +64,7 @@ html=f'''<!doctype html>
 </head>
 <body class="detail-page portfolio-page">
   <a class="skip-link" href="#main">本文へスキップ</a>
-  <header class="detail-header"><div class="container"><a class="logo" href="index.html">YUJI SHIMONO</a><a href="index.html#works">ホームに戻る ↗</a></div></header>
+  <header class="detail-header"><div class="container"><a class="logo" href="index.html">SIMONO</a><a href="index.html#works">ホームに戻る ↗</a></div></header>
   <main class="container detail-main" id="main">
     <nav class="page-actions" aria-label="ページ移動"><a class="btn btn--ghost" href="index.html#works">ホームの作品欄に戻る</a></nav>
     <div class="portfolio-intro" id="samples">
@@ -94,7 +94,7 @@ html=f'''<!doctype html>
     <div class="artwork-stage"><img id="artwork-image" alt=""></div>
     <div class="artwork-dialog-foot"><a class="text-link" id="artwork-original" target="_blank" rel="noopener">元のサイズで開く ↗</a><span id="artwork-position" aria-live="polite"></span><div class="artwork-navigation"><button type="button" class="filter-button" id="artwork-prev" aria-label="前の作品">← 前へ</button><button type="button" class="filter-button" id="artwork-next" aria-label="次の作品">次へ →</button></div></div>
   </dialog>
-  <footer class="site-footer"><div class="container"><p class="copyright">© <span data-year>2026</span> YUJI SHIMONO</p></div></footer>
+  <footer class="site-footer"><div class="container"><p class="copyright">© <span data-year>2026</span> SIMONO</p></div></footer>
   <script src="portfolio-data.js?v={data_version}" defer></script>
   <script src="portfolio.js?v={script_version}" defer></script>
   <script src="js__detail.js" defer></script>

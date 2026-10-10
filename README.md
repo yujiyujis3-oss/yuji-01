@@ -1,4 +1,4 @@
-# YUJI SHIMONO — 制作サービスサイト
+# SIMONO — 制作サービスサイト
 
 ホームページ制作・広告デザイン・自動化ツール制作を紹介する1ページのサイトです。
 デザインカンプ（`docs/design-comp.webp`）と引き継ぎ仕様書（`docs/handoff-spec.md`）をもとに、HTML / CSS / JavaScript だけで作っています（ビルド作業は不要）。
@@ -37,7 +37,7 @@ Chrome でページを開き、右クリック →「検証」→ 画面左上�
 
 ## 決定済みの情報
 
-- 屋号：YUJI SHIMONO
+- 屋号：SIMONO
 - お問い合わせ：メール（yujiyuji.s3@gmail.com）。ボタンを押すと件名「制作のご相談」でメールソフトが開きます
 - 公開先：GitHub Pages（無料・独自ドメインなし）
 
