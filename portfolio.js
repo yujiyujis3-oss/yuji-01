@@ -26,11 +26,16 @@
     return ratio < 0.98 ? 'portrait' : ratio > 1.02 ? 'landscape' : 'square';
   }
   function arrangedCards(works) {
-    return shapes.map(function (format) {
-      var items = works.filter(function (work) { return shape(work) === format.id; });
-      if (!items.length) return '';
-      visible = visible.concat(items);
-      return '<div class="portfolio-shape" data-orientation="' + format.id + '"><p class="portfolio-shape-label">' + format.label + '</p><div class="portfolio-grid portfolio-grid--' + format.id + '">' + items.map(card).join('') + '</div></div>';
+    return ['standard', 'handdrawn'].map(function (visualStyle) {
+      var grouped = works.filter(function (work) { return (work.visualStyle || 'standard') === visualStyle; });
+      if (!grouped.length) return '';
+      var heading = visualStyle === 'handdrawn' ? '<h4 class="portfolio-visual-label">手描き風</h4>' : '';
+      return '<div class="portfolio-visual-group" data-visual-style="' + visualStyle + '">' + heading + shapes.map(function (format) {
+        var items = grouped.filter(function (work) { return shape(work) === format.id; });
+        if (!items.length) return '';
+        visible = visible.concat(items);
+        return '<div class="portfolio-shape" data-orientation="' + format.id + '"><p class="portfolio-shape-label">' + format.label + '</p><div class="portfolio-grid portfolio-grid--' + format.id + '">' + items.map(card).join('') + '</div></div>';
+      }).join('') + '</div>';
     }).join('');
   }
   function card(work) {

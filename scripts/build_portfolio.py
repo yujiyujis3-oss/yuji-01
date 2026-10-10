@@ -20,12 +20,19 @@ def shape(w):
     return 'portrait' if ratio < 0.98 else 'landscape' if ratio > 1.02 else 'square'
 
 def arranged_cards(items):
-    rows = []
-    for name, label in shapes:
-        matching = [w for w in items if shape(w) == name]
-        if matching:
-            rows.append(f'<div class="portfolio-shape" data-orientation="{name}"><p class="portfolio-shape-label">{label}</p><div class="portfolio-grid portfolio-grid--{name}">{"".join(card(w) for w in matching)}</div></div>')
-    return ''.join(rows)
+    groups = []
+    for visual_style in ('standard', 'handdrawn'):
+        grouped = [w for w in items if w.get('visualStyle', 'standard') == visual_style]
+        if not grouped:
+            continue
+        rows = []
+        for name, label in shapes:
+            matching = [w for w in grouped if shape(w) == name]
+            if matching:
+                rows.append(f'<div class="portfolio-shape" data-orientation="{name}"><p class="portfolio-shape-label">{label}</p><div class="portfolio-grid portfolio-grid--{name}">{"".join(card(w) for w in matching)}</div></div>')
+        heading = '<h4 class="portfolio-visual-label">手描き風</h4>' if visual_style == 'handdrawn' else ''
+        groups.append(f'<div class="portfolio-visual-group" data-visual-style="{visual_style}">{heading}{"".join(rows)}</div>')
+    return ''.join(groups)
 
 def card(w):
     return f'''<article class="portfolio-card"><a href="{escape(w['image'])}" data-artwork="{w['id']}"><div class="portfolio-card-media"><img src="{escape(w['thumbnail'])}" width="{w['width']}" height="{w['height']}" loading="lazy" decoding="async" alt="{escape(w['title'])}"></div><span class="sample-caption">作品を大きく見る ↗</span></a></article>'''

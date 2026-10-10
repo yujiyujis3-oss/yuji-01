@@ -16856,18 +16856,6 @@ window.PORTFOLIO = {
       "sourceFile": "通常４/0206_exec-ff77977d-5643-4b4a-8da8-c67bf065259f.png"
     },
     {
-      "id": "normal-ce52cec7f6c6",
-      "title": "美容室・ヘアサロンの参考作品",
-      "industry": "hair",
-      "thumbnail": "images/portfolio/normal-ce52cec7f6c6-thumb.webp",
-      "image": "images/portfolio/normal-ce52cec7f6c6.webp",
-      "width": 1122,
-      "height": 1402,
-      "collection": "normal",
-      "sourceHash": "ce52cec7f6c6f18430988c947d9bbb36cd940b0c53bcdba0d6efec7146366f19",
-      "sourceFile": "通常４/0213_ひとすじで変わる、ハイライトカラー.png"
-    },
-    {
       "id": "normal-9d5191cfa901",
       "title": "エステ・美容サロンの参考作品",
       "industry": "esthetic",
@@ -18329,7 +18317,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "1edd5495f89f3310f3204e1facc43e31f1eecfee9332b383f4d1702d690bd7f2",
-      "sourceFile": "通常６/0935_くせ毛を好きになる美容室ポスター.png"
+      "sourceFile": "通常６/0935_くせ毛を好きになる美容室ポスター.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-554bb515b5f7",
@@ -18341,7 +18330,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "554bb515b5f774f59a48cd1ce0ab754fcbf4c01a4b50ee53d561961cf6973b38",
-      "sourceFile": "通常６/0936_くるくる髪の手描き美容室.png"
+      "sourceFile": "通常６/0936_くるくる髪の手描き美容室.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-98d0d22e800b",
@@ -18473,7 +18463,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "5b245f2cee3bb983b6a8dad71b9968c987fadc435955ed59e4b125577896cdca",
-      "sourceFile": "通常７/1048_仕事帰りの、鏡と灯り.png"
+      "sourceFile": "通常７/1048_仕事帰りの、鏡と灯り.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-ef68ecf600a5",
@@ -18485,7 +18476,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "ef68ecf600a55a506a0d557581fabc4ce0776bfcffcc15d6702fb8a75110b34f",
-      "sourceFile": "通常７/1064_写真を囲む、手描きの髪相談.png"
+      "sourceFile": "通常７/1064_写真を囲む、手描きの髪相談.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-695e94773dfd",
@@ -18545,7 +18537,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "d3ad547db09c84426724a4765e5a98034da5745ec256e59912784fe4bbef7b8d",
-      "sourceFile": "通常７/1100_手帳と髪束の美容室予約.png"
+      "sourceFile": "通常７/1100_手帳と髪束の美容室予約.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-300d6c5d0c96",
@@ -18557,7 +18550,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "300d6c5d0c965e12f041fde0ec34815a52946db828a4fbdb50ee0ffae72f5847",
-      "sourceFile": "通常７/1101_手描きで彩る、葡萄色のグレーヘア.png"
+      "sourceFile": "通常７/1101_手描きで彩る、葡萄色のグレーヘア.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-5d26cc734d9e",
@@ -18569,7 +18563,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "5d26cc734d9e136c22d87f80d167220f70e5cfd85d8d152f1a36d5b112c80612",
-      "sourceFile": "通常７/1102_手描きで整えるメンズヘア.png"
+      "sourceFile": "通常７/1102_手描きで整えるメンズヘア.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-8c12c490ccf9",
@@ -18581,7 +18576,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "8c12c490ccf9be6fe18b49301ce1e4ea724d52bc3f0d6b72f29a111cf7c64ef7",
-      "sourceFile": "通常７/1103_手描きの街角美容室.png"
+      "sourceFile": "通常７/1103_手描きの街角美容室.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-b01bcc51be2a",
@@ -18605,7 +18601,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "634625502b99de2ec1d8470cfe4742b5707bc9fb79e4fa14595daaf56675a724",
-      "sourceFile": "通常７/1120_朝の支度が楽しみになる美容室.png"
+      "sourceFile": "通常７/1120_朝の支度が楽しみになる美容室.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-498d7e5be346",
@@ -18773,7 +18770,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "57c1cd9894cb66f8569e6e4d2eec64ea89116c53e70126bbe65105e8d929b164",
-      "sourceFile": "通常７/1198_素朴な手描きの二人の美容師.png"
+      "sourceFile": "通常７/1198_素朴な手描きの二人の美容師.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-e8c8eb124b1d",
@@ -18785,7 +18783,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "e8c8eb124b1d6c1656e750225bfc8bc1f03da302e09d54f47ced18b5706f1e6f",
-      "sourceFile": "通常７/1199_素朴な手描き美容相談ポスター.png"
+      "sourceFile": "通常７/1199_素朴な手描き美容相談ポスター.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-543013f53c43",
@@ -18797,7 +18796,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "543013f53c4326f097cce0732f6abd0193c453a909597af1a88a452d51da8c44",
-      "sourceFile": "通常７/1200_素朴な手描き肖像の美容サロンポスター.png"
+      "sourceFile": "通常７/1200_素朴な手描き肖像の美容サロンポスター.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-0c2bed2f1bb8",
@@ -18809,7 +18809,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "0c2bed2f1bb830f16e15af2f56777caf281941fcf7e37b3878d7d8fd0d31d2b7",
-      "sourceFile": "通常７/1201_素朴な料理人の昼食ポスター.png"
+      "sourceFile": "通常７/1201_素朴な料理人の昼食ポスター.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-1854f2dc39e2",
@@ -18821,7 +18822,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "1854f2dc39e224f04c89a1353c29706fd45d286de20d038c316198fad1dc4e85",
-      "sourceFile": "通常７/1202_素朴な線で描く居酒屋の夜.png"
+      "sourceFile": "通常７/1202_素朴な線で描く居酒屋の夜.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-8880cd2c3a69",
@@ -18833,7 +18835,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "8880cd2c3a69a7b485d694968a79e6a71b3cf46990d46e9d5e574d5aff11404a",
-      "sourceFile": "通常７/1203_素朴な線の美容室ポスター.png"
+      "sourceFile": "通常７/1203_素朴な線の美容室ポスター.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-b34fadaeaa56",
@@ -18845,7 +18848,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "b34fadaeaa569b761a70f273b2210ae0ac63dea562bf442a4b0d57c7ecb680f0",
-      "sourceFile": "通常７/1204_素朴な線画のカフェポスター.png"
+      "sourceFile": "通常７/1204_素朴な線画のカフェポスター.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-707448e95e16",
@@ -18869,7 +18873,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "495e25860e6aa88e1437ddda7c22e58d88b108566cae1abbf6238cb3d36db53a",
-      "sourceFile": "通常７/1215_緑と橙、軽やかな新しい髪.png"
+      "sourceFile": "通常７/1215_緑と橙、軽やかな新しい髪.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-f341b8b44781",
@@ -18881,7 +18886,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "f341b8b447815a2ceceec965b9730b64bd0003f1bdef67fef2755fed5273349e",
-      "sourceFile": "通常７/1232_自分をいたわる美容サロン.png"
+      "sourceFile": "通常７/1232_自分をいたわる美容サロン.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-b33eed6e16c2",
@@ -18905,7 +18911,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "312d060bfa25a6f8c5077967cdcb2492565ae0db827f6deea42635c351733c9b",
-      "sourceFile": "通常７/1236_色鉛筆で彩る親子カット.png"
+      "sourceFile": "通常７/1236_色鉛筆で彩る親子カット.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-b0c6dbb26e27",
@@ -18917,7 +18924,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "b0c6dbb26e271e1fd4bff5e25da2b1430cec0ab4b16f3d88b851e4c4fbf85cef",
-      "sourceFile": "通常７/1237_色鉛筆で描く、脚つきプリン.png"
+      "sourceFile": "通常７/1237_色鉛筆で描く、脚つきプリン.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-6487b12f2eb6",
@@ -18977,7 +18985,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "c89b0b2eb3a5aa823d9e585c247af88d1f0662ac87437579c74ceccc51512207",
-      "sourceFile": "通常７/1289_赤鉛筆で描く、前髪の気分転換.png"
+      "sourceFile": "通常７/1289_赤鉛筆で描く、前髪の気分転換.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-0fbd317fff26",
@@ -19037,7 +19046,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "786450f8e2d5d245744a67dfd3fd965d0f279b8c2c999530168d89f49aa39846",
-      "sourceFile": "通常７/1310_鉛筆で描く、ボブの横顔.png"
+      "sourceFile": "通常７/1310_鉛筆で描く、ボブの横顔.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-e827989b0144",
@@ -19073,7 +19083,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "1fac9bcba6ef42572361dee04bea1ac5fb4bdf5cc9e77931c6692d2c0a537711",
-      "sourceFile": "通常７/1359_鏡に映る、私に似合う髪.png"
+      "sourceFile": "通常７/1359_鏡に映る、私に似合う髪.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-a9a2b86df3c0",
@@ -19121,7 +19132,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "b61f7eeac04da4661e927aac5a23c36ffb54035e4731a5c3ac89bd53b1759c36",
-      "sourceFile": "通常７/1368_雨の日のやさしい髪時間.png"
+      "sourceFile": "通常７/1368_雨の日のやさしい髪時間.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-2eeb93cddfc5",
@@ -19145,7 +19157,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "d2b5ce1689120e145f2a52f2b37903a481db5cfba842d2f3a5785357317a2032",
-      "sourceFile": "通常７/1376_青い花と母の髪時間.png"
+      "sourceFile": "通常７/1376_青い花と母の髪時間.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-0d0a0f8ef187",
@@ -19181,7 +19194,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "2eb741c1b79eda7da751f44916b17e51f01166e25eb71a1d53ccd37144126fc1",
-      "sourceFile": "通常７/1391_頭皮と心のひと休み.png"
+      "sourceFile": "通常７/1391_頭皮と心のひと休み.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-9e7c00cebab1",
@@ -19193,7 +19207,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "9e7c00cebab1c23a67c8b14987b91713fd87ddca5b8466f07f63a2546d42a091",
-      "sourceFile": "通常７/1393_風になびく、軽やかショートヘア.png"
+      "sourceFile": "通常７/1393_風になびく、軽やかショートヘア.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-43ea77f0bc43",
@@ -19205,7 +19220,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "43ea77f0bc43fe64f4ae3018e18a6d9b3692dd16d56da443ae6892bd7942f269",
-      "sourceFile": "通常７/1395_風になびく髪、青とテラコッタ.png"
+      "sourceFile": "通常７/1395_風になびく髪、青とテラコッタ.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-16ce26218e04",
@@ -19229,7 +19245,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "89954957d825fc8b79ff421909ca66b04763ddeb280095f18a8ba0ebbaed14a5",
-      "sourceFile": "通常７/1400_髪と日々をつくる美容室求人.png"
+      "sourceFile": "通常７/1400_髪と日々をつくる美容室求人.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-b6f65f5d7c78",
@@ -19253,7 +19270,8 @@ window.PORTFOLIO = {
       "height": 1402,
       "collection": "normal",
       "sourceHash": "6c975b0f9ec5be1706011a6491df9d279bfba5804198b2df85a22c6304ca8aae",
-      "sourceFile": "通常７/1402_髪に触れる、やさしい時間.png"
+      "sourceFile": "通常７/1402_髪に触れる、やさしい時間.png",
+      "visualStyle": "handdrawn"
     },
     {
       "id": "normal-b69bbdc00cba",
